@@ -14,7 +14,7 @@ Your chosen model must match your dataset and objective.
 ## 📅 Submission & Presentation Deadline
 **December 14, 2025 (until 12:00 AM)**
 
-Submit via this GitHub repository and prepare for your final defense.
+Submit via this GitHub repository and prepare for your final presentation.
 
 ---
 
@@ -25,7 +25,8 @@ Each pair must submit a folder named:
 
 
 Inside the folder:
-
+MEXE_E2_Midterm/
+│
 <Pair1Surname>_<Pair2Surname>_<Topic>/
 │
 ├── notebooks/
