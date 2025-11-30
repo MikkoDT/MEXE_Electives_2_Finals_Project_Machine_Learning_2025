@@ -25,6 +25,7 @@ Each pair must submit a folder named:
 
 
 Inside the folder:
+```
 MEXE_E2_Midterm/
 │
 <Pair1Surname>_<Pair2Surname>_<Topic>/
@@ -38,6 +39,7 @@ MEXE_E2_Midterm/
 ├── README.md              # summary of your final model
 │
 └── requirements.txt       # list of Python libraries used
+```
 
 
 ---
