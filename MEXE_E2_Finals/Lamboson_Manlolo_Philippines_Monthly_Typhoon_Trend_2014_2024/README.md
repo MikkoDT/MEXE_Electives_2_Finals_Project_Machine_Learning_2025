@@ -57,4 +57,6 @@ Cleaning Steps:
 - Filled missing values with the mean (for numeric columns) or mode (for categorical columns).
 
 - Dropped irrelevant columns such as unnamed or ID columns.
-- 
+
+- Saved the cleaned and reduced dataset for modeling.
+  
