@@ -7,6 +7,8 @@
  
      **Manlolo, Noel Alexis C.**
 
-- Assigned Theme: **Weather**
 - Topic: **Phillippines Monthly Typhoon Trend (2014-2024)**
 
+- Chosen Model: **Linear Regression**
+
+## 2. 
