@@ -50,3 +50,4 @@ Scaling: No explicit feature scaling was applied. All numeric features were used
 
 Cleaning Steps:
 - Removed duplicate rows.
+- Stripped spaces and invisible characters from column names.
