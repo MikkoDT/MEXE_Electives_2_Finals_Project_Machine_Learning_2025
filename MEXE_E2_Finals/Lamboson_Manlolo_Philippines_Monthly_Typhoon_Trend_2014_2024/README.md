@@ -47,3 +47,5 @@ Features Used:
 Encoding: All categorical columns (if any) were filled with the most frequent value and converted to numeric where necessary. Since all features used in the model were numeric, no additional encoding was required.
 
 Scaling: No explicit feature scaling was applied. All numeric features were used as-is in the linear regression model.
+
+Cleaning Steps:
