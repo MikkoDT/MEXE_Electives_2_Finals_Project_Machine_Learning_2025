@@ -44,19 +44,17 @@ Features Used:
 
 ## 3. Preprocessing Summary
 
-Encoding: All categorical columns (if any) were filled with the most frequent value and converted to numeric where necessary. Since all features used in the model were numeric, no additional encoding was required.
+Encoding: All categorical columns (if any) were filled with the most frequent value and converted to numeric if needed. All features used in the model were numeric, so no additional encoding was applied.
 
-Scaling: No explicit feature scaling was applied. All numeric features were used as-is in the linear regression model.
+Scaling: All features were standardized using StandardScaler to have zero mean and unit variance before training the linear regression model.
 
 Cleaning Steps:
 
 - Removed duplicate rows.
-  
+
 - Stripped spaces and invisible characters from column names.
-  
-- Filled missing values with the mean (for numeric columns) or mode (for categorical columns).
+
+- Filled missing values with the mean for numeric columns and mode for categorical columns.
 
 - Dropped irrelevant columns such as unnamed or ID columns.
-
-- Saved the cleaned and reduced dataset for modeling.
   
