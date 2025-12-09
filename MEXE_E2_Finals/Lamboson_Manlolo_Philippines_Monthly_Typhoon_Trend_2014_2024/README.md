@@ -49,6 +49,12 @@ Encoding: All categorical columns (if any) were filled with the most frequent va
 Scaling: No explicit feature scaling was applied. All numeric features were used as-is in the linear regression model.
 
 Cleaning Steps:
+
 - Removed duplicate rows.
+  
 - Stripped spaces and invisible characters from column names.
+  
 - Filled missing values with the mean (for numeric columns) or mode (for categorical columns).
+
+- Dropped irrelevant columns such as unnamed or ID columns.
+- 
