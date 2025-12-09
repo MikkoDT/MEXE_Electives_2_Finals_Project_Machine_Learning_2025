@@ -43,3 +43,5 @@ Features Used:
 - Prev_month_typhoons
 
 ## 3. Preprocessing Summary
+
+Encoding:
