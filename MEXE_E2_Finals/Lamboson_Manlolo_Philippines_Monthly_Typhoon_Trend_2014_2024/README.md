@@ -11,4 +11,6 @@
 
 - Chosen Model: **Linear Regression**
 
-## 2. 
+## 2. Dataset Overview
+Dataset Source: https://www.kaggle.com/datasets/denvermagtibay/philippines-monthly-typhoon-trend-2014-2024
+
