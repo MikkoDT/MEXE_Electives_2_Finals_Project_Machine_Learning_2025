@@ -1,6 +1,12 @@
 # Final Assessment — Machine Learning Model
 
-## 1. Pair Information
-### Pair Name:
-Lamboson, Jaycel L.
-Manlolo, Noel Alexis C.
+## 1. Group Information
+- Members:
+
+     **Lamboson, Jaycel L.**
+ 
+     **Manlolo, Noel Alexis C.**
+
+- Assigned Theme: **Weather**
+- Topic: **Phillippines Monthly Typhoon Trend (2014-2024)**
+
