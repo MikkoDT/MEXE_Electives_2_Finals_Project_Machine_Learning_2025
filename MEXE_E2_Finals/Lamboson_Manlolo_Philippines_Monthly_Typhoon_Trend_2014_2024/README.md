@@ -59,3 +59,5 @@ Cleaning Steps:
 - Dropped irrelevant columns such as unnamed or ID columns.
   
 Train–test split:
+
+The dataset was split into training and testing sets, with X_train and y_train used to train the model, and X_test and y_test used to evaluate its performance.
