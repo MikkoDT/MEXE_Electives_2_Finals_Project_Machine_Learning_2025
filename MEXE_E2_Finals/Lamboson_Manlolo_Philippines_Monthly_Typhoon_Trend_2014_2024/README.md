@@ -21,3 +21,21 @@ Description: This dataset contains monthly climate and typhoon-related variables
 Target Varible: Vertical Wind Shear
 
 Features Used: 
+
+- Month
+
+- Number_of_Typhoons
+
+- ONI
+
+- Nino3.4_SST_anomaly
+
+- Western_Pacific_SST
+
+- Midlevel_Humidity
+
+- SeaLevelPressure
+
+- MJO_Phase
+
+- Prev_month_typhoons
