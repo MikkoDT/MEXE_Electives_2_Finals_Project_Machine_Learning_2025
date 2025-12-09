@@ -41,3 +41,5 @@ Features Used:
 - MJO_Phase
 
 - Prev_month_typhoons
+
+## 3. Preprocessing Summary
