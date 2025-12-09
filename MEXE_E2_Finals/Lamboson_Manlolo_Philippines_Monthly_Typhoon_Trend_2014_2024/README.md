@@ -58,3 +58,4 @@ Cleaning Steps:
 
 - Dropped irrelevant columns such as unnamed or ID columns.
   
+Train–test split:
