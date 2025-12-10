@@ -80,8 +80,12 @@ Adjusted R²: **0.8651606571500545**
 
 **Scatter Plot**
 
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/23900f14-07c0-4819-9b49-f3de8d66afb1" width="800">
 
 **Heat Map**
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ef50089d-385b-43c3-a310-4256ac45cd3e" width="800">
 
 ### Insights:
