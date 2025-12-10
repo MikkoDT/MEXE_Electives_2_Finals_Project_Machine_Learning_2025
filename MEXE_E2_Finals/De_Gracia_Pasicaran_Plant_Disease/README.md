@@ -70,5 +70,7 @@ Humidity and rainfall emerged as the most influential predictors of plant diseas
 2. Install dependencies:
 pip install -r requirements.txt
 3. Open the .ipynb notebook
-4. Run all cells
+4. Upload the cleaned csv file
+5. Code the Machine Learning tool 
+6. Run cells
 
