@@ -9,10 +9,10 @@
 ## 2. Dataset Overview
 - **Dataset Source:** 
 
-	The dataset was sourced from the file plant_disease_dataset.csv included in the Final Project Electives 2 materials. It contains simulated environmental measurements used for building a classification model for plant disease detection.
+		The dataset was sourced from the file plant_disease_dataset.csv included in the Final Project Electives 2 materials. It contains simulated environmental measurements used for building a classification model for plant disease detection.
 - **Description:**
   
-	The dataset consists of 10,000 records and 5 columns, representing various environmental conditions that influence plant health. It includes continuous numerical variables such as temperature, humidity, rainfall, and soil pH, along with a binary label indicating presence or absence of plant disease. The dataset contains no missing values, making it suitable for direct preprocessing and model training.
+		The dataset consists of 10,000 records and 5 columns, representing various environmental conditions that influence plant health. It includes continuous numerical variables such as temperature, humidity, rainfall, and soil pH, along with a binary label indicating presence or absence of plant disease. The dataset contains no missing values, making it suitable for direct preprocessing and model training.
 - **Target Variable:**
   
 The target variable is disease, a binary categorical label where:
