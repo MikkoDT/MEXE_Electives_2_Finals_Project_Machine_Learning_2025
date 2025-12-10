@@ -78,4 +78,8 @@ Adjusted R²: **0.8651606571500545**
 
 ### Visualization:
 
+**Scatter Plot**
+
+**Heat Map**
+
 ### Insights:
