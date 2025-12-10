@@ -38,10 +38,10 @@ These features serve as predictors for classifying plant health conditions.
 ## 3. Preprocessing Summary
 - **Encoding:**
 
-No categorical encoding was required because all features (temperature, humidity, rainfall, soil pH) and the target variable (disease) were already in numerical form.
+	No categorical encoding was required because all features (temperature, humidity, rainfall, soil pH) and the target variable (disease) were already in numerical form.
 - **Scaling:**
 
-A StandardScaler was applied to the feature set to normalize the values.
+	A StandardScaler was applied to the feature set to normalize the values.
 	- X_train was fit and transformed
 	- X_test was transformed only
 This ensured that all features had a mean of 0 and standard deviation of 1, improving model performance and stability.
@@ -78,6 +78,7 @@ using train_test_split with a fixed random_state=123 for reproducibility.
 
 
 To support the analysis, several visual outputs were generated:
+	
 	- A confusion matrix heatmap illustrating correct and incorrect predictions across classes
 	- A ROC curve showing the trade-off between true positive and false positive rates
 	- A feature importance bar chart indicating the contribution of each environmental variable to the model’s predictions
