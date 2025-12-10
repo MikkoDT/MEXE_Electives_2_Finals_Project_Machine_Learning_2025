@@ -62,9 +62,17 @@ Train–test split: The dataset was split into training and testing sets, with X
 
 ## 4. Model And Result
 
-### Model Used:
+### Model Used: ***Linear Regression**
+
+Linear Regression is chosen because the goal is to predict a continuous numeric value (Vertical Wind Shear). The dataset shows linear relationships between wind shear and key climate variables like sea‑level pressure and humidity, making linear regression a good fit. It is also simple, fast, and easy to interpret, which is ideal for smaller datasets and research where understanding which factors influence wind shear is important.
 
 ### Metrics:
+
+MAE
+MSE
+RMSE
+R²
+Adjusted R²
 
 ### Visualization:
 
