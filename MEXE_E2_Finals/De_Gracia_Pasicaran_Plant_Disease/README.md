@@ -78,10 +78,9 @@ using train_test_split with a fixed random_state=123 for reproducibility.
 
 
 To support the analysis, several visual outputs were generated:
-	
-	- A confusion matrix heatmap illustrating correct and incorrect predictions across classes
-	- A ROC curve showing the trade-off between true positive and false positive rates
-	- A feature importance bar chart indicating the contribution of each environmental variable to the model’s predictions
+		- A confusion matrix heatmap illustrating correct and incorrect predictions across classes
+		- A ROC curve showing the trade-off between true positive and false positive rates
+		- A feature importance bar chart indicating the contribution of each environmental variable to the model’s predictions
 These visualizations helped clarify model behavior and performance trends.
 
 - **Insights (3–5):**
