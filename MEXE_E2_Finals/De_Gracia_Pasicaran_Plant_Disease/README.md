@@ -20,11 +20,17 @@ The target variable is disease, a binary categorical label where:
 
 - Features Used:
 The Logistic Regression model was trained using four numerical environmental variables:
-Temperature – measures ambient temperature (°C)
-Humidity – percentage of air moisture
-Rainfall – rainfall intensity (mm)
-Soil_pH – acidity or alkalinity level of soil
+
+	Temperature – measures ambient temperature (°C)
+
+	Humidity – percentage of air moisture
+
+	Rainfall – rainfall intensity (mm)
+
+	Soil_pH – acidity or alkalinity level of soil
+
 These features serve as predictors for classifying plant health conditions.
+
 ## 3. Preprocessing Summary
 - Encoding:
 No categorical encoding was required because all features (temperature, humidity, rainfall, soil pH) and the target variable (disease) were already in numerical form.
