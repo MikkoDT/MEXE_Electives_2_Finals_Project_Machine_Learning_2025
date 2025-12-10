@@ -14,9 +14,9 @@ The dataset consists of 10,000 records and 5 columns, representing various envir
 - Target Variable:
 The target variable is disease, a binary categorical label where:
 
-0 = Healthy plant
+		0 = Healthy plant
 
-1 = Diseased plant
+		1 = Diseased plant
 
 - Features Used:
 The Logistic Regression model was trained using four numerical environmental variables:
