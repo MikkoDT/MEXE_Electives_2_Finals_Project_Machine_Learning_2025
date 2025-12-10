@@ -80,10 +80,14 @@ Adjusted R²: **0.8651606571500545**
 
 **Scatter Plot**
 
+These scatter plots show how each climate variable relates to Vertical Wind Shear. They help visualize whether the relationship is positive, negative, or weak. Patterns in the plots make it easier to see which variables influence wind shear the most.
+
 <p align="center">
 <img src="https://github.com/user-attachments/assets/23900f14-07c0-4819-9b49-f3de8d66afb1" width="800">
 
 **Heat Map**
+
+The heatmap displays the strength and direction of the relationships between the independent variables and Vertical Wind Shear. Higher positive values indicate stronger increasing relationships, while negative values show decreasing relationships. This visualization makes it easy to identify which features are the strongest predictors.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/ef50089d-385b-43c3-a310-4256ac45cd3e" width="800">
