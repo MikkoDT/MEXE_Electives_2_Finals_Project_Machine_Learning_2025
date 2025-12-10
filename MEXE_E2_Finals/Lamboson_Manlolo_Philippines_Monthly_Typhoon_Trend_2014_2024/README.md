@@ -68,11 +68,13 @@ Linear Regression is chosen because the goal is to predict a continuous numeric 
 
 ### Metrics:
 
-MAE
-MSE
-RMSE
-R²
-Adjusted R²
+Mean Absolute Error (MAE):
+
+Mean Squared Error (MSE):
+
+Coefficient of Determination (R²):
+
+Adjusted R²:
 
 ### Visualization:
 
