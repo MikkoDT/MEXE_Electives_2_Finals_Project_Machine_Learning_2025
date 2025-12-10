@@ -93,3 +93,15 @@ The heatmap displays the strength and direction of the relationships between the
 <img src="https://github.com/user-attachments/assets/ef50089d-385b-43c3-a310-4256ac45cd3e" width="800">
 
 ### Insights:
+
+1. **Model Performance**
+
+The model shows acceptable performance based on the R² and Adjusted R² values. This indicates that the selected climate variables explain a meaningful portion of the variation in Vertical Wind Shear. While not perfect, the model captures the main patterns in the data.
+
+2. **Error Analysis**
+
+The MAE, MSE, and RMSE values show that the average difference between predicted and actual wind shear values is reasonably small. This means the model can produce predictions that stay close to the real observations, with no major errors across the test data.
+
+3. **Trends Observed**
+
+The scatter plots and heatmap reveal strong relationships between Vertical Wind Shear and several climate factors, especially Sea‑Level Pressure and Midlevel Humidity. Predicted values follow stable patterns, suggesting no extreme jumps or drops in wind shear for the evaluated months. Seasonal effects (Month) also contribute moderately to the observed patterns.
