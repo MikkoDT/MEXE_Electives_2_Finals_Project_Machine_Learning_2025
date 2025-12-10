@@ -93,6 +93,7 @@ This dataset contains academic background, technical skills, cognitive scores, p
 
 - **Confusion Matrix (Heatmap)**  
 <img width="516" height="467" alt="image" src="https://github.com/user-attachments/assets/1001afb2-8888-4550-b748-b0c7c7ebbc59" />
+
 The confusion matrix shows the prediction performance of the Logistic Regression model.
 
 - **True Positives (550):** Correctly predicted Tier 2
@@ -103,6 +104,7 @@ The confusion matrix shows the prediction performance of the Logistic Regression
 
 - **ROC Curve (Receiver Operating Characteristic Curve)**  
 <img width="535" height="468" alt="image" src="https://github.com/user-attachments/assets/5cc57b26-0e8c-40d5-bf22-581dec068152" />
+
 The ROC curve illustrates the model’s ability to distinguish between Tier 1 and Tier 2.
 
 - Shows the relationship between **True Positive Rate** and **False Positive Rate**
