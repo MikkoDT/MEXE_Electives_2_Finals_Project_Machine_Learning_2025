@@ -15,7 +15,7 @@
 Dataset Source: https://www.kaggle.com/datasets/denvermagtibay/philippines-monthly-typhoon-trend-2014-2024
 
 <p align="justify">
-Description: This dataset contains monthly climate and typhoon-related variables in the Philippines from 2014 to 2024. It was used in our machine learning analysis, where Vertical Wind Shear was treated as the dependent variable, and Month, Oceanic Niño Index (ONI), Western Pacific SST, Midlevel Humidity, Sea Level Pressure, and MJO Phase were used as independent variables. The dataset was used to develop a linear regression model for predicting and analyzing the behavior of vertical wind shear.
+Description: This dataset contains monthly climate and typhoon-related variables in the Philippines from 2014 to 2024. It was used in our machine learning analysis, where Vertical Wind Shear was treated as the dependent variable, and Month, Niño 3.4 Sea Surface Temperature (SST) Anomaly, Western Pacific SST, Midlevel Humidity, Sea Level Pressure, and MJO Phase were used as independent variables. The dataset was used to develop a linear regression model for predicting and analyzing the behavior of vertical wind shear.
 </p>
 
 Target Varible: 
@@ -26,7 +26,7 @@ Features Used:
 
 - Month
 
-- ONI
+- Nino3.4_SST_anomaly
 
 - Western_Pacific_SST
 
