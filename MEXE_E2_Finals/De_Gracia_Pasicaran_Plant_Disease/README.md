@@ -68,7 +68,7 @@ using train_test_split with a fixed random_state=123 for reproducibility.
 
 
 - **Visualizations:**
-<img width="823" height="684" alt="image" src="https://github.com/user-attachments/assets/909e86d2-f3be-4ca0-9f93-484bcb2aee03" />
+<img width="452" height="393" alt="image" src="https://github.com/user-attachments/assets/174cc15e-63ad-4979-a588-21df4d2f6428" />
 
 
 <img width="663" height="484" alt="image" src="https://github.com/user-attachments/assets/1879aaf9-2892-4891-86ea-22861ee87835" />
