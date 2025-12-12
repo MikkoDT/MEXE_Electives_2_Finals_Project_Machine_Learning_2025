@@ -1,28 +1,28 @@
 # <p align="center">Final Assessment — Machine Learning Model</p>
 
 ## 1. Pair Information
-- Pair Name: Busy-ness Duo
-- Members:
-- Topic:
-- Chosen Model:
+- **Pair Name:** Busy-ness Duo
+- **Members:**
+- **Topic:**
+- **Chosen Model:**
 
 ## 2. Dataset Overview
-- Dataset Source:
-- Description:
-- Target Variable:
-- Features Used:
+- **Dataset Source:**
+- **Description:**
+- **Target Variable:**
+- **Features Used:**
 
 ## 3. Preprocessing Summary
-- Encoding:
-- Scaling:
-- Cleaning steps:
-- Train–test split:
+- **Encoding:**
+- **Scaling:**
+- **Cleaning steps:**
+- **Train–test split:**
 
 ## 4. Model & Results
-- Model used:
-- Metrics:
-- Visualizations:
-- Insights (3–5):
+- **Model used:**
+- **Metrics:**
+- **Visualizations:**
+- **Insights (3–5):**
 
 ## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
