@@ -41,8 +41,8 @@
 ## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
 2. Install dependencies:
-3. 
+
 pip install -r requirements.txt
 
-5. Open the `.ipynb` notebook
-6. Run all cells
+3. Open the `.ipynb` notebook
+4. Run all cells
