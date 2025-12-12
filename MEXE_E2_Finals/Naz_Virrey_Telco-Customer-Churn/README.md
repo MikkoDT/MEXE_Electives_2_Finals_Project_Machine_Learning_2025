@@ -13,6 +13,14 @@
 - **Description:**
 - **Target Variable:** Churn
 - **Features Used:**
+  - Tenure
+  - Phone Service
+  - Contract
+  - Paperless Billing
+  - Payment Method
+  - Monthly Charges
+  - Total Charges 
+
 
 ## 3. Preprocessing Summary
 - **Encoding:**
