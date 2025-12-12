@@ -9,7 +9,7 @@
 - **Chosen Model:** Logistic Regression
 
 ## 2. Dataset Overview
-- **Dataset Source:**
+- **Dataset Source:** https://www.kaggle.com/datasets/syedumeerr/telco-customer-churn 
 - **Description:**
 - **Target Variable:**
 - **Features Used:**
