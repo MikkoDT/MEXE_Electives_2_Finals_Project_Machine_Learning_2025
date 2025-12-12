@@ -6,7 +6,7 @@
   -   Jhann-rey Naz
   -   Beaver Freud Virrey
 
-- **Topic:**
+- **Topic:** Telco Customer Churn
 - **Chosen Model:**
 
 ## 2. Dataset Overview
