@@ -3,6 +3,9 @@
 ## 1. Pair Information
 - **Pair Name:** Busy-ness Duo
 - **Members:**
+  -   Jhann-rey Naz
+  -   Beaver Freud Virrey
+
 - **Topic:**
 - **Chosen Model:**
 
