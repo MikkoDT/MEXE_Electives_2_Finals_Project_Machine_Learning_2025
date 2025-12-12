@@ -5,9 +5,8 @@
 - **Members:**
   -   Jhann-rey Naz
   -   Beaver Freud Virrey
-
 - **Topic:** Telco Customer Churn
-- **Chosen Model:**
+- **Chosen Model:** Logistic Regression
 
 ## 2. Dataset Overview
 - **Dataset Source:**
