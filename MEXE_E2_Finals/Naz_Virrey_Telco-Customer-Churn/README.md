@@ -1,7 +1,7 @@
 # <p align="center">Final Assessment — Machine Learning Model</p>
 
 ## 1. Pair Information
-- Pair Name:
+- Pair Name: Busy-ness Duo
 - Members:
 - Topic:
 - Chosen Model:
