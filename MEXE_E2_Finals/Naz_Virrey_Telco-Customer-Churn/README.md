@@ -11,7 +11,7 @@
 ## 2. Dataset Overview
 - **Dataset Source:** https://www.kaggle.com/datasets/syedumeerr/telco-customer-churn 
 - **Description:**
-- **Target Variable:**
+- **Target Variable:** Churn
 - **Features Used:**
 
 ## 3. Preprocessing Summary
