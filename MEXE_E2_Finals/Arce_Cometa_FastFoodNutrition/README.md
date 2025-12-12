@@ -7,7 +7,7 @@
 - Chosen Model: Logistic Regression
 
 ## 2. Dataset Overview
-- Dataset Source:
+- Dataset Source: https://docs.google.com/spreadsheets/d/14nmCo1Dlg04W9tTWNxHQjAPslzLVzLh2QVAiwENjqhw/edit?usp=sharing
 - Description:
 - Target Variable:
 - Features Used:
