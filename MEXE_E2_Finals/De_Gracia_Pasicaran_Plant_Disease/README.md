@@ -75,7 +75,9 @@ using train_test_split with a fixed random_state=123 for reproducibility.
 <img width="536" height="393" alt="image" src="https://github.com/user-attachments/assets/0dafe36c-9da3-4bcf-8090-8cb32d008475" />
 
 
-<img width="1232" height="724" alt="image" src="https://github.com/user-attachments/assets/4bed82d2-0804-4b33-8b1d-c6a488847d89" />
+
+<img width="756" height="547" alt="image" src="https://github.com/user-attachments/assets/503b81eb-3bff-4060-b751-086264367a2b" />
+
 
 
 To support the analysis, several visual outputs were generated:
