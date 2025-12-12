@@ -22,6 +22,7 @@
 - Model used:
 - Metrics:
 - Visualizations:
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/fadfcf2e-7881-410d-96d9-d2d6b08ecdd2" />
 - Insights (3–5):
 
 ## 5. How to Run
