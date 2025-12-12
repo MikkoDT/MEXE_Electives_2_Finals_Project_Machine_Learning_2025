@@ -4,7 +4,7 @@
 - Pair Name:
 - Members:
 - Topic:
-- Chosen Model: Linear Regression / Logistic Regression
+- Chosen Model: Logistic Regression
 
 ## 2. Dataset Overview
 - Dataset Source:
