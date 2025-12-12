@@ -31,6 +31,10 @@
 ## 4. Model & Results
 - **Model used:**
 - **Metrics:**
+  - Accuracy
+  - Confusion Matrix
+  - Precision, Recall, F1-score
+  - ROC Curve
 - **Visualizations:**
 - **Insights (3–5):**
 
