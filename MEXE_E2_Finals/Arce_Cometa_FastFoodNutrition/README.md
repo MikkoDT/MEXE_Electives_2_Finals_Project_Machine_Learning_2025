@@ -1,9 +1,9 @@
 # Final Assessment — Machine Learning Model
 
 ## 1. Pair Information
-- Pair Name:
-- Members:
-- Topic:
+- Pair Name: Preservation
+- Members: Brian Arce & Steven Cometa
+- Topic: Fast Food Nutrition
 - Chosen Model: Logistic Regression
 
 ## 2. Dataset Overview
