@@ -16,7 +16,14 @@
 - **Dataset Source:** https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 - **Description:**
 - **Target Variables:** Label (recommended crop)
-- **Features Used:** N, P, K, temperature, humidity, pH, rainfall
+- **Features Used:**
+  - N - ratio of Nitrogen content in soil
+  - P - ratio of Phosphorous content in soil
+  - K - ratio of Potassium content in soil
+  - temperature - temperature in degree Celsius
+  - humidity - relative humidity in %
+  - pH - ph value of the soil
+  - rainfall - rainfall in mm
 
 ## 3. Preprocessing Summary
   
