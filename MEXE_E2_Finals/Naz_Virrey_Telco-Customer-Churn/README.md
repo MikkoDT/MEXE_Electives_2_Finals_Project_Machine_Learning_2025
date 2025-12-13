@@ -71,7 +71,23 @@
   **Insight:** High-monthly-charge customers with low total charges churn more frequently.
   
 ---
-- **Insights (3–5):**
+- **Insights:**
+
+**1. Model Performance**
+
+The logistic regression model showed good overall performance based on accuracy, precision, recall, and the ROC curve. The results indicate that the model can reliably classify customers who are likely to churn and those who are not. Although the performance is not perfect, it is acceptable for generating useful business insights.
+
+**2. Feature Behavior** 
+
+The analysis showed that features such as contract type, tenure, and monthly charges have the strongest influence on churn. Customers with month-to-month contracts had a noticeably higher churn rate. Customers with longer tenure tended to stay, while higher monthly charges increased the likelihood of churn. These patterns highlight which customer groups are more at risk.
+
+**3. Interpretation of Results** 
+
+Based on the model outputs, customers who leave the company usually have short tenure and higher monthly bills. This suggests that new customers may still be evaluating the service and can easily switch if they are not satisfied. The results also show that payment and billing preferences can affect churn behavior, which may be connected to customer convenience or satisfaction.
+
+**4. Improvement Suggestions**
+
+The model can be improved by addressing class imbalance if churn cases are fewer than non-churn cases. Techniques such as class weighting or SMOTE may help improve recall for the minority class. Additional customer data, such as service complaint history or usage behavior, could also strengthen the model. Testing other machine learning models like Random Forest or XGBoost may provide higher accuracy and better overall performance.
 
 ## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
