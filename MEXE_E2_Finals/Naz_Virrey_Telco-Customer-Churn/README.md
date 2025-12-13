@@ -46,9 +46,9 @@
    
   <img src="https://github.com/user-attachments/assets/9d5109ad-7ebd-4108-9e7f-e86ae88a4c4f"></p>
   
-  **Description:**
+  **Description:** The chart shows churn counts for customers with and without paperless billing.
   
-  **Insight:**
+  **Insight:** Paperless billing users churn more often.
   
 ---
 **2. Grouped Heatmap**
@@ -56,9 +56,9 @@
   
   <img src="https://github.com/user-attachments/assets/dbd62343-4938-44d3-bc6f-244a3b304982"></p>
   
-  **Description:**
+  **Description:** The heatmap shows churn rates across different contract types and payment methods.
   
-  **Insight:**
+  **Insight:** Month-to-month customers using electronic checks have the highest churn.
   
 ---  
 **3. Scatter Plot**
@@ -66,9 +66,9 @@
   
   <img src="https://github.com/user-attachments/assets/c371b522-9b37-423a-85cd-5c79b900ae4c"></p>
   
-  **Description:**
+  **Description:** The plot compares monthly and total charges for churn and non-churn customers.
   
-  **Insight:**
+  **Insight:** High-monthly-charge customers with low total charges churn more frequently.
   
 ---
 - **Insights (3–5):**
