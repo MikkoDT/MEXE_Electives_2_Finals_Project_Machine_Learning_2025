@@ -31,7 +31,7 @@
 
 ## 4. Model & Results
 - **Model used:** Logistic Regression
-  <p align="justify">Logistic Regression was chosen because the objective is binary classification predicting whether a customer will churn (Yes) or not (No). Logistic Regression is a simple, efficient, and interpretable model that performs well for datasets with mixed categorical and numerical features. It also provides useful metrics such as probabilities, feature weights, and decision boundaries, making it suitable for churn prediction. </p>
+  <p align="justify">**Logistic Regression** was chosen because the objective is **binary classification** predicting whether a customer will churn (Yes) or not (No). Logistic Regression is a simple, efficient, and interpretable model that performs well for datasets with mixed categorical and numerical features. It also provides useful metrics such as probabilities, feature weights, and decision boundaries, making it suitable for churn prediction. </p>
 - **Metrics:**
   - Accuracy
   - Confusion Matrix
