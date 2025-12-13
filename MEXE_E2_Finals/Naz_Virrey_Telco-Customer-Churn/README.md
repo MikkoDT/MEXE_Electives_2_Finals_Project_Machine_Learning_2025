@@ -38,6 +38,11 @@
   - Precision, Recall, F1-score
   - ROC Curve
 - **Visualizations:**
+
+1. Bar Plot
+   <p align="center">
+  <img src="https://github.com/user-attachments/assets/eaba7276-553d-42e5-bab5-49f9849622c0"></p>
+  
 - **Insights (3–5):**
 
 ## 5. How to Run
