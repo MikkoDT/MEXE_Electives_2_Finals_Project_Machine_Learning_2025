@@ -41,7 +41,7 @@
 
 **1. Bar Plot**
 
-   <p align="center">
+   
   <img src="https://github.com/user-attachments/assets/9d5109ad-7ebd-4108-9e7f-e86ae88a4c4f"></p>
   
   **Description:**
@@ -61,7 +61,7 @@
 ---  
 **3. Scatter Plot**
     
-  <p align="center">
+  
   <img src="https://github.com/user-attachments/assets/c371b522-9b37-423a-85cd-5c79b900ae4c"></p>
   
   **Description:**
