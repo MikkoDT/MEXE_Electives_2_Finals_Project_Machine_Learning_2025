@@ -51,7 +51,7 @@
 ---
 **2. Grouped Heatmap**
     
-  <p align="center">
+  
   <img src="https://github.com/user-attachments/assets/dbd62343-4938-44d3-bc6f-244a3b304982"></p>
   
   **Description:**
