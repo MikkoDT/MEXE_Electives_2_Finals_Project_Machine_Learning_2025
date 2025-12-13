@@ -37,6 +37,8 @@
   - Confusion Matrix
   - Precision, Recall, F1-score
   - ROC Curve
+
+    
 - **Visualizations:**
 
 **1. Bar Plot**
