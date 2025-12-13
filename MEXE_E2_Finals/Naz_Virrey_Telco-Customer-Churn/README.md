@@ -46,20 +46,25 @@
   **Description:**
   
   **Insight:**
+  
 ---
 2. Grouped Heatmap
     <p align="center">
   <img src="https://github.com/user-attachments/assets/dbd62343-4938-44d3-bc6f-244a3b304982"></p>
   
   **Description:**
+  
   **Insight:**
+  
 ---  
 3. Scatter Plot
     <p align="center">
   <img src="https://github.com/user-attachments/assets/c371b522-9b37-423a-85cd-5c79b900ae4c"></p>
   
   **Description:**
+  
   **Insight:**
+  
 ---
 - **Insights (3–5):**
 
