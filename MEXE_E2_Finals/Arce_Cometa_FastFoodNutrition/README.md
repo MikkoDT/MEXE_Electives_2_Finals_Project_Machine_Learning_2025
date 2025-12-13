@@ -8,7 +8,7 @@
 
 ## 2. Dataset Overview
 - Dataset Source: https://docs.google.com/spreadsheets/d/14nmCo1Dlg04W9tTWNxHQjAPslzLVzLh2QVAiwENjqhw/edit?usp=sharing
-- Description:
+- Description:The dataset aims to represent common fast food meals and their nutritional components collected from various menu items. It includes important nutritional values such as calories, fat, sugar, sodium, carbohydrates, and protein, which are commonly used indicators of food quality and health impact. This dataset is useful for predicting health-related classifications because these nutritional factors directly influence whether a food item can be considered healthy or unhealthy. By analyzing these values, the dataset allows the machine learning model to identify patterns and relationships between nutritional content and overall food healthiness, making it suitable for classification tasks using logistic regression.
 - Target Variable:
 - Features Used:
 
