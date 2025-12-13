@@ -39,9 +39,9 @@
   - ROC Curve
 - **Visualizations:**
 
-## 1. Bar Plot
+**1. Bar Plot**
 
-<p align="center">
+   <p align="center">
   <img src="https://github.com/user-attachments/assets/9d5109ad-7ebd-4108-9e7f-e86ae88a4c4f"></p>
   
   **Description:**
@@ -49,9 +49,9 @@
   **Insight:**
   
 ---
-## 2. Grouped Heatmap
+**2. Grouped Heatmap**
     
-<p align="center">
+  <p align="center">
   <img src="https://github.com/user-attachments/assets/dbd62343-4938-44d3-bc6f-244a3b304982"></p>
   
   **Description:**
@@ -59,9 +59,9 @@
   **Insight:**
   
 ---  
-## 3. Scatter Plot
+**3. Scatter Plot**
     
-<p align="center">
+  <p align="center">
   <img src="https://github.com/user-attachments/assets/c371b522-9b37-423a-85cd-5c79b900ae4c"></p>
   
   **Description:**
