@@ -30,7 +30,9 @@
 - **Train–test split:**
 
 ## 4. Model & Results
-- **Model used:**
+- **Model used:** Logistic Regression
+
+  (Explain kung bakit logistic ang ginamit)
 - **Metrics:**
   - Accuracy
   - Confusion Matrix
