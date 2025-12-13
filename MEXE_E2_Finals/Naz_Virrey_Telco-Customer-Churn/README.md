@@ -40,7 +40,7 @@
 - **Visualizations:**
 
 1. Bar Plot
-   <p align="center">
+  <p align="center">
   <img src="https://github.com/user-attachments/assets/9d5109ad-7ebd-4108-9e7f-e86ae88a4c4f"></p>
 
 
