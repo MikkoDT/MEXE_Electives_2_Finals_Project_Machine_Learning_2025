@@ -15,7 +15,8 @@
 ## 2. Dataset Overview
 - **Dataset Source:** https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 - **Description:**
-- **Target Variables:** Label (recommended crop)
+- **Target Variables:**
+  - Label (recommended crop) - The recommended crop type based on the specified input parameters. In order to facilitate classification using machine learning models like Logistic Regression, this categorical variable is label-encoded into numerical form.
 - **Features Used:**
   - N - ratio of Nitrogen content in soil
   - P - ratio of Phosphorous content in soil
