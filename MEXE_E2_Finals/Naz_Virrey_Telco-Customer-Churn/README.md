@@ -38,7 +38,11 @@
     0.794889992902768
     
   - ***Confusion Matrix:***
+
+      <img src="https://github.com/user-attachments/assets/cad667c4-ae51-48be-9d66-161fbc2faa76" width="450">
+
   - ***Precision, Recall, F1-score:***
+    
   - ***ROC Curve:***
 
     
