@@ -39,10 +39,12 @@
     
   - ***Confusion Matrix:***
 
-      <img src="https://github.com/user-attachments/assets/cad667c4-ae51-48be-9d66-161fbc2faa76" width="450">
+    <img src="https://github.com/user-attachments/assets/cad667c4-ae51-48be-9d66-161fbc2faa76" width="450">
 
   - ***Precision, Recall, F1-score:***
-    
+
+    <img src="https://github.com/user-attachments/assets/68614637-996f-4906-be72-268a5c192d96" width="450">
+  
   - ***ROC Curve:***
 
     
