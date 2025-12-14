@@ -1,87 +1,63 @@
-# 🌊 Flood Prediction (NCR, Philippines) — Logistic Regression Classifier
+# Flood Prediction in NCR (Philippines) using Logistic Regression
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-
-This repository presents a **machine learning classification model** that predicts **flood occurrence** using three environmental indicators: **rainfall (mm)**, **water level (m)**, and **elevation (m)**. The project is implemented in **Python** using a reproducible notebook workflow and standard evaluation metrics suitable for imbalanced flood datasets.
+## Overview
+This repository presents a **simple machine learning-based flood prediction system** that classifies whether flooding will occur (**0 = No Flood, 1 = Flood**) using three environmental predictors: **Rainfall (mm)**, **Water Level (m)**, and **Elevation (m)**. The work is designed to be **clear, reproducible, and suitable for academic demonstration**, with implementation intended for **Google Colab**.
 
 ---
 
-## 📌 Table of Contents
-- [1. Pair Information](#1-pair-information)
-- [2. Dataset Overview](#2-dataset-overview)
-- [3. Preprocessing Summary](#3-preprocessing-summary)
-- [4. Model & Results](#4-model--results)
-- [5. How to Run](#5-how-to-run)
+## Objectives
+The project aims to:
+1. Prepare a clean and minimal dataset for flood prediction using selected numerical features.
+2. Build a **preprocessing + modeling pipeline** suitable for classification tasks with imbalanced data.
+3. Train a **Logistic Regression** classifier and assess performance using **F1-score, Recall, and Confusion Matrix**.
+4. Provide a straightforward function that predicts flood risk for **new input values**.
 
 ---
 
-## 1. Pair Information
-- **Pair Name:** `<Pair Name>`
-- **Members:** `<Member 1>`, `<Member 2>`
-- **Topic:** Flood Prediction (NCR, Philippines)
-- **Chosen Model:** Logistic Regression (Binary Classification)
+## Dataset Summary
+- **File name (expected):** `Flood_Prediction_NCR_Philippines.csv` (or `cleaned_data.csv` if a cleaned version is used)
+- **Target variable:** `FloodOccurrence`  
+  - `0` → No Flood  
+  - `1` → Flood  
+- **Features used (inputs):**
+  - `Rainfall_mm`
+  - `WaterLevel_m`
+  - `Elevation_m`
+
+> Note: Flood occurrences are typically **rare**, which introduces **class imbalance**. For this reason, the model is trained with imbalance-aware settings and is evaluated using appropriate metrics beyond accuracy.
 
 ---
 
-## 2. Dataset Overview
-- **Dataset Source:** `Flood_Prediction_NCR_Philippines.csv` *(provided/collected dataset)*
-- **Description:** The dataset contains environmental measurements used to classify whether a flood event occurs.
-- **Target Variable:** `FloodOccurrence`  
-  - `0` = No Flood  
-  - `1` = Flood
-- **Features Used (Inputs):**
-  - `Rainfall_mm` — rainfall in millimeters
-  - `WaterLevel_m` — water level in meters
-  - `Elevation_m` — elevation in meters
+## Methodology
+### 1) Preprocessing
+The notebook implements a structured preprocessing workflow:
+- **Feature selection**: only the required numerical predictors are retained.
+- **Data validation**: missing or invalid values are checked (and handled if present).
+- **Scaling**: `StandardScaler` is applied to normalize feature magnitudes, improving Logistic Regression stability.
 
-> **Scope Note:** Only the three listed features were used to maintain a focused and interpretable flood prediction model.
+### 2) Imbalance Handling
+To address the low frequency of flood events, the model uses:
+- `class_weight="balanced"`  
+This approach increases the importance of minority-class samples during training without requiring external oversampling libraries.
 
----
+### 3) Model Training
+- **Model**: Logistic Regression (binary classification)
+- **Train–test split**: 80% training / 20% testing
+- **Split strategy**: stratified sampling to preserve class ratios across sets
 
-## 3. Preprocessing Summary
-The dataset was prepared using a minimal but effective preprocessing workflow designed for classification with uneven class distribution.
+### 4) Evaluation
+The model is evaluated using:
+- **Recall** (priority metric for flood detection; emphasizes minimizing missed floods)
+- **F1-score** (balances precision and recall under class imbalance)
+- **Confusion Matrix** (visual and numerical interpretation of correct vs. incorrect classifications)
 
-- **Feature Selection:** Only `Rainfall_mm`, `WaterLevel_m`, and `Elevation_m` were retained as predictors.
-- **Missing/Invalid Value Handling:** The dataset was checked for missing values and invalid entries; any required treatment is documented inside the notebook.
-- **Scaling:** `StandardScaler` was applied to normalize feature scales, improving stability for Logistic Regression.
-- **Class Imbalance Handling:** `class_weight="balanced"` was used to reduce bias toward the majority (non-flood) class.
-- **Train–Test Split:** 80% training / 20% testing using **stratified splitting** to preserve the flood ratio across sets.
-
----
-
-## 4. Model & Results
-### Model Used
-- **Logistic Regression** (binary classifier) with:
-  - standardized inputs (scaling)
-  - imbalance compensation (`class_weight="balanced"`)
-
-### Evaluation Metrics
-To ensure meaningful performance interpretation on imbalanced data, the following were used:
-- **F1-score**
-- **Recall**
-- **Confusion Matrix**
-
-### Results Summary (Fill-in after running)
-- **F1-score:** `__`
-- **Recall:** `__`
-
-### Insights (3–5)
-1. The model treats flood prediction as a **classification task**, producing a probability that is mapped to a flood/no-flood decision.
-2. Because flood events are typically rare, **imbalance handling** is necessary to prevent the model from over-predicting the “No Flood” class.
-3. **Feature scaling** improves numerical stability and supports consistent model convergence.
-4. **Recall** is emphasized because failing to detect a true flood case is generally more critical than producing a false alarm.
-5. The decision **threshold** may be adjusted (e.g., below 0.50) if higher sensitivity is needed for warning scenarios.
+### 5) Prediction Utility
+A helper function is included to:
+- accept new input values (rainfall, water level, elevation),
+- return **flood probability** and **final class decision** based on a configurable threshold.
 
 ---
 
-## 5. How to Run
-### A. Environment Setup
-1. Install **Python 3.x**
-2. Clone/download this repository
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
+## Repository Structure
+A recommended structure is shown below for clarity and clean organization:
 
