@@ -1,4 +1,4 @@
-# 🌊 Flood Prediction (NCR, Philippines) — Logistic Regression (Simple AI)
+# 🌊 Flood Control Project: Flood Prediction (NCR, Philippines) — Logistic Regression 
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
@@ -11,8 +11,8 @@ The project is designed to be **easy to run and easy to explain**, using **Googl
 ---
 
 ## 👥 1) Pair Information
-- **Pair Name:** `<Pair Name>`
-- **Members:** `<Member 1>`, `<Member 2>`
+- **Pair Name:** SunEast Inc.
+- **Members:** `Francisco`, `Baylon`
 - **Topic:** Flood Prediction in NCR (Philippines)
 - **Chosen Model:** **Logistic Regression** (Binary Classification)
 
@@ -129,7 +129,7 @@ The notebook also supports **threshold tuning**, where lowering the threshold in
 ## ▶️ 8) How to Run (Google Colab)
 ### Step 1 — Open the Notebook
 Upload and open:
-- `notebooks/Topic_FinalModel_Pair1Surname_Pair2Surname.ipynb`
+- `Flood_Control_Project.ipynb`
 
 ### Step 2 — Upload Dataset in Colab
 In Colab:
