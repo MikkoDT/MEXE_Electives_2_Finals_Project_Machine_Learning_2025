@@ -26,8 +26,12 @@ Classification is based on predefined nutritional thresholds.
 ## 4. Model & Results
 - Model used: Logistic Regression was implemented as the classification model due to its simplicity, efficiency, and effectiveness in binary classification tasks.
 - Metrics: The model was evaluated using accuracy, confusion matrix, and classification report to measure prediction performance.
-- Visualizations: A confusion matrix visualization was generated to show the number of correct and incorrect predictions made by the model.
+- Visualizations:
+    - A count plot for the newly created column
+    - A confusion matrix visualization was generated to show the number of correct and incorrect predictions made by the model.
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/fadfcf2e-7881-410d-96d9-d2d6b08ecdd2" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6aa494dc-4959-421c-b763-8a1a04c62886" />
+
 
 **Insights:**
 - The model achieved good accuracy in classifying meals based on nutritional values.
