@@ -24,10 +24,29 @@
 
 
 ## 3. Preprocessing Summary
+- **Data Type Conversion:**
+
+  The **TotalCharges** column was converted from a string data type to a numeric format using a type conversion method. This step ensures that numerical computations required for statistical analysis and machine learning can be performed correctly.
+
+- **Handling Missing Values::**
+
+  Missing values that resulted from the data type conversion were addressed by removing the affected rows from the dataset.
+
+- **Data Reductions:**
+
+  The **customerID** column was removed from the dataset since it is a unique identifier and does not contribute meaningful information for predicting customer churn.
+
 - **Encoding:**
-- **Scaling:**
-- **Cleaning steps:**
+
+  Categorical variables such as **PhoneService**, **Contract**, **PaperlessBilling**, **PaymentMethod**, and the target variable **Churn** were transformed into numerical values using label encoding.
+
 - **Train–test split:**
+
+  The data was split into training and testing sets, with 80% of the data used for training and 20% reserved for testing.
+
+- **Feature Scaling:**
+
+  Feature scaling was applied using standardization to transform the input variables to a common scale with zero mean and unit variance. This step improves the stability and convergence of the Logistic Regression model and prevents features with larger values from dominating the learning process.
 
 ## 4. Model & Results
 - **Model used:** Logistic Regression
