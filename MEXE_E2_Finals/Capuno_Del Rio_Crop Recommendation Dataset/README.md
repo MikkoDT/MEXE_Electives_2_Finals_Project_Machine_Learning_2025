@@ -44,6 +44,7 @@
 
 ## 4. Model and Results
 - **Model used:**
+    - Logistic Regression was chosen because the problem requires multi-class classification—predicting a specific crop label—which is the model's primary function. It is a simple, computationally efficient algorithm, making it ideal for use as an initial baseline model to quickly assess data predictability. This approach allows developers to confirm if a fast, linear solution is sufficient before committing to more complex, resource-intensive methods.
 
 - **Metrics:**
   
