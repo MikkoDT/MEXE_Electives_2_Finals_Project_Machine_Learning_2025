@@ -32,10 +32,13 @@
 ## 3. Preprocessing Summary
   - **Encoding:**
     - Since the target variable (crop label) was categorical, Label Encoding was used to transform it into numerical form. The original label column was converted into a new column called label_encoded, in which each crop type was assigned a distinct integer value. The Logistic Regression model was able to process the class labels efficiently because to this encoding.
+      
   - **Scaling:**
      - StandardScaler was used to standardize the independent numerical features, including temperature, humidity, pH, rainfall, N, P, and K. Because logistic regression is sensitive to changes in feature magnitude and scale, this step changed each feature to have a mean of zero and a standard deviation of one.
+       
   - **Cleaning steps:**
      - The dataset was checked for invalid entries, duplicates, and missing values before modeling. The absence of missing data was verified with a null-value check. To evaluate feature distributions and identify outliers, descriptive statistics and visual inspection were employed. No rows were eliminated because the values remained within acceptable ranges, ensuring the dataset's authenticity and validity.
+       
   - **Train–test split:**
      - An 80%–20% ratio was used to divide the cleaned and scaled dataset into training and testing sets. To ensure that the results could be repeated, the random_state option was fixed. Prior to splitting, feature variables (X) and the encoded target variable (y) were kept apart, enabling appropriate model training and objective performance assessment on unseen data.
 
