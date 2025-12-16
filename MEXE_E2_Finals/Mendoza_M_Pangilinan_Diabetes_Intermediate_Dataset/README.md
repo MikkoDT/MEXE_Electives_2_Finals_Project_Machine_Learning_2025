@@ -1,4 +1,4 @@
-#  Final Assessment — Machine Learning Model
+# <p align="center">Final Assessment — Machine Learning Model</p>
 
 ##  1. Pair Information
 
