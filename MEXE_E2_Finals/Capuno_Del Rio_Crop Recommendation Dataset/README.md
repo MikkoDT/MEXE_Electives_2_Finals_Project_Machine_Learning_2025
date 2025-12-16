@@ -59,8 +59,7 @@
 
       This visualization shows that the Correlation Heatmap displays the pairwise linear relationships between the numerical features (N, P, K, temperature, humidity, pH, and rainfall). It uses a color gradient to represent the correlation coefficient, making it easy to see which feature pairs are positively, negatively, or weakly related.
 
-      <center><img width="789" height="494" alt="image" src="https://github.com/user-attachments/assets/f4e1f7d8-2845-4b8f-9976-504581e63957" />
-</center>
+      <center><img width="789" height="494" alt="image" src="https://github.com/user-attachments/assets/f4e1f7d8-2845-4b8f-9976-504581e63957" /></center>
 
     - 
 - **Insights:**
