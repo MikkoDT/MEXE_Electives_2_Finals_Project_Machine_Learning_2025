@@ -10,7 +10,7 @@
   -  Arago, Allan Jhasper P.
   -  San Juan, John Christian C.
 - **Topic:** Bird Flight Capability Classification  
-- **Chosen Model:** 📈 Logistic Regression (Binary Classification)
+- **Chosen Model:** 📈 Logistic Regression
 
 ---
 
