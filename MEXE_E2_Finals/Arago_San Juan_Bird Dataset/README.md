@@ -43,3 +43,27 @@
 - **Class Imbalance Handling:**  
   🔹 SMOTE (Synthetic Minority Over-sampling Technique)
 
+  ---
+
+## 🤖 4. Model & Results
+- **Model Used:**  
+  Logistic Regression (One-vs-Rest, Binary)
+- **Evaluation Metrics:**  
+  - ✅ Accuracy  
+  - 🎯 Precision  
+  - 🔁 Recall  
+  - 📊 Macro F1-Score  
+- **Visualizations:**  
+  - Class distribution (Before & After SMOTE)  
+  - Confusion Matrix  
+  - Precision–Recall Curve  
+  - ROC Curve  
+  - Feature Importance (Model Coefficients)
+- **Key Insights:**  
+  - 
+---
+
+
+
+
+
