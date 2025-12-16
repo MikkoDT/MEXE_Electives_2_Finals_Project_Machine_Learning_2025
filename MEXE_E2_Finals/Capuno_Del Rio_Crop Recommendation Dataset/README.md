@@ -47,6 +47,12 @@
     - Logistic Regression was chosen because the problem requires multi-class classification—predicting a specific crop label—which is the model's primary function. It is a simple, computationally efficient algorithm, making it ideal for use as an initial baseline model to quickly assess data predictability. This approach allows developers to confirm if a fast, linear solution is sufficient before committing to more complex, resource-intensive methods.
 
 - **Metrics:**
+    - Accuracy: Reported as 0.9539 or 95.39%.
+    - Precision (Micro/Macro-average): Reported as 0.9569.
+    - Recall (Micro/Macro-average): Reported as 0.9539.
+    - F1-score (Micro/Macro-average): Reported as 0.9543.
+    - Area Under the Curve (AUC): The Micro-average for the multiclass ROC Curve is reported as 0.99941.
+    - Confusion Matrix: A confusion matrix was generated and used for visualization and assessment of class-specific errors.
   
 - **Visualization:**
   
