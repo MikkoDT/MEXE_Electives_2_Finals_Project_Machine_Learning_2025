@@ -19,30 +19,42 @@ Description: This dataset is designed to analyze the factors that influence high
 
 Dependent/Target Variable:
 
-- Math Score
+- num__Math_Score
 
 Features Used:
 
-- Reading Score
-- Writing Score
-- Ethnicity_group B
-- Ethnicity_group C
-- Ethnicity_group D
-- Ethnicity_group E
-- Lunch_standard
-- Test_Prep_none
-- Gender_male
-- Parental_LOE_high school
-- Parental_LOE_some college
-- Parental_LOE_associate's degree
-- Parental_LOE_bachelor's degree
-- Parental_LOE_master's degree
+- num__Reading_Score
+- num__Writing_Score
+- nom__Ethnicity_group B
+- nom__Ethnicity_group C
+- nom__Ethnicity_group D
+- nom__Ethnicity_group E
+- nom__Lunch_standard
+- nom__Test_Prep_none
+- nom__Gender_male
+- ord__Parental_LOE_high school
+- ord__Parental_LOE_some college
+- ord__Parental_LOE_associate's degree
+- ord__Parental_LOE_bachelor's degree
+- ord__Parental_LOE_master's degree
 
 ## 3. Preprocessing Summary
 
+Categorical Encoding: Converts non-ordinal variables into a numerical format using One-Hot Encoding to prevent models from inferring an incorrect order.
+
+Scaling: The independent variables was scaled using StandardScaler after splitting to have a fair balance between low and high values.
+
+Cleaning Steps:
+- Handle Missing Values
+- Create Categorical Features
+
+Train-Test Split: Splitting the dataset into train and test to be able to test as well as train the data for the preparation of machine learning.
 
 ## 4. Model and Result
 ### Model Used: **Linear Regression**
+
+The target variable, num_Math_score, is a continuous numerical outcome, which is the primary domain for the use of Linear Regression is the reason that this model type is used. Furthermore, the past evaluation of preprocessed data show a strong quantified linearity, therefore, Linear Regression is preferred for its simplicity, efficiency, and high interpretability—it provides a clear, additive representation of how both continuous and binary (0/1) predictor variables contribute to the predicted Math Score.
+
 ### Metrics:
 
 **Mean Absolute Value**
@@ -62,7 +74,35 @@ Features Used:
 - 0.8526211769722261
 
 ### Visualizations:
-**Scatter Plot**
-**Box Plot**
-**Correlation Heatmap**
-**Corr Plot**
+<div align="center">
+ 
+
+<h3 id="visualization-1-histogram-plot"> Visualization 1: Scatter Plot - Numeric Features vs. Math Scores</h3>
+
+The Scatter Plots demonstrated an exceptionally strong, positive linear relationship between Math Score and the other two continuous outcome variables, Reading Score and Writing Score, where the points clustered tightly along an upward-sloping trend line.
+
+<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/2be7bfda-d208-49ea-a010-9d4c7cbd8246" />
+
+
+<h3 id="visualization-1-histogram-plot"> Visualization 2: Bar Plot - Categorical Features vs. Math Scores</h3>
+
+The Bar Plots shown an easy but very informative visualization to how the categorical features affect the num_Math_Scores of the students. It shows the significance of the categorical features in determining one's scores in exams.
+
+<img width="1489" height="1189" alt="image" src="https://github.com/user-attachments/assets/47e14892-4cd6-4ae8-bec6-6595cd2779af" />
+
+<h3 id="visualization-1-histogram-plot"> Visualization 3: Heatmap Correlation</h3>
+
+This visual evidence of linearity was quantitatively confirmed by the Correlation Heatmap, which revealed high Pearson correlation coefficients ($r$) of approximately $0.80$ to $0.82$ between the Math Score and the other two subject scores. In addition to confirming these strong linear ties, the heatmap also served to quantify the weaker, yet significant, linear associations between Math Score and various binary socioeconomic/background features, providing a comprehensive statistical measure of all relationships within the dataset.
+
+<img width="1132" height="989" alt="image" src="https://github.com/user-attachments/assets/84fd7c08-3718-4da5-9a6e-8294ffa8a549" />
+
+<h3 id="visualization-1-histogram-plot"> Visualization 4: Corr Plot</h3>
+
+The Correlation plot shows the features that affects the num__Math_Scores positively as it extends to the right while the features that affects it negatively are those that are extending towards the left side.
+
+<img width="805" height="590" alt="image" src="https://github.com/user-attachments/assets/dc68631b-6275-4cd7-8c0c-863299015d3c" />
+
+</div>
+
+### Key Insights:
+
