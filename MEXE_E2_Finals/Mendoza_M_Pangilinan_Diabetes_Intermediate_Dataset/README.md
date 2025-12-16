@@ -70,7 +70,7 @@
   - 🩺Confusion Matrix 
   <img width="401" height="351" alt="image" src="https://github.com/user-attachments/assets/bdd042d8-67fe-4f3c-b672-a78f0c55cde8" />
 
-  -📈 ROC Curve  
+  - 📈 ROC Curve  
   <img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/674aaf48-5362-41f0-a15c-77b68a0fd311" />
 
 - **Visualizations:**  
