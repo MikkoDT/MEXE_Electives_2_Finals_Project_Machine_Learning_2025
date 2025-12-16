@@ -1,20 +1,20 @@
-# 🩺 Final Assessment — Machine Learning Model
+#  Final Assessment — Machine Learning Model
 
-## 🧑‍🤝‍🧑 1. Pair Information
+##  1. Pair Information
 
 - **Pair Name:** Corona Chronicles
 - **Members:**
   - Mendoza, Mark Jason  
   - Pangilinan, Von Mathew
-- **Topic:** 🩸 Diabetes — Intermediate 🗂️ Dataset
-- **Chosen Model:** 📊 Logistic Regression
+- **Topic:**  Diabetes Intermediate Dataset
+- **Chosen Model:**  Logistic Regression
 
 ---
 
-## 📊 2. Dataset Overview
+##  2. Dataset Overview
 
 - **Dataset Source:**
-  - 🔗 https://www.kaggle.com/datasets/samira1992/diabetes-intermediate-dataset/data
+  - https://www.kaggle.com/datasets/samira1992/diabetes-intermediate-dataset/data
 
 - **Description:**
     <p align="justify">
@@ -22,21 +22,21 @@
 </p>
 
 - **Target Variable:**
-  - 🎯 **Outcome** (*`Non-Diabetic`* / *`Diabetic`*)
+  -  **Outcome** (*`Non-Diabetic`* / *`Diabetic`*)
 
 - **Features Used:**
-  - 👶 *`Pregnancies`*
-  - 🍬 *`Glucose`*
-  - 💓 *`BloodPressure`*
-  - ✋ *`SkinThickness`*
-  - 💉 *`Insulin`*
-  - ⚖️ *`BMI`*
-  - 🧬 *`DiabetesPedigreeFunction`*
-  - 🎂 *`Age`*
+  -  *`Pregnancies`*
+  -  *`Glucose`*
+  -  *`BloodPressure`*
+  -  *`SkinThickness`*
+  -  *`Insulin`*
+  -  *`BMI`*
+  -  *`DiabetesPedigreeFunction`*
+  -  *`Age`*
 
 ---
 
-## 🧹 Preprocessing Summary
+##  Preprocessing Summary
 
 <div style="text-align: justify">
 
@@ -56,28 +56,28 @@
 
 ---
 
-## 🩺 4. Model & Results
+##  4. Model & Results
 - **Model Used:**  
   Logistic Regression 
 - **Metrics:**  
-  - ✅ Accuracy = `%`
-  - 🎯 Precision = `%`
-  - 🔁 Recall =  `%`
-  - 🧾 F1-Score = `%`
+  -  Accuracy = `%`
+  -  Precision = `%`
+  -  Recall =  `%`
+  -  F1-Score = `%`
   - image ng Accuracy, Precision, Recall, at F1-Score
   
-  - 🩺Confusion Matrix 
+  - Confusion Matrix 
   <img width="401" height="351" alt="image" src="https://github.com/user-attachments/assets/bdd042d8-67fe-4f3c-b672-a78f0c55cde8" />
 
-  - 📈 ROC Curve  
+  - ROC Curve  
   <img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/674aaf48-5362-41f0-a15c-77b68a0fd311" />
 
 - **Visualizations:**  
-  - 🔍Scatterplot
+  - Scatterplot
   <img width="1489" height="1356" alt="image" src="https://github.com/user-attachments/assets/9d99e36c-54c3-4be4-bc81-4dcd17a6ed9f" />
 
   
-  - 🔥Correlation Heatmap  
+  - Correlation Heatmap  
   <img width="914" height="691" alt="image" src="https://github.com/user-attachments/assets/44a9c60d-5b10-409d-b18b-d483a68e7f1a" />
 
   
@@ -86,7 +86,7 @@
   
 ---
 
-## ⚙️ 5. How to Run
+## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
 2. Install dependencies:
 
