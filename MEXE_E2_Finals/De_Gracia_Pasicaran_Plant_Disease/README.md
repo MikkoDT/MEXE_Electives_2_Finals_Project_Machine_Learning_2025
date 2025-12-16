@@ -68,15 +68,17 @@ using train_test_split with a fixed random_state=123 for reproducibility.
 
 
 - **Visualizations:**
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/174cc15e-63ad-4979-a588-21df4d2f6428" />
+
+- 
+<img width="852" height="684" alt="image" src="https://github.com/user-attachments/assets/98ddd634-55cd-432f-a76d-331b0d493104" />
 
 
 
 <img width="536" height="500" alt="image" src="https://github.com/user-attachments/assets/0dafe36c-9da3-4bcf-8090-8cb32d008475" />
 
 
+<img width="1138" height="686" alt="image" src="https://github.com/user-attachments/assets/424ca4a6-8419-405f-9fa6-2c2ca525ce46" />
 
-<img width="756" height="547" alt="image" src="https://github.com/user-attachments/assets/503b81eb-3bff-4060-b751-086264367a2b" />
 
 
 
@@ -90,7 +92,11 @@ These visualizations helped clarify model behavior and performance trends.
 
 - **Insights (3–5):**
 
-	Humidity and rainfall emerged as the most influential predictors of plant disease, exhibiting the highest positive coefficients in the model. While the model showed strong performance in correctly identifying healthy plants (class 0), it struggled to recognize diseased plants (class 1), as indicated by the lower recall score. Soil pH displayed a negative coefficient, implying that plants in more neutral or slightly alkaline soil conditions may face a reduced risk of disease. The ROC curve and AUC value confirm that the model performs above chance level, although its predictive capability can still be enhanced. Overall, the model serves as a solid and interpretable baseline for examining how environmental factors contribute to plant health classification.
+- Humidity and rainfall emerged as the most influential predictors of plant disease, exhibiting the highest positive coefficients in the model.
+- While the model showed strong performance in correctly identifying healthy plants (class 0), it struggled to recognize diseased plants (class 1), as indicated by the lower recall score.
+- Soil pH displayed a negative coefficient, implying that plants in more neutral or slightly alkaline soil conditions may face a reduced risk of disease. 
+- The ROC curve and AUC value confirm that the model performs above chance level, although its predictive capability can still be enhanced. 
+- Overall, the model serves as a solid and interpretable baseline for examining how environmental factors contribute to plant health classification.
 
 
 ## 5. How to Run
