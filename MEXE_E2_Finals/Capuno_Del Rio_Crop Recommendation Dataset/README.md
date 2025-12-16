@@ -61,6 +61,12 @@
 
       <center><img width="789" height="494" alt="image" src="https://github.com/user-attachments/assets/f4e1f7d8-2845-4b8f-9976-504581e63957" /></center>
 
+    - PCA Scatter Plot
+
+      This visualization shows that the PCA Scatter Plot projects the high-dimensional feature data (N, P, K, etc.) onto a two-dimensional plane using the Principal Components (PC1 and PC2). The plot color-codes the points by their crop labels, and it helps to visualize the separability and clustering of the different crop classes in a reduced feature space.
+
+      <center></center>
+
     - 
 - **Insights:**
 
