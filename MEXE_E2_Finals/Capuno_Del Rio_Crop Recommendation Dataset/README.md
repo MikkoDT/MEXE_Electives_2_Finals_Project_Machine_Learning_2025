@@ -29,7 +29,8 @@
 ## 3. Preprocessing Summary
   - **Encoding:**
   - **Scaling:**
-  - **Cleaning steps:** StandardScaler was used to standardize the independent numerical features (such as N, P, K, temperature, humidity, pH, and rainfall).
+  - **Cleaning steps:**
+    - StandardScaler was used to standardize the independent numerical features (such as N, P, K, temperature, humidity, pH, and rainfall).
   - **Train–test split:**
 
 ## 4. Model and Results
