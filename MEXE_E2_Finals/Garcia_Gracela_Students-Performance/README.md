@@ -106,3 +106,14 @@ The Correlation plot shows the features that affects the num__Math_Scores positi
 
 ### Key Insights:
 
+**1. The Predictive Model is Highly Accurate**
+
+The Linear Regression model for predicting Math Score achieved an R-Squared Value of 0.86 and had an adjusted R-Squared of 0.85. This shows that the independent variables, which are the scores and socioeconomic factors explain the variability in the Math score, demonstrating the model's predictive power.
+
+**2. Academic Interdependence is the Dominant Factor**
+
+The high R-Squared is primarily driven by the exceptionally strong linear correlation between Math Score and the other continuous variables, Reading Score and Writing Score. This suggests that a student's general academic ability and performance across all core subjects is the most powerful determinant of their Math Score.
+
+**3. Socioeconomic Factors Provide Measurable Incremental Gain**
+
+Although less correlated than the other scores, the analysis confirmed that key socioeconomic binary factors, such as receiving Standard Lunch and completing the Test Preparation Course, are significantly associated with a positive shift in the Math Score distribution. These variables are important, measurable contributors to the model's predictive accuracy, indicating external support and preparation have a tangible impact on performance.
