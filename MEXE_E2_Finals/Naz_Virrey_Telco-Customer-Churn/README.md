@@ -12,25 +12,25 @@
 - **Dataset Source:** https://www.kaggle.com/datasets/syedumeerr/telco-customer-churn 
 - **Description:**
   <p align="justify">The Telco Customer Churn dataset contains information on around 7,000 telecom customers, with each row representing a single customer and columns describing subscribed services, account details, and billing information, along with a target variable called <b>Churn</b> that indicates whether the customer left the company. The features include customer tenure, contract type, phone services, payment method, monthly charges, and total charges. This dataset is used for classification tasks, especially for building logistic regression to predict customer churn and derive business insights for customer retention strategies. </p>
-- **Target Variable:** Churn
+- **Target Variable:** `Churn`
 
   Churn refers to the situation where customers stop using a company’s products or services within a given period.
 
 - **Features Used:**
-  - Tenure
-  - Phone Service
-  - Contract
-  - Paperless Billing
-  - Payment Method
-  - Monthly Charges
-  - Total Charges 
+  - `tenure`
+  - `PhoneService`
+  - `Contract`
+  - `PaperlessBilling`
+  - `PaymentMethod`
+  - `MonthlyCharges`
+  - `TotalCharges`
 
 
 ## 3. Preprocessing Summary
 
 - **Encoding:** 
 
-  Categorical variables such as **PhoneService**, **Contract**, **PaperlessBilling**, **PaymentMethod**, and the target variable **Churn** were transformed into numerical values using label encoding.
+  Categorical variables such as `PhoneService`, `Contract`, `PaperlessBilling`, `PaymentMethod`, and the target variable `Churn` were transformed into numerical values using label encoding.
 
 - **Scaling:** 
 
@@ -38,11 +38,11 @@
 
 - **Cleaning steps:**
 
-  The **TotalCharges** column was converted from a string data type to a numeric format using a type conversion method. This step ensures that numerical computations required for statistical analysis and machine learning can be performed correctly.
+  The `TotalCharges` column was converted from a string data type to a numeric format using a type conversion method. This step ensures that numerical computations required for statistical analysis and machine learning can be performed correctly.
 
   Missing values that resulted from the data type conversion were addressed by removing the affected rows from the dataset.
 
-  The **customerID** column was removed from the dataset since it is a unique identifier and does not contribute meaningful information for predicting customer churn.
+  The `customerID` column was removed from the dataset since it is a unique identifier and does not contribute meaningful information for predicting customer churn.
 
 - **Train–test split:**
 
@@ -53,9 +53,9 @@
 - **Model used:** Logistic Regression
     <p align="justify">Logistic Regression was chosen because the objective is binary classification, predicting whether a customer will churn (Yes) or not (No). Logistic Regression is simple, efficient, and interpretable, and it works well with datasets containing both categorical and numerical features. It also aligns well with the evaluation metrics used in this study, including accuracy, confusion matrix, precision, recall, F1-score, and the ROC curve, making it suitable for churn prediction. </p>
 - **Metrics:**
-  - ***Accuracy:***
+  - ***Accuracy:*** `0.794889992902768 = 79.5%`
 
-    0.794889992902768
+    
     
   - ***Confusion Matrix:***
 
@@ -117,7 +117,7 @@
 1. Install VS Code + Python + Jupyter Extension
 2. Install dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
-3. Open the `.ipynb` notebook
-4. Run all cells
+4. Open the `.ipynb` notebook
+5. Run all cells
