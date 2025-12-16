@@ -13,6 +13,9 @@
 - **Description:**
   <p align="justify">The Telco Customer Churn dataset contains information on around 7,000 telecom customers, with each row representing a single customer and columns describing subscribed services, account details, and billing information, along with a target variable called <b>Churn</b> that indicates whether the customer left the company. The features include customer tenure, contract type, phone services, payment method, monthly charges, and total charges. This dataset is used for classification tasks, especially for building logistic regression to predict customer churn and derive business insights for customer retention strategies. </p>
 - **Target Variable:** Churn
+
+  Churn refers to the situation where customers stop using a company’s products or services within a given period.
+
 - **Features Used:**
   - Tenure
   - Phone Service
@@ -27,7 +30,7 @@
 
 - **Encoding:** 
 
-  Categorical variables such as PhoneService, Contract, PaperlessBilling, PaymentMethod, and the target variable Churn were transformed into numerical values using label encoding.
+  Categorical variables such as **PhoneService**, **Contract**, **PaperlessBilling**, **PaymentMethod**, and the target variable **Churn** were transformed into numerical values using label encoding.
 
 - **Scaling:** 
 
@@ -35,11 +38,11 @@
 
 - **Cleaning steps:**
 
-  The TotalCharges column was converted from a string data type to a numeric format using a type conversion method. This step ensures that numerical computations required for statistical analysis and machine learning can be performed correctly.
+  The **TotalCharges** column was converted from a string data type to a numeric format using a type conversion method. This step ensures that numerical computations required for statistical analysis and machine learning can be performed correctly.
 
   Missing values that resulted from the data type conversion were addressed by removing the affected rows from the dataset.
 
-  The customerID column was removed from the dataset since it is a unique identifier and does not contribute meaningful information for predicting customer churn.
+  The **customerID** column was removed from the dataset since it is a unique identifier and does not contribute meaningful information for predicting customer churn.
 
 - **Train–test split:**
 
