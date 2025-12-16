@@ -44,8 +44,11 @@
 
 ## 4. Model and Results
 - **Model used:**
+
 - **Metrics:**
+  
 - **Visualization:**
+  
 - **Insights:**
 
 ## 5. How to Run
