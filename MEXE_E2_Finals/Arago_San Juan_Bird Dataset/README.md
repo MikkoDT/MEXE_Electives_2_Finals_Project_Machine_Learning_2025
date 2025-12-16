@@ -49,7 +49,7 @@
 - **Model Used:**  
   Logistic Regression 
 - **Evaluation Metrics:**  
-  - ✅ Accuracy  
+  - ✅ Accuracy = 99.18%
   - 🎯 Precision  
   - 🔁 Recall  
   - 📊 Macro F1-Score
