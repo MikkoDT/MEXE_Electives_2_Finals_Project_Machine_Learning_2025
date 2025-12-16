@@ -55,6 +55,7 @@
     - Confusion Matrix: A confusion matrix was generated and used for visualization and assessment of class-specific errors.
   
 - **Visualization:**
+    **Correlation Heatmap**
   
 - **Insights:**
 
