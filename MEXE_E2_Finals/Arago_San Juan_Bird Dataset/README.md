@@ -52,13 +52,14 @@
   - ✅ Accuracy  
   - 🎯 Precision  
   - 🔁 Recall  
-  - 📊 Macro F1-Score  
+  - 📊 Macro F1-Score
+    
 - **Visualizations:**  
   - Class distribution (Before & After SMOTE)  
   - Confusion Matrix  
-  - Precision–Recall Curve  
   - ROC Curve  
-  - Feature Importance (Model Coefficients)
+  - Precision–Recall Curve  
+  
 - **Key Insights:**  
   - 
 ---
