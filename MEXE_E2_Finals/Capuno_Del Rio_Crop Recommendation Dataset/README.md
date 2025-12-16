@@ -32,7 +32,7 @@
   - **Scaling:**
      - StandardScaler was used to standardize the independent numerical features, including temperature, humidity, pH, rainfall, N, P, and K. Because logistic regression is sensitive to changes in feature magnitude and scale, this step changed each feature to have a mean of zero and a standard deviation of one.
   - **Cleaning steps:**
-   - The dataset was checked for invalid entries, duplicates, and missing values before modeling. The absence of missing data was verified with a null-value check. To evaluate feature distributions and identify outliers, descriptive statistics and visual inspection were employed. No rows were eliminated because the values remained within acceptable ranges, ensuring the dataset's authenticity and validity.
+     - The dataset was checked for invalid entries, duplicates, and missing values before modeling. The absence of missing data was verified with a null-value check. To evaluate feature distributions and identify outliers, descriptive statistics and visual inspection were employed. No rows were eliminated because the values remained within acceptable ranges, ensuring the dataset's authenticity and validity.
   - **Train–test split:**
 
 ## 4. Model and Results
