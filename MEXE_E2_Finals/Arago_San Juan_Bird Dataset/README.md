@@ -50,7 +50,7 @@
   Logistic Regression 
 - **Evaluation Metrics:**  
   - ✅ Accuracy = 99.18%
-  - 🎯 Precision  
+  - 🎯 Precision = 77.31%
   - 🔁 Recall  
   - 📊 Macro F1-Score
     
