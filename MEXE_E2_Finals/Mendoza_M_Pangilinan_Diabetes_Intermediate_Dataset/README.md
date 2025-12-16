@@ -41,8 +41,7 @@
 <div style="text-align: justify">
 
 - **Encoding**  
-  ▸ All features in the dataset are numerical; therefore, no categorical encoding was required. The target variable (`Outcome`) is already in binary numerical form and was used directly for model training.
-
+  ▸ All features in the dataset are numerical; therefore, no categorical encoding was required. 
 - **Scaling**  
   ▸ Standardization was applied to transform input features to zero mean and unit variance, ensuring equal contribution of variables and improving the stability of the Logistic Regression model.
 
