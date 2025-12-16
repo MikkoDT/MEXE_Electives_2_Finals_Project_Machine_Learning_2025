@@ -52,7 +52,7 @@
   - ✅ Accuracy = 99.18%
   - 🎯 Precision = 77.31%
   - 🔁 Recall =  88.33%
-  - 📊 F1-Score = 
+  - 📊 F1-Score = 81.87%
     
 - **Visualizations:**  
   - Class distribution (Before & After SMOTE)  
