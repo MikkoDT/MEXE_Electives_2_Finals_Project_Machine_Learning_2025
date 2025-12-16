@@ -39,3 +39,30 @@ Features Used:
 - Parental_LOE_master's degree
 
 ## 3. Preprocessing Summary
+
+
+## 4. Model and Result
+### Model Used: **Linear Regression**
+### Metrics:
+
+**Mean Absolute Value**
+
+- 4.39484274852452
+
+**Mean Score Value**
+  
+- 31.046790272758408
+
+**Coefficient of Determination (R²)**
+  
+- 0.8629895363812152
+
+**Adjusted R²**
+  
+- 0.8526211769722261
+
+### Visualizations:
+**Scatter Plot**
+**Box Plot**
+**Correlation Heatmap**
+**Corr Plot**
