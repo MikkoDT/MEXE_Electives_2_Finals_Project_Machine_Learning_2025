@@ -7,7 +7,7 @@
 ## 👥 1. Pair Information
 - **Pair Name:**  
 - **Members:**  
-  -  Arago, 
+  -  Arago, Allan Jhasper P.
   -  San Juan, John Christian C.
 - **Topic:** Bird Flight Capability Classification  
 - **Chosen Model:** 📈 Logistic Regression (Binary Classification)
