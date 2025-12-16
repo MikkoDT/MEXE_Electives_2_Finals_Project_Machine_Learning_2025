@@ -47,7 +47,7 @@
 
 ## 🤖 4. Model & Results
 - **Model Used:**  
-  Logistic Regression (One-vs-Rest, Binary)
+  Logistic Regression 
 - **Evaluation Metrics:**  
   - ✅ Accuracy  
   - 🎯 Precision  
