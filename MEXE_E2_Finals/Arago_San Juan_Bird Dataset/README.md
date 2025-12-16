@@ -51,8 +51,8 @@
 - **Evaluation Metrics:**  
   - ✅ Accuracy = 99.18%
   - 🎯 Precision = 77.31%
-  - 🔁 Recall  
-  - 📊 Macro F1-Score
+  - 🔁 Recall =  88.33%
+  - 📊 Macro F1-Score = 
     
 - **Visualizations:**  
   - Class distribution (Before & After SMOTE)  
