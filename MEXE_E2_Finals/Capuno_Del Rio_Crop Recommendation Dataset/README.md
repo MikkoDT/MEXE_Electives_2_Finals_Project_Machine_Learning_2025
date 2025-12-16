@@ -74,6 +74,11 @@
       <center><img width="924" height="549" alt="image" src="https://github.com/user-attachments/assets/fb71bc89-e13b-4cca-b986-7aa5d44d2ed2" /></center>
       
 - **Insights:**
+    - Correlation Heatmap Insight: The heatmap reveals a notable strong positive correlation between temperature and humidity ($0.686$), indicating these two environmental factors often increase or decrease together.
+ 
+    - PCA Scatter Plot Insight: The plot confirms the dataset has strong discriminatory power, as the 20 crop classes are visually well-separated into distinct clusters in the reduced two-dimensional space.
+ 
+    - Box Plot of Numerical Features Insight: The box plot clearly identifies the rainfall feature as having a much wider distribution and containing a large number of outliers compared to all other input features.
 
 ## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
