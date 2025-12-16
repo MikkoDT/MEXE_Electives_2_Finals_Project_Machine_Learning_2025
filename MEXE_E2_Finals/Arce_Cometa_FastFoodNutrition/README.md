@@ -32,6 +32,8 @@ Classification is based on predefined nutritional thresholds.
     - A ROC curve to show the model's performance across the threshold
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/fadfcf2e-7881-410d-96d9-d2d6b08ecdd2" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/6aa494dc-4959-421c-b763-8a1a04c62886" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/dfa13a14-b0ae-4eb2-8e76-e868c5300e3f" />
+
 
 
 **Insights:**
