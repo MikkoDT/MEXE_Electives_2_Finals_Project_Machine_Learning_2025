@@ -31,7 +31,7 @@
     - Since the target variable (crop label) was categorical, Label Encoding was used to transform it into numerical form. The original label column was converted into a new column called label_encoded, in which each crop type was assigned a distinct integer value. 
   - **Scaling:**
   - **Cleaning steps:**
-    - StandardScaler was used to standardize the independent numerical features (such as N, P, K, temperature, humidity, pH, and rainfall).
+    - StandardScaler was used to standardize the independent numerical features, including temperature, humidity, pH, rainfall, N, P, and K. Because logistic regression is sensitive to changes in feature magnitude and scale, this step changed each feature to have a mean of zero and a standard deviation of one.
   - **Train–test split:**
 
 ## 4. Model and Results
