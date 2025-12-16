@@ -3,7 +3,7 @@
 
 ## 1. Group Information
 - **Group Name:**
-  - Plantato 
+  - Ha? Halaman
 - **Members:**
   - Capuno, Raphael Juno
   - Del Rio, Francine Faith
