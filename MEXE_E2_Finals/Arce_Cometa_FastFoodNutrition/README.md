@@ -27,13 +27,27 @@ Classification is based on predefined nutritional thresholds.
 - Model used: Logistic Regression was implemented as the classification model due to its simplicity, efficiency, and effectiveness in binary classification tasks.
 - Metrics: The model was evaluated using accuracy, confusion matrix, and classification report to measure prediction performance.
 - Visualizations:
-    - A count plot for the newly created column
-    - A confusion matrix visualization was generated to show the number of correct and incorrect predictions made by the model.
-    - A ROC curve to show the model's performance across the threshold
+  
+<p align="center"> A count plot for the newly created column </p>
+<p align="center">
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/fadfcf2e-7881-410d-96d9-d2d6b08ecdd2" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/6aa494dc-4959-421c-b763-8a1a04c62886" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/dfa13a14-b0ae-4eb2-8e76-e868c5300e3f" />
+</p>
 
+---
+
+<p align="center">
+A confusion matrix visualization was generated to show the number of correct and incorrect predictions made by the model.
+</p>
+<p align="center">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6aa494dc-4959-421c-b763-8a1a04c62886" />
+</p>
+
+---
+
+<p align="center"> A ROC curve to show the model's performance across the threshold </p>
+<p align="center">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/dfa13a14-b0ae-4eb2-8e76-e868c5300e3f" />
+</p>
 
 
 **Insights:**
