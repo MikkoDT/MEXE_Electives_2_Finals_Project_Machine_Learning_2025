@@ -61,24 +61,24 @@
 
       <center><img width="789" height="494" alt="image" src="https://github.com/user-attachments/assets/f4e1f7d8-2845-4b8f-9976-504581e63957" /></center>
 
-    - PCA Scatter Plot
+    - **PCA Scatter Plot**
 
       This visualization shows that the PCA Scatter Plot projects the high-dimensional feature data (N, P, K, etc.) onto a two-dimensional plane using the Principal Components (PC1 and PC2). The plot color-codes the points by their crop labels, and it helps to visualize the separability and clustering of the different crop classes in a reduced feature space.
 
       <center><img width="737" height="554" alt="image" src="https://github.com/user-attachments/assets/74ed3852-d87d-435a-8bd2-e11911054119" /></center>
 
-    - Box Plot of Numerical Features
+    - **Box Plot of Numerical Features**
  
       This visualization shows that the Box Plot of Numerical Features displays the distribution, central tendency (median), spread (interquartile range), and potential outliers for all seven numerical input features ($\text{N, P, K, temperature, humidity, pH, and rainfall}$). It clearly highlights that the rainfall feature has a much wider distribution and a larger number of outliers compared to the other features.
 
       <center><img width="924" height="549" alt="image" src="https://github.com/user-attachments/assets/fb71bc89-e13b-4cca-b986-7aa5d44d2ed2" /></center>
       
 - **Insights:**
-    - Correlation Heatmap Insight: The heatmap reveals a notable strong positive correlation between temperature and humidity ($0.686$), indicating these two environmental factors often increase or decrease together.
+    - **Correlation Heatmap Insight**: The heatmap reveals a notable strong positive correlation between temperature and humidity ($0.686$), indicating these two environmental factors often increase or decrease together.
  
-    - PCA Scatter Plot Insight: The plot confirms the dataset has strong discriminatory power, as the 20 crop classes are visually well-separated into distinct clusters in the reduced two-dimensional space.
+    - **PCA Scatter Plot Insight**: The plot confirms the dataset has strong discriminatory power, as the 20 crop classes are visually well-separated into distinct clusters in the reduced two-dimensional space.
  
-    - Box Plot of Numerical Features Insight: The box plot clearly identifies the rainfall feature as having a much wider distribution and containing a large number of outliers compared to all other input features.
+    - **Box Plot of Numerical Features Insight**: The box plot clearly identifies the rainfall feature as having a much wider distribution and containing a large number of outliers compared to all other input features.
 
 ## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
