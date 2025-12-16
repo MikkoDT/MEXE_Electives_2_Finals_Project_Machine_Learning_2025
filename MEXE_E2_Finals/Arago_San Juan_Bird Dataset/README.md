@@ -63,7 +63,9 @@
   - 
 ---
 
-
-
-
+## ▶️ 5. How to Run
+1. Install **VS Code**, **Python**, and the **Jupyter Notebook Extension**
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
