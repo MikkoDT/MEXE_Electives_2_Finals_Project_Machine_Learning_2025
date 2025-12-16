@@ -22,10 +22,10 @@
 - **Target Variable:**  
   🏷️ Flight Capability (`Flighted` / `Flightless`)
 - **Features Used:**  
-  - 🧬 Genus  
-  - ⚖️ Average Mass  
-  - 🌍 Primary Habitat  
-  - 🥗 Primary Diet  
+  - 🧬 `Genus`
+  - ⚖️ `Average Mass`  
+  - 🌍 `Primary Habitat`  
+  - 🥗 `Primary Diet`  
 
 ---
 
