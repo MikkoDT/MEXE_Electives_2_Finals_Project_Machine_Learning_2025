@@ -65,9 +65,14 @@
 
       This visualization shows that the PCA Scatter Plot projects the high-dimensional feature data (N, P, K, etc.) onto a two-dimensional plane using the Principal Components (PC1 and PC2). The plot color-codes the points by their crop labels, and it helps to visualize the separability and clustering of the different crop classes in a reduced feature space.
 
-      <center></center>
+      <center><img width="737" height="554" alt="image" src="https://github.com/user-attachments/assets/74ed3852-d87d-435a-8bd2-e11911054119" /></center>
 
-    - 
+    - Box Plot of Numerical Features
+ 
+      This visualization shows that the Box Plot of Numerical Features displays the distribution, central tendency (median), spread (interquartile range), and potential outliers for all seven numerical input features ($\text{N, P, K, temperature, humidity, pH, and rainfall}$). It clearly highlights that the rainfall feature has a much wider distribution and a larger number of outliers compared to the other features.
+
+      <center><img width="924" height="549" alt="image" src="https://github.com/user-attachments/assets/fb71bc89-e13b-4cca-b986-7aa5d44d2ed2" /></center>
+      
 - **Insights:**
 
 ## 5. How to Run
