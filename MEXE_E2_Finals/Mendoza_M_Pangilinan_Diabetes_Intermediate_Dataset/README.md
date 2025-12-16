@@ -65,7 +65,7 @@
   - 🎯 Precision = `%`
   - 🔁 Recall =  `%`
   - 🧾 F1-Score = `%`
-  image ng Accuracy, Precision, Recall, at F1-Score
+  - image ng Accuracy, Precision, Recall, at F1-Score
   
   - 🩺Confusion Matrix 
   <img width="401" height="351" alt="image" src="https://github.com/user-attachments/assets/bdd042d8-67fe-4f3c-b672-a78f0c55cde8" />
