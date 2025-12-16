@@ -15,12 +15,12 @@ Binary label indicating meal healthiness:
 - `0` → Not healthy  
 Classification is based on predefined nutritional thresholds.
 
-- Features Used: The features used in the model include calories, total fat, carbohydrates, sugars, protein, and sodium.
+- Features Used: The features used in the model include: Calories, Fat, Carbs, Sugar, and Sodium.
 
 ## 3. Preprocessing Summary
 - Encoding: Categorical values were encoded into numerical form to ensure compatibility with the Logistic Regression model.
 - Scaling: Numerical features were standardized to ensure all values were on a similar scale and to improve model convergence.
-- Cleaning steps: The dataset was cleaned by renaming columns, checking for missing values, and ensuring consistent data types before training.
+- Cleaning steps: The dataset was cleaned by renaming columns, checking for missing values, removed duplicated data, and ensuring consistent data types before training.
 - Train–test split: The dataset was divided into training and testing sets to evaluate how well the model performs on unseen data.
 
 ## 4. Model & Results
@@ -29,6 +29,7 @@ Classification is based on predefined nutritional thresholds.
 - Visualizations:
     - A count plot for the newly created column
     - A confusion matrix visualization was generated to show the number of correct and incorrect predictions made by the model.
+    - A ROC curve to show the model's performance across the threshold
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/fadfcf2e-7881-410d-96d9-d2d6b08ecdd2" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/6aa494dc-4959-421c-b763-8a1a04c62886" />
 
