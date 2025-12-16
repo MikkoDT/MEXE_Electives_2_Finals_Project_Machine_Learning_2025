@@ -75,12 +75,14 @@
 - **Visualizations:**  
   - **Scatterplot**
   <img width="1489" height="1356" alt="image" src="https://github.com/user-attachments/assets/9d99e36c-54c3-4be4-bc81-4dcd17a6ed9f" />
+  
   **Description:** The scatter plots compare each health variable with the diabetes outcome, showing how data points are distributed for diabetic and non-diabetic individuals. They highlight overlaps and separations between the two outcome groups across features.
   
   **Insight:** Glucose and BMI show noticeable clustering where higher values are more frequently associated with diabetic outcomes. Other variables such as blood pressure and skin thickness show significant overlap, indicating weaker separation.
   
   - **Correlation Heatmap**  
   <img width="914" height="691" alt="image" src="https://github.com/user-attachments/assets/44a9c60d-5b10-409d-b18b-d483a68e7f1a" />
+  
   **Description:** The correlation heatmap visualizes the relationships among all numerical features and the diabetes outcome. Brighter colors indicate stronger correlations, while darker colors represent weaker relationships.
   
   **Insight:** Glucose has the strongest positive correlation with diabetes outcome, followed by BMI and age. Most remaining features show weak correlations, suggesting they contribute less individually to diabetes prediction.
