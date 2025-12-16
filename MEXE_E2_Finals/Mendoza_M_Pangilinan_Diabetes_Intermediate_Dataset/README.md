@@ -91,7 +91,8 @@
 2. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
 
+pip install -r requirements.txt
+```
 3. Open the `.ipynb` notebook
 4. Run all cells
