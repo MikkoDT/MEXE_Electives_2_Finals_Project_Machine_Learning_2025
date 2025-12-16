@@ -38,10 +38,10 @@
   - Removed irrelevant columns  
   - Handled missing values using median imputation  
   - Merged *partial flight* with *flightless* due to class sparsity  
-- **Train–Test Split:**  
-  🔹 Stratified split (80% training / 20% testing)  
 - **Class Imbalance Handling:**  
   🔹 SMOTE (Synthetic Minority Over-sampling Technique)
+- **Train–Test Split:**  
+  🔹 Stratified split (80% training / 20% testing)  
 
   ---
 
