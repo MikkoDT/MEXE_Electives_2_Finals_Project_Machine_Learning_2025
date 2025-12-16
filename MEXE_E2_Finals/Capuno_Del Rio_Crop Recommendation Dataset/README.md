@@ -27,7 +27,11 @@
   - rainfall - rainfall in mm
 
 ## 3. Preprocessing Summary
-  
+  - **Encoding:**
+  - **Scaling:**
+  - **Cleaning steps:**
+  - **Train–test split:**
+
 ## 4. Model and Results
 - **Model used:**
 - **Metrics:**
