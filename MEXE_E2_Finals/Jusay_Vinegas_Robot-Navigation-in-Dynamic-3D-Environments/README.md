@@ -47,7 +47,7 @@
 
 ![IMG_2593](https://github.com/user-attachments/assets/3e1ac20d-9678-4d73-8fed-50410f0e46ce)
 
-![IMG_2592](https://github.com/user-attachments/assets/b5c53008-736e-4897-a2eb-ae9008c98e27)
+![IMG_2592](https://github.com/user-attachments/assets/b5c53008-736e-4897-a2eb-ae9008c98e27) 
 
 
 - **Visualizations**:
