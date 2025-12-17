@@ -93,15 +93,15 @@ So each dot answers for this job, the real salary was X, and the model predicted
 
 
 **Insights**
-- Linear Regression was selected because the target variable, Avg_Salary, is a continuous numerical value.
-  
-- The model achieved an R² score that indicates how much salary variation can be explained by job and company attributes.
+- The Linear Regression model achieved a moderate R² score, indicating that a significant portion of salary variation can be explained by job and company attributes, while some variability remains due to unobserved factors.
 
-- Categorical variables such as job title, industry, and job location play a significant role in salary prediction.
-  
-- Proper preprocessing, including encoding and scaling, ensured stable and unbiased model training.
-  
-- Model performance may be improved further by incorporating text-based features from job descriptions or by applying advanced regression models. 
+- Categorical features such as job title, industry, and job location were found to play a significant role in salary prediction, reflecting real-world compensation patterns.
+
+- The predicted salary values represent estimated average salaries based on learned data patterns, demonstrating that the model captures overall trends rather than exact individual salaries.
+
+- Proper preprocessing, including missing value imputation, one-hot encoding, and feature scaling, ensured stable model training and unbiased evaluation results.
+
+- Model performance can be further improved by incorporating text-based features from job descriptions or by applying more advanced regression techniques.
 
 
 ## 5. How to Run
