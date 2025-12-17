@@ -23,13 +23,13 @@
   - `Temperature` - the operating temperature of the machine
 
 ## 3. Preprocessing Summary
-- Encoding:
+- Encoding: </br>
   No encoding was required because all selected features were already numerical, and the target variable `fail` was already in binary form (0 and 1).
-- Scaling:
+- Scaling: </br>
   Standard Scaler was applied to normalize the numerical sensor readings. This helps improve model performance by ensuring all features contribute proportionally.
-- Cleaning steps:
+- Cleaning steps: </br>
   Irrelevant columns were removed to simplify the dataset and focus the model on the most meaningful features.
-- Train–test split:
+- Train–test split: </br>
   The dataset was divided into training (80%) and testing (20%) subsets to evaluate the model’s performance on unseen data.
 
 ## 4. Model & Results
@@ -42,10 +42,20 @@
   * Precision: 91.43%
   * Recall   : 91.43%
   * F1 Score : 91.43%
-    
+    <p align="center"> 
+      <img src="https://github.com/user-attachments/assets/d02d2033-b451-4bbe-bf0f-8f8dce152933" width="800">
+  * AUC      : 
+    <p align="center"> 
+      <img src="https://github.com/user-attachments/assets/09ad6293-2b0e-4c8e-8403-e51deca67fdd" width="800">
+
 - ***Visualization***
-  * Pairplot
-  * Bar Chart
+  * Correlation Heatmap
+    <p align="center"> 
+      <img src="https://github.com/user-attachments/assets/1d0ba27c-c54b-4a85-be7e-20684033a239" width="800">
+  * Violin Plot
+    <p align="center"> 
+      <img src="https://github.com/user-attachments/assets/ef0a18b0-4b9e-49c7-8e9e-8af6f46a0c12" width="800">
+
     
 - ***Insights***
   1. Demonstrates high accuracy between machine failure and non-failure cases.
