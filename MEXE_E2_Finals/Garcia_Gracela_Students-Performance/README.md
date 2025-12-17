@@ -101,7 +101,7 @@ The target variable, num_Math_score, is a continuous numerical outcome, which is
 
 <h3 id="visualization-1-histogram-plot"> Visualization 1: Scatter Plot - Numeric Features vs. Math Scores</h3>
 
-The Scatter Plots demonstrated an exceptionally strong, positive linear relationship between Math Score and the other two continuous outcome variables, Reading Score and Writing Score, where the points clustered tightly along an upward-sloping trend line.
+The scatter plots show a strong positive linear relationship between Math Score and both Reading and Writing Scores, with points closely clustered along an upward trend line. This indicates that higher math performance is associated with higher reading and writing performance, with little variation, suggesting a consistent relationship among these academic skills.
 
 <img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/2be7bfda-d208-49ea-a010-9d4c7cbd8246" />
 
