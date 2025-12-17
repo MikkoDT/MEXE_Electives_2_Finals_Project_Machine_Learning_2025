@@ -98,17 +98,17 @@
 
   By including features like FG_PCT_home, FT_PCT_home, and REB_home, the machine learning process aims to identify the underlying drivers of a win rather than just the outcome itself. This allows the model to generalize better to future games where only these stats might be estimated.
 
-  ***2. Key Predictive Factors***
+  ***2. Balanced Evaluation Using Multiple Metrics***
 
-  The analysis indicates that variables such as glucose level, BMI, and age play a major role in predicting diabetes. Higher glucose readings and increased body mass index significantly raise the likelihood of a diabetes diagnosis.
+  Instead of relying on accuracy alone, the notebook evaluated the model using precision, recall, error rate, and a confusion matrix. The confusion matrix visualization highlights how well the model distinguishes between home and away wins, revealing areas where false positives or false negatives are more common.
 
-  ***3. Insights from Model Outcomes***
+  ***3. Importance of Game Statistics as Predictors***
 
-  The results show that individuals with elevated glucose levels and higher BMI are more frequently classified as diabetic. These findings align with established medical understanding of diabetes risk factors.
+  The analysis shows that game-related numerical features are influential in predicting the target variable. These features capture relative team strength and in-game dominance, which are crucial factors in determining whether the home team wins.
 
-  ***4. Opportunities for Model Enhancement***
+  ***4. Opportunities for Model Improvement***
 
-  The model could be strengthened by addressing class imbalance and applying proper feature scaling. Testing more advanced models such as Random Forest or Support Vector Machines may lead to improved accuracy and robustness.
+  Although Logistic Regression performs well, investigating more complex machine learning models like Random Forests, Gradient Boosting Machines, or Neural Networks could potentially lead to even higher accuracy and robustness.
   
 ---
 
