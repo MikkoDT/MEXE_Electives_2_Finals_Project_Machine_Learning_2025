@@ -59,8 +59,7 @@
 ---
 
 ##  4. Model & Results
-- **Model Used:**  
-  Logistic Regression 
+- **Model Used:**  Logistic Regression 
 - **Metrics:**  
   -  **Accuracy** = `83%`
   -  **Precision** = `86%`
