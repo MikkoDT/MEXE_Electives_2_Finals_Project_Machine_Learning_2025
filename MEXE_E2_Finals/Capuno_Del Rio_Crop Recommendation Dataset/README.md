@@ -57,7 +57,9 @@
 - **Visualization:**
     - **Correlation Heatmap**
 
+      <p align="justify">
       This visualization shows that the Correlation Heatmap displays the pairwise linear relationships between the numerical features (N, P, K, temperature, humidity, pH, and rainfall). It uses a color gradient to represent the correlation coefficient, making it easy to see which feature pairs are positively, negatively, or weakly related.
+      </p>
 
       <p align="center"> 
       <img width="842" height="528" alt="image" src="https://github.com/user-attachments/assets/b8a90fdd-bb04-4122-87b4-552cc752dccc"/>
@@ -73,7 +75,7 @@
 
     - **Box Plot of Numerical Features**
  
-      This visualization shows that the Box Plot of Numerical Features displays the distribution, central tendency (median), spread (interquartile range), and potential outliers for all seven numerical input features ($\text{N, P, K, temperature, humidity, pH, and rainfall}$). It clearly highlights that the rainfall feature has a much wider distribution and a larger number of outliers compared to the other features.
+      This visualization shows that the Box Plot of Numerical Features displays the distribution, central tendency (median), spread (interquartile range), and potential outliers for all seven numerical input features (N, P, K, temperature, humidity, pH, and rainfall). It clearly highlights that the rainfall feature has a much wider distribution and a larger number of outliers compared to the other features.
 
      <p align="center">
      <img width="986" height="585" alt="image" src="https://github.com/user-attachments/assets/d71c4019-c44a-4f2f-8095-2a860e213f4e" />
