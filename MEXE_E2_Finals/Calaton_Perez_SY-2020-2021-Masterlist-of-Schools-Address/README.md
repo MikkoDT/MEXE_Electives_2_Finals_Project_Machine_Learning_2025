@@ -21,7 +21,11 @@ This project applies **Linear Regression** to school masterlist data to examine 
   The dataset is based on the Department of Education (DepEd) Philippine School Masterlist for School Year 2020–2021. It contains structured school records and location details useful for educational data analysis.
 
 - **Target Variable:**  
-  **Urban/Rural** (encoded numerically)
+  Urban/Rural (encoded numerically)
+  **Features Used**
+  - Sector
+  - Barangay
+  - Legislative District
 
 ---
 
