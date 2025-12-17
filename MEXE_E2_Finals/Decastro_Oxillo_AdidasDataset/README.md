@@ -50,11 +50,24 @@ Linear Regression is chosen because the goal is to predict a continuous numeric 
 
 This model is a strong fit because Total Sales is mathematically derived from key features like Price per Unit and Units Sold, suggesting a highly linear relationship between the independent variables and the target variable. Furthermore, the simplicity, speed, and interpretability of Linear Regression are ideal for understanding how factors like retailer, region, product type, and sales method influence overall revenue.
 
-### Viasualization
 
 ### Metrics:
 
+Mean Absolute Error (MAE): **560.84**
+
+Mean Squared Error (MSE): **444,738.93**
+
+Coefficient of Determination (R²): **0.9999719**
+
+Adjusted R²: **0.9999713**
+
+### Viasualization:
+
+Actual vs. Predicted Sales Plot: This plot shows how the model's predicted sales figures relate to the true recorded sales . The close alignment of all data points to the ideal diagonal line visually confirms the model's exceptional fit and high predictive accuracy.
+
 <img width="749" height="570" alt="image" src="https://github.com/user-attachments/assets/b527805f-66e8-49a0-ac53-2d175ba48564" />
+
+Residual Plot: This plot displays the differences between actual and predicted sales (the errors, or residuals) . The random, uniform scattering of these errors around the zero line validates a key assumption of Linear Regression: that the model's mistakes are random and unbiased.
 
 <img width="719" height="639" alt="image" src="https://github.com/user-attachments/assets/cb4c5806-ed9b-4d05-80d5-dd51dcc0db1a" />
 
