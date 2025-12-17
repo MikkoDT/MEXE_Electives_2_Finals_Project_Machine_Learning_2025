@@ -68,10 +68,10 @@ Linear Regression was selected because the objective of the project is to predic
 
 The model was evaluated on the test dataset using the following regression metrics:
 
-* Mean Absolute Error (MAE)
-* Mean Squared Error (MSE)
-* Root Mean Squared Error (RMSE)
-* R² Score
+* Mean Absolute Error (MAE)  : 745.47
+* Mean Squared Error (MSE)  : 1640069.20
+* Root Mean Squared Error (RMSE) : 1280.65
+* R² Score   : 0.0691
 
 ### Visualizations
 
