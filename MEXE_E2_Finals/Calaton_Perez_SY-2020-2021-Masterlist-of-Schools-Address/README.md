@@ -1,8 +1,11 @@
-Final Assessment — Machine Learning Model
-1. Pair Information
-Pair Name: 
-Marco Calaton
-Megildo B. Perez
-Topic: School(Predicting Rural or Urban)
-Chosen Model: 
-2. Dataset Overview
+1. Group Information
+Group Name: School yarn
+Members:
+Calaton, Marco
+Perez, Megildo B.
+Topic:
+School
+Chosen Model:
+Logistic Regression
+3. Dataset Overview
+Dataset Source: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
