@@ -45,15 +45,32 @@ Features Used:
 
 ## 3. Preprocessing Summary
 
-Categorical Encoding: Converts non-ordinal variables into a numerical format using One-Hot Encoding to prevent models from inferring an incorrect order.
+**Cleaning Steps**
+- The dataset was first inspected for missing or inconsistent values.
+- Any required cleaning steps (such as handling null values or formatting issues) were applied to ensure the data was suitable for machine learning.
 
-Scaling: The independent variables was scaled using StandardScaler after splitting to have a fair balance between low and high values.
+**Categorical Encoding**
+- Nominal categorical variables (e.g., gender, ethnicity, lunch type, test preparation) were converted using one-hot encoding.
+- Each category was transformed into a binary feature (0 or 1), where:
+  - 0 indicates the absence of the category
+  - 1 indicates the presence of the category
+- This allows categorical information to be used by linear regression models, which require numeric inputs.
 
-Cleaning Steps:
-- Handle Missing Values
-- Create Categorical Features
+**Feature Selection / Handling**
+- Independent variables included:
+  - Academic performance indicators (reading and writing scores)
+  - Demographic and socioeconomic features (encoded categorical variables)
+- The dependent variable was defined as Math Score, which the model aims to predict.
+- Only relevant features were retained to reduce noise and improve model interpretability.
 
-Train-Test Split: Splitting the dataset into train and test to be able to test as well as train the data for the preparation of machine learning.
+**Feature Scaling**
+- Numeric features were standardized using StandardScaler.
+- This step ensures that all features contribute equally to the model and allows fair comparison of linear regression coefficients, especially between numeric and binary features.
+
+**Train–Test Split**
+- The dataset was split into training and testing sets.
+- This separation allows the model to be trained on one portion of the data and evaluated on unseen data to assess generalization performance.
+
 
 ## 4. Model and Result
 ### Model Used: **Linear Regression**
