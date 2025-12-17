@@ -76,9 +76,25 @@ The model was evaluated on the test dataset using the following regression metri
 ### Visualizations
 
 * Scatter plot comparing **Actual vs. Predicted Dengue Cases** to assess model fit and prediction behavior.
+
 The scatter plot compares actual and predicted dengue cases, showing that the linear regression model performs reasonably well for low to moderate case counts, where most data points are clustered. However, as actual dengue cases increase, predictions become more dispersed, indicating reduced accuracy during high-outbreak periods. This suggests that the model captures general trends but has limitations in predicting extreme dengue spikes.
 
- <img width="704" height="547" alt="image" src="https://github.com/user-attachments/assets/3b529202-ef4a-4604-98de-312e90c2a60e" />
+  <img width="704" height="547" alt="image" src="https://github.com/user-attachments/assets/3b529202-ef4a-4604-98de-312e90c2a60e" />
+
+* Average Dengue Cases per Month (Seasonality Plot)
+
+
+The monthly dengue case trend shows a clear seasonal pattern, with higher average cases occurring during specific months. This supports the inclusion of the month variable in the linear regression model and demonstrates the seasonal nature of dengue transmission in the Philippines.
+
+<img width="859" height="597" alt="image" src="https://github.com/user-attachments/assets/a7b83929-8ce4-4179-a105-42c026bd34e3" />
+
+
+
+* Heatmap of Dengue-Prone Months per Region
+
+This visualization is needed to quickly identify which regions are most at risk during specific months, supporting the model’s use of month and region as key predictors and aiding dengue-prone planning and interpretation.
+The heatmap shows the average dengue cases across Philippine regions by month, where darker shades indicate more dengue-prone periods. It highlights clear seasonal and regional patterns, with higher risk concentrated in specific months and regions.
+  <img width="1125" height="751" alt="image" src="https://github.com/user-attachments/assets/63bd64ae-3002-4a5d-8425-8eb6c6c28725" />
 
 
 ### Insights 
