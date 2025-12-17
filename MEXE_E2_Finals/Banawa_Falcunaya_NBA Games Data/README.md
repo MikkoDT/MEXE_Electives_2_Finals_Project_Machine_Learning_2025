@@ -52,7 +52,7 @@
   ▸ Feature Selection (Dropping Irrelevant Data): Non-predictive columns such as GAME_DATE_EST, GAME_ID, and GAME_STATUS_TEXT are removed because they do not contribute to the mathematical prediction of a win.
   ▸ Target Variable Verification: A check is performed to ensure the HOME_TEAM_WINS column exists; if not, it is programmatically created by comparing PTS_home and PTS_away.
 - **Train–Test Split**  
-  ▸ The dataset was divided into training and testing sets, with 75% of the data used for training and 25% reserved for testing to evaluate performance on unseen data.
+  ▸ The dataset was divided into training and testing sets, with 80% of the data used for training and 20% reserved for testing to evaluate performance on unseen data.
 
 </div>
 
