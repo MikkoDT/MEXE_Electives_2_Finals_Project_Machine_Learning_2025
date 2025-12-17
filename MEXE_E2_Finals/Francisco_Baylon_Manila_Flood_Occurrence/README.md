@@ -131,43 +131,42 @@ In Colab:
 ### ▶️ How to Run in VS Code
 
 ### 1. Install Required Software (Skip if already installed)
-Python 3.13 (Microsoft Store or https://www.python.org)
-Visual Studio Code
-Python Extension (Microsoft) in VS Code
+- `Python 3.13 (Microsoft Store or https://www.python.org)`
+- `Visual Studio Code`
+- `Python Extension (Microsoft) in VS Code`
 
 ### 2. Open the Project Folder (Required)
-Open VS Code
-Click File → Open Folder
-Select the project folder
-Open the terminal (Ctrl + `)
+- `Open VS Code`
+- `Click File → Open Folder`
+- `Select the project folder`
+- `Open the terminal`
 
 ### 3. Install Required Libraries (Skip if already installed)
-Run this in the VS Code terminal (PowerShell):
-++ python -m pip install pandas numpy matplotlib scikit-learn ipykernel
+- `Run this in the VS Code terminal (PowerShell):`
+`++ python -m pip install pandas numpy matplotlib scikit-learn ipykernel`
 
 ### 4. Select Python Interpreter (Skip if already set)
-Press Ctrl + Shift + P
-Choose Python: Select Interpreter
-Select: Python 3.13 (PythonSoftwareFoundation.Python.3.13)
+- `Press Ctrl + Shift + P`
+- `Choose Python: Select Interpreter`
+- `Select: Python 3.13 (PythonSoftwareFoundation.Python.3.13)`
 
 ### 5. Select Jupyter Kernel (Required for .ipynb files)
-Open the .ipynb file
-Click Select Kernel (top-right)
-Choose: Python 3.13 (Local)
-Restart kernel if prompted
+- `Open the .ipynb file`
+- `Click Select Kernel (top-right)`
+- `Choose: Python 3.13 (Local)`
+- `Restart kernel if prompted`
 
 ### 6. Run the Code (Required)
-Run each cell using Shift + Enter
+- `Run each cell using Shift + Enter`
 
 ### 7. Verify Setup (Optional)
-Run this cell to confirm everything is working:
-
-import pandas as pd
+- `Run this cell to confirm everything is working:`
+`import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split`
 
-print("Setup complete!")
+- `print("Setup complete!")`
 ---
 ### END
 ---
