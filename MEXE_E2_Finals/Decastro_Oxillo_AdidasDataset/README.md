@@ -10,31 +10,25 @@
 - Dataset Source: https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset
 - Description: This dataset provides a detailed breakdown of Adidas' sales performance across the United States from 2020 to 2021. The data, which you plan to analyze using a Linear Regression model, covers transactions, including retailers, geographical regions, product categories, units sold, total sales, and profit margins. It is an excellent resource for practicing data preprocessing, predictive modeling, and business forecasting.
   
-Target Varible: 
+Target Variable: 
 
 - Total Sales
 
 Features Used: 
 
+- Month
+
 - Retailer
 
 - Region
-
-- State
-
-- City
 
 - Product
 
 - Price per Unit
 
-- Units Sold
-
-- Operating Profit
-
 - Operating Margin
 
-- Sales Method'
+- Sales Method
 
  ## 3. Preprocessing Summary
 - Encoding: The categorical features were converted into a numerical format using One-Hot Encoding. This technique is used to ensure compatibility with the Linear Regression model, allowing it to process non-numerical data without assigning misleading numerical relationships between categories.
