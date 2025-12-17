@@ -75,13 +75,13 @@
 
 <img width="530" height="455" alt="image" src="https://github.com/user-attachments/assets/22c89a4e-24c4-4091-9a76-23a02bc5a39d" />
 
-The graph represents a **confusion matrix**, which summarizes how well the model classified bird flight categories as **flighted (no)** or **flightless (yes)**.
+- The graph represents a **confusion matrix**, which summarizes how well the model classified bird flight categories as **flighted (no)** or **flightless (yes)**.
 
-Most predictions fall under **true negatives (2282)**, indicating that the model correctly identified a large number of flighted birds. There are **17 true positives**, showing that the model was also able to correctly classify several flightless birds.
+- Most predictions fall under **true negatives (2282)**, indicating that the model correctly identified a large number of flighted birds. There are **17 true positives**, showing that the model was also able to correctly classify several flightless birds.
 
-Some misclassifications are present, with **14 false positives** (flighted birds predicted as flightless) and **5 false negatives** (flightless birds predicted as flighted). 
+- Some misclassifications are present, with **14 false positives** (flighted birds predicted as flightless) and **5 false negatives** (flightless birds predicted as flighted). 
 
-Overall, the confusion matrix indicates that the model performs very well for identifying flighted birds, while only making a small number of errors when detecting flightless birds.
+- Overall, the confusion matrix indicates that the model performs very well for identifying flighted birds, while only making a small number of errors when detecting flightless birds.
 
 ---
 
