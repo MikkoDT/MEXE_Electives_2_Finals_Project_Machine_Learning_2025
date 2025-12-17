@@ -6,10 +6,10 @@ This project applies **Linear Regression** to school masterlist data to examine 
 ---
 
 ## 1. Pair Information
-- **Pair Name:** Eskwelaaa  
+- **Pair Name:** Error 404: School Not Found 
 - **Members:** Marco Calaton & Megildo Perez  
 - **Topic:** School  
-- **Model Used:** Linear Regression  
+- **Model Used:** Logistic Regression
 
 ---
 
