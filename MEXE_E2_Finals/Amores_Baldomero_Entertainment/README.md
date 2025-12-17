@@ -29,18 +29,22 @@
 - Visualizations:
 <p align="center"> Boxplot Matrix (Good vs Bad) </p>
 <p align="center">
-<img width="1490" height="789" alt="image" src="https://github.com/user-attachments/assets/a77c2dcf-19db-494e-8c4d-740cde582e3e" />
+<img width="1483" height="786" alt="0072cb4e-87e2-4acf-9482-1357f9535ad9" src="https://github.com/user-attachments/assets/53435682-a3ab-4beb-b70f-2556b5ddf819" />
 </p>
+The boxplot matrix shows heavy overlap between good and bad movies for budget, revenue, and profit, indicating limited discriminative power. Popularity shows only a slight difference between groups, while the normalized score clearly separates good and bad movies, making it the most effective feature for classification.
 
 <p align="center"> Scatter Matrix </p>
 <p align="center">
 <img width="1384" height="1184" alt="16bae691-f6b7-4284-8fb2-0b2855185dbf" src="https://github.com/user-attachments/assets/b7aa0327-3272-45b2-acfc-de688e23740e" />
 </p>
+The scatter plots indicate that IMDb ratings vary widely across all levels of budget, revenue, and popularity, showing no strong relationship between these factors and movie ratings. Both high- and low-performing movies can receive similar ratings, and profit shows only a weak association with audience scores.
 
 <p align="center"> Correlation Heatmap </p>
 <p align="center">
 <img width="890" height="784" alt="d0fac5ec-a9ac-46fc-b212-11eb5535634f" src="https://github.com/user-attachments/assets/04374592-21bf-4ec9-985a-fa54202a0f67" />
 </p>
+The heatmap shows that rating-related features are strongly correlated with each other, confirming they measure the same aspect of movie quality. Budget, revenue, and vote related features are also strongly related, indicating that financial scale and audience engagement move together. However, these financial features show weak correlations with IMDb ratings, suggesting movie quality is not directly tied to financial performance.
+
 - Insights:
 
 - Boxplot Matrix (Good vs Bad)
