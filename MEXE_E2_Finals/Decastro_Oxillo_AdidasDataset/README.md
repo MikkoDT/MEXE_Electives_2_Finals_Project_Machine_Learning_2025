@@ -2,7 +2,7 @@
 
 ## 1. Pair Information
 - Pair Name: 
-- Members:De Castro Rod & Oxillo Ivan Russ
+- Members: De Castro Rod Andrei & Oxillo Ivan Russ
 - Topic: Adidas Sales Dataset
 - Chosen Model: Linear Regression
 
