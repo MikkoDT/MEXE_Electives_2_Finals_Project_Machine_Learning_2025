@@ -49,30 +49,14 @@ The following preprocessing steps were applied before training the model:
 
 ---
 
-## 5. Evaluation Metrics
-- **R² Score**  
-- **Mean Absolute Error (MAE)**  
-- **Mean Squared Error (MSE)**  
-- **Root Mean Squared Error (RMSE)**  
-
----
-
-## 6. Visualizations
-- **Actual vs. Predicted Values Plot**  
-- **Residuals Plot**  
-
-> All visualizations are generated inside the Jupyter Notebook.
-
----
-
-## 7. Key Insights
+## 5. Key Insights
 - The Linear Regression model shows a clear relationship between school-related features and the target variable.  
 - Predictions are generally reasonable, but errors still exist, suggesting other factors may influence the outcome.  
 - Some features contribute more strongly than others, emphasizing the importance of feature selection.  
 
 ---
 
-## 8. How to Run the Project
+## 6. How to Run the Project
 
 ### Requirements
 - VS Code  
