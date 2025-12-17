@@ -91,9 +91,9 @@
 
 <img src="https://github.com/user-attachments/assets/19654047-5ade-498c-a1db-28d270630d77" width="800">
 
-  **Description:** .
+  **Description:** The heatmap displays the correlation between environmental parameters, obstacle attributes, and performance metrics in the pathfinding dataset..
   
-  **Insight:** .
+  **Insight:**  The correlation heatmap shows that most environment and obstacle-related variables have very weak correlation. In contrast, collision avoidance rate and energy efficiency have moderate positive correlations, indicating they are the most influential factors in successful navigation.
 
 
 
