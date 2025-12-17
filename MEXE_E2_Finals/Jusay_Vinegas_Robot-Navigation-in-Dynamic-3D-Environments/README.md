@@ -50,8 +50,8 @@ Figure 1. Classification Performance Metrics of the Robot Navigation Model
 ![IMG_2593](https://github.com/user-attachments/assets/3e1ac20d-9678-4d73-8fed-50410f0e46ce)
 Figure 2. Confusion Matrix of the Robot Navigation Failure Prediction Model
   
+<img src="https://github.com/user-attachments/assets/b5c53008-736e-4897-a2eb-ae9008c98e27" width="800">
 
-![IMG_2592](https://github.com/user-attachments/assets/b5c53008-736e-4897-a2eb-ae9008c98e27) 
 Figure 3. ROC Curve of the Robot Navigation Failure Prediction Model 
   
 
