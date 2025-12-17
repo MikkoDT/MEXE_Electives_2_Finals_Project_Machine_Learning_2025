@@ -55,7 +55,9 @@ Only the required columns were used:
 
 ### ✅ B. Data Quality Checks
 The notebook checks for:
-- Missing values (NaN)
+
+<img width="267" height="238" alt="image" src="https://github.com/user-attachments/assets/88793ff2-9b21-487d-9a53-867403244922" />
+- Missing values 
 - Invalid numeric values (e.g., negative rainfall)
 - Correct numeric data types
 
@@ -94,7 +96,8 @@ The model is evaluated using metrics suitable for imbalanced classification:
 
 ### Metrics Reported
 - **Recall (Flood=1)** — measures how many real floods were correctly detected  
-- **F1-score** — balances precision and recall  
+- **F1-score** — balances precision and recall
+  <img width="583" height="455" alt="image" src="https://github.com/user-attachments/assets/7292f8c4-5925-44a5-ae65-ae4517f8dd4a" />
 - **Confusion Matrix** — shows correct vs incorrect predictions  
 
 ### Outputs Included in Notebook
