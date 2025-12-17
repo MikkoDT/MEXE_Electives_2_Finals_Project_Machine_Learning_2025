@@ -99,4 +99,32 @@ All numeric features were standardized using StandardScaler, converting them to:
 
 3. **Box Plot**
 <p align="center"> <img width="691" height="528" alt="image" src="https://github.com/user-attachments/assets/2e61c3b9-ccaa-4fbe-93c1-da00c64cc2b8" />
-<p align="center"> The boxplot of macronutrient ratios reveals that carbohydrates contribute the largest proportion of calories across most foods (median ≈ 45%), followed by fat (≈ 33%) and protein (≈ 20%). Protein ratios show the least variability, while carbohydrates display the widest range
+<p align="center"> The boxplot of macronutrient ratios reveals that carbohydrates contribute the largest proportion of calories across most foods (median ≈ 45%), followed by fat (≈ 33%) and protein (≈ 20%). Protein ratios show the least variability, while carbohydrates display the widest range.
+
+4. **Pairplot**
+<p align="center"> <img width="1115" height="1023" alt="image" src="https://github.com/user-attachments/assets/d869c891-0b9f-4934-b97a-ec2694965ca6" />
+<p align="center"> The pairplot shows the relationships between calories, protein, carbohydrates, and fat across different meal types. Overall, the four meal categories overlap heavily in all nutritional dimensions, making clear separation difficult. Snacks tend to cluster at lower calorie and protein values, while breakfast, lunch, and dinner are highly mixed with no distinct boundaries. The similar shapes of the distributions indicate that meals often share comparable macronutrient profiles, confirming that predicting meal type using nutrition data alone is challenging.
+
+### 💡 Insights
+📶 **Model Performance**
+  - <p align="justify"> Based on the overall analysis, the model performed reasonably well in predicting meal types, showing a solid accuracy of 81.26%, especially considering that the nutritional features overlap heavily between categories.
+  
+🎭 **Feature Behavior**
+- **Pairplot**
+    * Calories vs. Macros: Higher-calorie meals clearly have higher carbs or fats.
+    * Fats vs. Carbs: Snacks are mostly low in both; dinners often have higher fat values.
+- Overlapping clusters show why the model does not reach perfect accuracy: some breakfasts and lunches share similar macro levels.
+
+- **Box Plot**
+  - Carbs% dominates meals (median ≈ 45–50%).
+  - Fat% varies the most, spanning low to high depending on meal type.
+  - Protein% is the smallest component, with a tight range.
+
+- **Correlation Heatmap**
+
+- Total_kcal_macros correlates strongly with:
+  - Carbs (0.79)
+  - Fat (0.87)
+  - Protein (0.60)
+
+- Sodium, sugar, cholesterol have almost no correlation with meal type features, meaning they contribute very little to classification.
