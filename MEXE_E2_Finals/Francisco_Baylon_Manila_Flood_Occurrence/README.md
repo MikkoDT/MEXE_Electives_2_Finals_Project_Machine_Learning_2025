@@ -8,6 +8,17 @@ A simple Machine Learning model was developed to **predict flood occurrence (Yes
 **Rainfall**, **Water Level**, and **Elevation**.  
 The project is designed to be **easy to run and easy to explain**, using **Google Colab** as the main environment.
 
+## 🎯 DISCLAMER
+The model aims to predict:
+
+- **FloodOccurrence = 1** → Flood is expected  
+- **FloodOccurrence = 0** → No flood is expected  
+
+This prediction is based only on and is limited to:
+- **Rainfall (mm)**
+- **Water Level (m)**
+- **Elevation (m)**
+
 ---
 
 ## 👥 1) Pair Information
@@ -18,20 +29,7 @@ The project is designed to be **easy to run and easy to explain**, using **Googl
 
 ---
 
-## 🎯 2) Objective
-The model aims to predict:
-
-- **FloodOccurrence = 1** → Flood is expected  
-- **FloodOccurrence = 0** → No flood is expected  
-
-This prediction is based only on:
-- **Rainfall (mm)**
-- **Water Level (m)**
-- **Elevation (m)**
-
----
-
-## 🧾 3) Dataset Overview
+## 🧾 2) Dataset Overview
 - **Dataset file:** `data/cleaned_data.csv`
 - **Target column:** `FloodOccurrence` (0/1)
 - **Selected features:**
@@ -47,7 +45,7 @@ Flood cases are typically **less frequent** than non-flood cases (class imbalanc
 
 ---
 
-## 🧹 4) Preprocessing Summary (What the notebook does)
+## 🧹 3) Preprocessing Summary (What the notebook does)
 A clean preprocessing workflow was applied to make training consistent and reliable:
 
 ### ✅ A. Feature Selection
@@ -80,7 +78,7 @@ A stratified split is used:
 
 ---
 
-## 🤖 5) Model Description
+## 🤖 4) Model Description
 ### Logistic Regression (Binary Classification)
 Logistic Regression is used because:
 - The output is **two-class** (Flood vs No Flood)
@@ -91,9 +89,7 @@ The notebook implements a **pipeline** to ensure correct processing order:
 
 > **StandardScaler → Logistic Regression (balanced)**
 
----
-
-## 📊 6) Evaluation & Results
+ Evaluation & Results
 The model is evaluated using metrics suitable for imbalanced classification:
 
 ### Metrics Reported
@@ -107,26 +103,15 @@ The model is evaluated using metrics suitable for imbalanced classification:
 - Displayed **confusion matrix plot**
 
 > **Reminder for interpretation:**  
-Missing a flood (**False Negative**) is typically more critical than a false alarm (**False Positive**).  
+Why recal?
+- Missing a flood (**False Negative**) is typically more critical than a false alarm (**False Positive**).  
 That is why **Recall** is emphasized.
 
-**(Fill in after running the notebook)**
-- **F1-score:** `__`
-- **Recall:** `__`
+The notebook also features **threshold tuning**, where lowering the threshold increases flood probability (higher recall) but may increase false alarms.
 
 ---
 
-## 🧠 7) Predicting Flood From New Inputs
-A simple function is included for demonstration/testing:
-
-- Inputs: rainfall, water level, elevation  
-- Output: flood probability + predicted label  
-
-The notebook also supports **threshold tuning**, where lowering the threshold increases flood sensitivity (higher recall) but may increase false alarms.
-
----
-
-## ▶️ 8) How to Run (Google Colab)
+## ▶️ 5) How to Run (Google Colab)
 ### Step 1 — Open the Notebook
 Upload and open:
 - `Flood_Control_Project.ipynb`
@@ -143,5 +128,3 @@ In Colab:
 ✅ After running, the final cells can be used to test predictions with custom values.
 
 ---
-
-## 📁 9) Repository Structure
