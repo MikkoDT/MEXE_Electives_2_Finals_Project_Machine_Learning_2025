@@ -33,6 +33,10 @@
 - Train–test split: The data was partitioned into a training set and a testing set (80% training / 20% testing). This split is a crucial step used to evaluate the model's performance on unseen data. By testing on a separate dataset, we ensure the model is not overfit to the training data and can generalize effectively to new information.
 
 ## 4. Model & Results
-- Model used: Logistic Regression was selected for its efficiency in binary classification and its ability to provide clear coefficients showing which factors drive profit.
-- Metrics: Performance was measured using Accuracy, a Confusion Matrix, and a Classification Report (Precision, Recall, and F1-Score).
-- Visualizations:
+- Model used: Linear Regression is chosen because the goal is to predict a continuous numeric value, Total Sales.
+
+This model is a strong fit because Total Sales is mathematically derived from key features like Price per Unit and Units Sold, suggesting a highly linear relationship between the independent variables and the target variable. Furthermore, the simplicity, speed, and interpretability of Linear Regression are ideal for understanding how factors like retailer, region, product type, and sales method influence overall revenue.
+
+
+- Metric:
+The model demonstrated a near-perfect fit for the training data, likely due to the highly correlated nature of the features and the target variable (Total Sales is calculated directly from Price per Unit and Units Sold).
