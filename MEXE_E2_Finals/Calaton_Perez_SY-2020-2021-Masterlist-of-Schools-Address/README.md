@@ -81,6 +81,11 @@ The following preprocessing steps were applied before training the model:
     
 **ROC Curve**
 <img width="701" height="544" alt="image" src="https://github.com/user-attachments/assets/ab641845-c1c3-4c1b-a0e9-5aaecb65ba94" />
+- ROC curves show the trade-off between True Positive Rate and False Positive Rate.
+- The diagonal line represents random guessing.
+- Class 2 has the highest AUC (~0.74), meaning best separability.
+- Class 1 shows moderate discrimination (~0.69).
+- Class 0 has the weakest discrimination (~0.63).
 
 ---
 
