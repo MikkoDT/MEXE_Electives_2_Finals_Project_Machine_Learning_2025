@@ -26,14 +26,16 @@
   -  **HOME TEAM WINS** (*`Win`* / *`Lose`*)
 
 - **Features Used:**
-  -  *`Pregnancies`*
-  -  *`Glucose`*
-  -  *`BloodPressure`*
-  -  *`SkinThickness`*
-  -  *`Insulin`*
-  -  *`BMI`*
-  -  *`DiabetesPedigreeFunction`*
-  -  *`Age`*
+  -  *`FG PCT home`*
+  -  *`FT_PCT_home	`*
+  -  *`FG3_PCT_home`*
+  -  *`AST_home`*
+  -  *`REB_home`*
+  -  *`FG_PCT_away`*
+  -  *`FT_PCT_away`*
+  -  *`FG3_PCT_away`*
+  -  *`AST_away`*
+  -  *`REB_away`*
 
 ---
 
