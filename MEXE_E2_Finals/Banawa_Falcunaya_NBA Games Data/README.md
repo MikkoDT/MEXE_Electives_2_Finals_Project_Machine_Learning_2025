@@ -23,7 +23,7 @@
 </p>
 
 - **Target Variable:**
-  -  **Outcome** (*`Non-Diabetic`* / *`Diabetic`*)
+  -  **HOME TEAM WINS** (*`Win`* / *`Lose`*)
 
 - **Features Used:**
   -  *`Pregnancies`*
