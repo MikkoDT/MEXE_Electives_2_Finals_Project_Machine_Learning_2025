@@ -23,11 +23,6 @@
 ### Target Variable
 
 
-
-
-
-Classification is based on predefined nutritional thresholds.
-
 ### Features Used
 
 
