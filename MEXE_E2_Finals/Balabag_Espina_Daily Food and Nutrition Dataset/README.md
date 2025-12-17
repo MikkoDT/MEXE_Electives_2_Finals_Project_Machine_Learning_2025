@@ -123,8 +123,14 @@ All numeric features were standardized using StandardScaler, converting them to:
 - **Correlation Heatmap**
 
 - Total_kcal_macros correlates strongly with:
-  - Carbs (0.79)
-  - Fat (0.87)
-  - Protein (0.60)
+  - `Carbs (0.79)`
+  - `Fat (0.87)`
+  - `Protein (0.60)`
 
-- Sodium, sugar, cholesterol have almost no correlation with meal type features, meaning they contribute very little to classification.
+- Sodium, sugar, and cholesterol have almost no correlation with meal type features, meaning they contribute very little to classification.
+  
+📝 **Interpretation of Results**
+<p align="justify"> Putting the visualizations together, we can understand why the model behaves the way it does. Since breakfast, lunch, and snacks often overlap in their nutrient values, the model sometimes mixes them up. Dinner stands out more clearly thanks to higher fats and calories, so the model identifies it more easily. The consistent trends in the macros help the model find structure, but the overlapping ranges limit how perfectly it can separate the classes. Overall, the results reflect the natural variability of real meals.
+
+🛠️ **Improvement Suggestions**
+<p align="justify"> To improve the model, a good step would be adding more meaningful features, like meal time, food category, or portion size, to help the model distinguish meals better. Using standardized or normalized versions of each nutrient may also help reduce noise from extreme values. Finally, testing more advanced models (Random Forest, XGBoost, or a simple neural network) could capture more subtle nonlinear relationships that the current model might miss.
