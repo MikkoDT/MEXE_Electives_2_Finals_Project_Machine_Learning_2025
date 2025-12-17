@@ -44,7 +44,8 @@
   ▸ All features in the dataset are numerical; therefore, no categorical encoding was required. 
 - **Scaling**  
   ▸ Standardization was applied to transform input features to zero mean and unit variance, ensuring equal contribution of variables and improving the stability of the Logistic Regression model.
-
+- **Data Shuffling**  
+  ▸ A data shuffling was utilize for gradient descent optimization and prevents ordering bias when training and testing sets.
 - **Cleaning Steps**  
   ▸ The dataset was checked for missing values and shuffled to eliminate potential ordering bias.  
   ▸ The target variable was separated from the feature set to prepare the data for supervised learning.
@@ -62,13 +63,14 @@
 - **Metrics:**  
   -  **Accuracy** = `80%`
   -  **Precision** = `82%`
-  -  **Recall** = `61%`
+  -  **Recall** = `62%`
   -  **F1-Score** = `70%`
     <img width="388" height="147" alt="image" src="https://github.com/user-attachments/assets/62f8435e-4fe5-4b08-9515-44de1e5c90ac" />
 
   
   - **Confusion Matrix** 
-  <img width="401" height="351" alt="image" src="https://github.com/user-attachments/assets/bdd042d8-67fe-4f3c-b672-a78f0c55cde8" />
+  <img width="435" height="361" alt="{1D49CD24-3450-4050-BE94-15D83EF1DFCA}" src="https://github.com/user-attachments/assets/4ba130a6-feff-47fe-bbaf-a023a0197c78" />
+
 
   - **ROC Curve**  
   <img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/674aaf48-5362-41f0-a15c-77b68a0fd311" />
