@@ -30,6 +30,9 @@
     - `Protein_pct` = *percentage of total calories coming from protein*
     - `Carbs_pct` = *percentage of total calories coming from carbohydrates*
     - `Fat_pct` = *percentage of total calories coming from fat*
+
+---
+
 ## :three: 💻 Preprocessing Summary
 ### 📟 Encoding
 <p align="justify"> No feature encoding was applied during preprocessing because the model only used numerical nutritional features. Categorical variables were excluded from the input features, and the target labels were handled directly by the classifier.
@@ -63,11 +66,17 @@ All numeric features were standardized using StandardScaler, converting them to:
 3. Data Filtering
   - <p align="justify"> To improve the quality of the training data, rows labeled `Unknown` by the rule-based classifier were removed. These items did not match any meal-type nutritional pattern and would introduce noise. The final dataset used for training only includes items with clear, rule‑based meal classifications.
 
-### Train-Test Split
+### 🏋️ Train-Test Split
   - The processed dataset was divided into:
     - `80% Training set`
     - `20% Testing set`
 
   - <p align="justify"> With stratification, meaning the distribution of meal types is preserved in both sets. This ensures fair and balanced evaluation of the model’s performance.
+
+---
+
+## 4️⃣ 🤖 Model and Test Results
+### 🦾 Model Used
+
 
 
