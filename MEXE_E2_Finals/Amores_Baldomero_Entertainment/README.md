@@ -3,7 +3,7 @@
 ## 1. Pair Information
 - Pair Name: Young Stunna
 - Danielle Genly C. Baldomero
-- (name)
+- Shawn Michael B. Amores
 - Topic: Entertainment (Predicting IMDB rating)
 - Chosen Model: Logistic Regression
 
