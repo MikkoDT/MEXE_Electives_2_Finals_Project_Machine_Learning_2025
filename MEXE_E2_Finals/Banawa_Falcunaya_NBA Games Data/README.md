@@ -3,19 +3,19 @@
 
 ##  1. Pair Information
 
-- **Pair Name:** Corona Chronicles
+- **Pair Name:** 
 - **Members:**
-  - Mendoza, Mark Jason  
-  - Pangilinan, Von Mathew
-- **Topic:**  Diabetes Intermediate Dataset
-- **Chosen Model:**  Logistic Regression
+  - 
+  - 
+- **Topic:**  
+- **Chosen Model:**  
 
 ---
 
 ##  2. Dataset Overview
 
 - **Dataset Source:**
-  - https://www.kaggle.com/datasets/samira1992/diabetes-intermediate-dataset/data
+  - 
 
 - **Description:**
     <p align="justify">
