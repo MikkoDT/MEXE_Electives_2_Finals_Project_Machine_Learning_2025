@@ -16,6 +16,7 @@
         - 0 = Bad Movie (IMDb < 7.0)
 - Features Used:
   - **Numerical Features**
+
       - budget
       - revenue
       - profit (revenue − budget)
@@ -26,15 +27,16 @@
       - profit_norm (normalized profit)
       - score_norm (normalized contributor score mean)
       - quality_score (my created weighted score)
-      - **Categorical ID Features**
-          - cast1_id
-          - cast2_id
-          - cast3_id
-          - writer1_id
-          - writer2_id
-          - director_id
-          - company_id
 
+  - **Categorical ID Features**
+      - cast1_id
+      - cast2_id
+      - cast3_id
+      - writer1_id
+      - writer2_id
+      - director_id
+      - company_id
+          
 ## 3. Preprocessing Summary
 ### Encoding
 - Converted genre columns into one‑hot encoded binary features (1 = genre present, 0 = not present).
