@@ -23,6 +23,20 @@
 - Model used:
 - Metrics:
 - Visualizations:
+- <p align="center"> Boxplot Matrix (Good vs Bad) </p>
+<p align="center">
+<img width="900" alt="image" src="" />
+</p>
+
+- <p align="center"> Correlation Heatmap </p>
+<p align="center">
+<img width="900" alt="image" src="" />
+</p>
+
+- <p align="center"> Scatter Matrix </p>
+<p align="center">
+<img width="900" alt="image" src="" />
+</p>
 - Insights (3–5):
 
 ## 5. How to Run
