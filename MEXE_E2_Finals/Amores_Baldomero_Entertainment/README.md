@@ -46,7 +46,7 @@ The scatter plots indicate that IMDb ratings vary widely across all levels of bu
 </p>
 The heatmap shows that rating-related features are strongly correlated with each other, confirming they measure the same aspect of movie quality. Budget, revenue, and vote related features are also strongly related, indicating that financial scale and audience engagement move together. However, these financial features show weak correlations with IMDb ratings, suggesting movie quality is not directly tied to financial performance.
 
-### Insights
+### Insights based on Findings and Visualizations
 
 - Boxplot Matrix (Good vs Bad)
 
