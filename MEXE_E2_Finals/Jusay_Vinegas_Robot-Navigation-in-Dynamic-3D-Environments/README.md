@@ -58,7 +58,9 @@
 <img src="https://github.com/user-attachments/assets/3e1ac20d-9678-4d73-8fed-50410f0e46ce" width="600">
 
 <p style="text-align: center;">
-  **Figure 2. Confusion Matrix of the Robot Navigation Failure Prediction Model 
+  
+  **Figure 2. Confusion Matrix of the Robot Navigation Failure Prediction Model**
+  
 </p>
 
 
@@ -67,7 +69,9 @@
 <img src="https://github.com/user-attachments/assets/b5c53008-736e-4897-a2eb-ae9008c98e27" width="600">
 
 <p style="text-align: center;">
-  **Figure 3. ROC Curve of the Robot Navigation Failure Prediction Model
+  
+  **Figure 3. ROC Curve of the Robot Navigation Failure Prediction Model**
+  
 </p>
   
 
