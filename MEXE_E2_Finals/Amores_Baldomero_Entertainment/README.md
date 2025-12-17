@@ -22,7 +22,8 @@
 ## 4. Model & Results
 - Model used:
   
-  The model used is a binary classification model that predicts whether a movie can be considered good or bad based on selected numerical features such as ratings, popularity, and financial data. Movies were labeled according to a set rating threshold, allowing the model to learn patterns from past examples. Through this process, the model identifies relationships between the input variables and movie quality, helping evaluate how these factors influence audience perception.
+  The model used is a binary classification model that predicts whether a movie can be considered good (1) or bad (0) based on inputs such as genres, 3 cast, 2 writers, director company and numerical categories such as budget and revenue. Movies were labeled according to a set rating threshold of 6 above being depicted as Good, allowing the model to learn patterns from past examples. Through this process, the model identifies relationships between the input variables and movie quality, helping evaluate how these factors influence audience perception.
+  
 - Metrics:
   
   The boxplot matrix is used to compare how the values of selected features are distributed between good and bad movies, making it easier to see differences in spread and typical values as well as areas where the two groups overlap. The scatter matrix shows how numerical variables relate to one another by plotting them in pairs, which helps in observing general trends and patterns between movie ratings and other factors. Lastly, the correlation heatmap provides a summary of how strongly the numerical features are related, indicating which variables move together and which have little to no linear relationship.
@@ -45,7 +46,7 @@ The scatter plots indicate that IMDb ratings vary widely across all levels of bu
 </p>
 The heatmap shows that rating-related features are strongly correlated with each other, confirming they measure the same aspect of movie quality. Budget, revenue, and vote related features are also strongly related, indicating that financial scale and audience engagement move together. However, these financial features show weak correlations with IMDb ratings, suggesting movie quality is not directly tied to financial performance.
 
-- Insights:
+### Insights
 
 - Boxplot Matrix (Good vs Bad)
 
