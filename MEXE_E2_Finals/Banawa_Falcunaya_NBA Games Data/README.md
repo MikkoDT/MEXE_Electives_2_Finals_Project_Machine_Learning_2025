@@ -19,7 +19,7 @@
 
 - **Description:**
     <p align="justify">
-    <strong>Diabetes Intermediate Dataset</strong> is a well-organized collection of health-related factors that include patient categories, diagnostic measures, and treatment results intended to support research and analysis of diabetes and its progression. The dataset contains a large number of features that can be used to examine the relationships between various medical parameters and the occurrence or management of diabetes in individuals.
+    <strong>The NBA Games dataset</strong> is a collection of historical National Basketball Association (NBA) data covering seasons from 2004 up through around 2020 (depending on the file). It’s designed for analytics, machine learning, and exploration of NBA game results, player stats, team info, and rankings.
 </p>
 
 - **Target Variable:**
