@@ -51,7 +51,7 @@ Mean Absolute Error (MAE): **76556.46201207295**
 
 Mean Squared Error (MSE): **106200.20194934374**
 
-Coefficient of Determination (R²): **0.9999719**
+Coefficient of Determination (R²): **0.4425561689284665**
 
 Adjusted R²: **0.9999713**
 
