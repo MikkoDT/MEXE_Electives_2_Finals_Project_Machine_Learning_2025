@@ -50,7 +50,7 @@ All numeric features were standardized using StandardScaler, converting them to:
     - Categorical features (e.g., food item, category, meal type): Filled with the mode of each column.
   - This prevents model errors and keeps the dataset statistically stable.
 
-2. Feature Engineering
+2. **Feature Engineering**
   - New useful variables were created to capture dietary patterns better:
     - `Total_kcal_macros` - A calculated value representing total calories from macros: `Protein*4 + Carbs*4 + Fat*9`
   - Macronutrient ratios
@@ -63,7 +63,7 @@ All numeric features were standardized using StandardScaler, converting them to:
 
   - `Rule_Meal_Type` - A rule‑based classifier that assigns a meal type (Breakfast, Lunch, Dinner, Snack) based on ranges of macros and calories.
 
-3. Data Filtering
+3. **Data Filtering**
   - <p align="justify"> To improve the quality of the training data, rows labeled `Unknown` by the rule-based classifier were removed. These items did not match any meal-type nutritional pattern and would introduce noise. The final dataset used for training only includes items with clear, rule‑based meal classifications.
 
 ### 🏋️ Train-Test Split
@@ -87,3 +87,8 @@ All numeric features were standardized using StandardScaler, converting them to:
 - `F1-score: 81.12784415735238%`
 
 <p align="center"> <img width="702" height="547" alt="image" src="https://github.com/user-attachments/assets/9eaaa9e3-f9b1-4179-977c-44e10153530d" />
+
+### 👀 Visualizations
+1. **Confusion Matrix**
+<p align="center"> <img width="539" height="434" alt="image" src="https://github.com/user-attachments/assets/e84937cc-1e3a-430b-8b4f-9a7a032515a0" />
+<p align="center"> The model classifies snacks and breakfasts well, but has difficulty distinguishing lunch and dinner due to overlapping nutritional features. This shows that meals with similar calorie and macronutrient profiles are harder to separate using nutrition data alone.
