@@ -3,7 +3,7 @@
 ## ℹ️ 1. Pair Information
 - ✍️ **Pair Name**: Navigators
 - 👥 **Members**: Jhun Kenji Jusay and Dianne Mae Vinegas 
-- 🤖 **Topic**: Robot Navigation in Dynamic 3D Environments
+- 🤖 **Topic**: Robot Navigation in Dynamic 3D Environments 
 - ✅ **Chosen Model**: Logistic Regression
 
 ## 📰 2. Dataset Overview
