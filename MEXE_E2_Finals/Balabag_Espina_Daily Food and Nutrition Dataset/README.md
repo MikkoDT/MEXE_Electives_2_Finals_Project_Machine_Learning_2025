@@ -9,7 +9,8 @@
 ---
 ## :two: 💻 Dataset Overview
 - **Dataset Source:** https://www.kaggle.com/datasets/adilshamim8/daily-food-and-nutrition-dataset
-- **Description:** The dataset contains nutritional information of various food items, with each row representing a single food entry. It includes both raw nutrient values (grams, milligrams, calories) and derived macronutrient ratios (percentage of calories coming from protein, carbohydrates, and fat). The goal of the dataset is to analyze nutrient patterns and classify foods into meal types (Breakfast, Lunch, Dinner, Snack) based on nutritional composition.
+- **Description:**
+  - <p align="justify">The dataset contains nutritional information of various food items, with each row representing a single food entry. It includes both raw nutrient values (grams, milligrams, calories) and derived macronutrient ratios (percentage of calories coming from protein, carbohydrates, and fat). The goal of the dataset is to analyze nutrient patterns and classify foods into meal types (Breakfast, Lunch, Dinner, Snack) based on nutritional composition.
 - **Target Variable:** `Meal_Type`
   - 🥓`Breakfast`
   - 🍔`Lunch`
