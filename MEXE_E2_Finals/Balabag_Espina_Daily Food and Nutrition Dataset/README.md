@@ -92,3 +92,11 @@ All numeric features were standardized using StandardScaler, converting them to:
 1. **Confusion Matrix**
 <p align="center"> <img width="539" height="434" alt="image" src="https://github.com/user-attachments/assets/e84937cc-1e3a-430b-8b4f-9a7a032515a0" />
 <p align="center"> The model classifies snacks and breakfasts well, but has difficulty distinguishing lunch and dinner due to overlapping nutritional features. This shows that meals with similar calorie and macronutrient profiles are harder to separate using nutrition data alone.
+
+2. **Correlation Heatmap**
+<p align="center"> <img width="1021" height="795" alt="image" src="https://github.com/user-attachments/assets/7b806f16-48ff-4441-a1c1-8a5950769163" />
+<p align="center"> The correlation heatmap shows that the strongest relationships occur among the macronutrients and the total calorie count. Total_kcal_macros is highly correlated with carbohydrates (0.79) and fat (0.87), indicating that these nutrients contribute most to overall energy intake. Meanwhile, protein shows a moderate correlation with calories (0.32). Macronutrient ratios (Protein_pct, Carbs_pct, Fat_pct) show negative correlations with each other, which is expected because the percentages must sum to 100%. Nutrients such as sodium, fiber, sugars, and cholesterol have close‑to‑zero correlations with most features, meaning they vary independently and do not help distinguish meal types. This supports why the rule‑based classifier performs better when using macronutrient-based features.
+
+3. **Box Plot**
+<p align="center"> <img width="691" height="528" alt="image" src="https://github.com/user-attachments/assets/2e61c3b9-ccaa-4fbe-93c1-da00c64cc2b8" />
+<p align="center"> The boxplot of macronutrient ratios reveals that carbohydrates contribute the largest proportion of calories across most foods (median ≈ 45%), followed by fat (≈ 33%) and protein (≈ 20%). Protein ratios show the least variability, while carbohydrates display the widest range
