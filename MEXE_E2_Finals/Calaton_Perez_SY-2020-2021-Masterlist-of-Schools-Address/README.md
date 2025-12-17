@@ -6,10 +6,10 @@ This project applies **Linear Regression** to school masterlist data to examine 
 ---
 
 ## 1. Pair Information
-- **Pair Name:** Error 404: School Not Found 
+- **Pair Name:** Eskwelaaa  
 - **Members:** Marco Calaton & Megildo Perez  
 - **Topic:** School  
-- **Model Used:** Logistic Regression
+- **Model Used:** Linear Regression  
 
 ---
 
@@ -28,14 +28,17 @@ This project applies **Linear Regression** to school masterlist data to examine 
 ## 3. Data Preprocessing
 The following preprocessing steps were applied before training the model:
 
-- **Encoding:** Converted categorical variables into numerical form  
-- **Scaling:** Standardized numerical features for improved stability  
-- **Data Cleaning:**
-  - Renamed columns for consistency  
-  - Handled missing values  
-  - Removed duplicate records  
-  - Verified and corrected data types  
-- **Train–Test Split:** Split the dataset into training and testing sets  
+1. **Data Loading**  
+   The dataset was imported from a CSV file using Pandas to enable structured data handling and analysis.
+
+2. **Data Cleaning**  
+   Unnecessary spaces in column names were removed to ensure consistent and error-free referencing during data processing.
+
+3. **Feature Selection (Data Reduction)**  
+   Only relevant columns—**Barangay, Sector, Legislative District, and Urban/Rural**—were retained to reduce data complexity and focus the analysis on important features.
+
+4. **Data Validation**  
+   A validation check was performed to ensure that only existing columns were selected, preventing errors caused by missing or inconsistent data fields.
 
 ---
 
@@ -51,8 +54,8 @@ The following preprocessing steps were applied before training the model:
 
 ## 5. Key Insights
 - The Linear Regression model shows a clear relationship between school-related features and the target variable.  
-- Predictions are generally reasonable, but errors still exist, suggesting other factors may influence the outcome.  
-- Some features contribute more strongly than others, emphasizing the importance of feature selection.  
+- Predictions are generally reasonable, but some errors remain, indicating that additional factors may influence the outcome.  
+- Certain features contribute more strongly than others, highlighting the importance of proper feature selection.
 
 ---
 
