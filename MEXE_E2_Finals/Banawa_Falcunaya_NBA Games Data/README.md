@@ -3,12 +3,12 @@
 
 ##  1. Pair Information
 
-- **Pair Name:** 
+- **Pair Name:** Ballers
 - **Members:**
-  - 
-  - 
-- **Topic:**  
-- **Chosen Model:**  
+  - Banawa, Kian Isaac P.
+  - Falcunaya, Vince Ian F.
+- **Topic:**  NBA Games
+- **Chosen Model:**  Logistic Regression
 
 ---
 
