@@ -63,8 +63,7 @@ All numeric features were standardized using StandardScaler, converting them to:
 3. Data Filtering
   - <p align="justify"> To improve the quality of the training data, rows labeled `Unknown` by the rule-based classifier were removed. These items did not match any meal-type nutritional pattern and would introduce noise. The final dataset used for training only includes items with clear, rule‑based meal classifications.
 
-
-4. Train-Test Split
+### Train-Test Split
   - The processed dataset was divided into:
     - `80% Training set`
     - `20% Testing set`
