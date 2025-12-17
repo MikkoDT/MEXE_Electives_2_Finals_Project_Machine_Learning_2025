@@ -71,11 +71,11 @@
 
     
 - ***Insights***
-  1. Demonstrates high accuracy between machine failure and non-failure cases.
-  2. Selected variables indicatd strong relationships with machine failure and strong indicators of malfuntion.
-  3. Suitable for safety applications due to high recall that effectively detects failure cases.
+  1. Demonstrates high accuracy, precision, recall, F-1 score between machine failure and non-failure cases/variables.
+  2. Strong performance with 90% accuracy and AUC of 0.778 that reliably distinguish failing from non-fialing machines. 
+  3. Volatile Organic Compounds (VOC) stands as reliable indicator of potential malfunction, contrasting footfall and USS.
   4. Early failure detection with continuous monitoring of the variables.
-  5. Can be improve by integrating more sensor data
+  5. Can be improve by integrating more sensor data.
   
 
 ## 5. How to Run
