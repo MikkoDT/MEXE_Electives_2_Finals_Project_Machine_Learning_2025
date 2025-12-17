@@ -51,6 +51,12 @@ The following preprocessing steps were applied before training the model:
 
 **Confusion Matrix**
 <img width="660" height="541" alt="image" src="https://github.com/user-attachments/assets/d413d188-7e3d-48ba-8cf2-0c757e52a63a" />
+- The confusion matrix compares true class labels (rows) with predicted class labels (columns).
+- Correct predictions appear along the diagonal.
+- The model never predicts class 0, as shown by the zero values in the first column.
+- Most predictions are concentrated in class 1, indicating model bias toward the majority class.
+- Class 1 has the highest correct classification count, suggesting it is the easiest class for the model to learn.
+- Misclassifications occur mainly when class 0 and class 2 are predicted as class 1.
 
 **Accuracy, Precision, Recall, F-1 Score**
 <img width="566" height="431" alt="image" src="https://github.com/user-attachments/assets/be8676ac-a791-4bca-a1c7-b63179a87350" />
