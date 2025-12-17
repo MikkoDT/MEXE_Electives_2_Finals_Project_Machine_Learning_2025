@@ -17,13 +17,13 @@
   Churn refers to the situation where customers stop using a company’s products or services within a given period.
 
 - **Features Used:**
-  - `tenure`
-  - `PhoneService`
-  - `Contract`
-  - `PaperlessBilling`
-  - `PaymentMethod`
-  - `MonthlyCharges`
-  - `TotalCharges`
+  - `tenure` - The length of time (in months) a customer has been with the service.
+  - `PhoneService` - Indicates whether the customer subscribes to phone service (Yes or No).
+  - `Contract` - The type of contract (Month-to-month, One year, or Two year) the customer has.
+  - `PaperlessBilling` - Whether the customer uses paperless billing (Yes or No).
+  - `PaymentMethod` - The method by which customers pay their bills (e.g., Electronic check, Mailed check, Bank transfer, or Credit card).
+  - `MonthlyCharges` - The amount charged to the customer each month.
+  - `TotalCharges` - The total amount charged to the customer over the course of their tenure.
 
 
 ## 3. Preprocessing Summary
