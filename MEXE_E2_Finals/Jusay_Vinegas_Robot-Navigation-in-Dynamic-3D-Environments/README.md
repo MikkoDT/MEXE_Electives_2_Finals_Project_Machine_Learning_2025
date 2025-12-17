@@ -46,20 +46,26 @@
 ![IMG_2587](https://github.com/user-attachments/assets/0928d426-a872-4197-b25b-9f57454c6a2a)
 
     Figure 1. Classification Performance Metrics of the Robot Navigation Model
-  <p/>
+  
 
 ![IMG_2593](https://github.com/user-attachments/assets/3e1ac20d-9678-4d73-8fed-50410f0e46ce)
 
     Figure 2. Confusion Matrix of the Robot Navigation Failure Prediction Model
-  <p/>
+  
 
 ![IMG_2592](https://github.com/user-attachments/assets/b5c53008-736e-4897-a2eb-ae9008c98e27) 
 
     Figure 3. ROC Curve of the Robot Navigation Failure Prediction Model 
-  <p/>
+  
 
 
 - **Visualizations**:
+
+![IMG_2596](https://github.com/user-attachments/assets/c80e81ea-fc6a-4489-a86a-21ad3e1ecc15)
+
+![IMG_2597](https://github.com/user-attachments/assets/19654047-5ade-498c-a1db-28d270630d77)
+
+
 - **Insights**:
 
   - The model demonstrates strong overall performance, correctly predicting the majority of cases with an accuracy of approximately 87%, indicating reliable classification results. In addition, the AUC value of 0.94 is exceptionally high, showing that the model has an excellent ability to distinguish between successful and unsuccessful robot pathfinding outcomes across various decision thresholds.
