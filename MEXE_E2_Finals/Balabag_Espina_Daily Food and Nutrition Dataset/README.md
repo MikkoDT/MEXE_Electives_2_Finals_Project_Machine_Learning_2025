@@ -16,11 +16,16 @@
   - 🍫`Snacks`
   - 🍲`Dinner`
 - **Features Used:** `Macronutrients`
-  - `Calories (kcal)`
-  - `Carbohydrates (g)`
-  - `Protein (g)`
-  - `Fat (g)`
-  - `Sugars (g)`
-  - `Sodium (mg)`
-  - `Fiber (g)`
-  - `Cholesterol (mg)`   
+  - **Numerical Features:**
+    - `Calories (kcal)`
+    - `Carbohydrates (g)`
+    - `Protein (g)`
+    - `Fat (g)`
+    - `Sugars (g)`
+    - `Sodium (mg)`
+    - `Fiber (g)`
+    - `Cholesterol (mg)`
+  - **Engineered Features:**
+    - `Protein_pct` = *percentage of total calories coming from protein*
+    - `Carbs_pct` = *percentage of total calories coming from carbohydrates*
+    - `Fat_pct` = *percentage of total calories coming from fat*     
