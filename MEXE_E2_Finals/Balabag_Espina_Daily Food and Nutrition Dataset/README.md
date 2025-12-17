@@ -31,24 +31,44 @@
     - `Carbs_pct` = *percentage of total calories coming from carbohydrates*
     - `Fat_pct` = *percentage of total calories coming from fat*
 ## :three: 💻 Preprocessing Summary
-### 1. Handling Missing Values
+### 📟 Encoding
+No feature encoding was applied during preprocessing because the model only used numerical nutritional features. Categorical variables were excluded from the input features, and the target labels were handled directly by the classifier.
 
-- To ensure clean and consistent data, missing values were addressed using two approaches:
-  - Numeric features (e.g., calories, protein, fat, sodium): Filled with the mean of each column.
-  - Categorical features (e.g., food item, category, meal type): Filled with the mode of each column.
-- This prevents model errors and keeps the dataset statistically stable.
-### 2. Feature Engineering
-- New useful variables were created to capture dietary patterns better:
-  - `Total_kcal_macros` - A calculated value representing total calories from macros: `Protein*4 + Carbs*4 + Fat*9`
-- Macronutrient ratios
-  - Percentage of total calories coming from each macronutrient:
-    - `Protein_pct`
-    - `Carbs_pct`
-    - `Fat_pct`
+### ⚖️ Scaling
+All numeric features were standardized using StandardScaler, converting them to:
+- `Mean = 0`
+- `Standard deviation = 1`
+This step is essential for machine learning models, such as Logistic Regression, to ensure features are treated equally, regardless of their units.
 
-These help the model understand the “nutritional profile” of meals.
+### 🧹 Cleaning Steps
+1. **Handling Missing Values**
+  - To ensure clean and consistent data, missing values were addressed using two approaches:
+    - Numeric features (e.g., calories, protein, fat, sodium): Filled with the mean of each column.
+    - Categorical features (e.g., food item, category, meal type): Filled with the mode of each column.
+  - This prevents model errors and keeps the dataset statistically stable.
 
-- `Rule_Meal_Type` - A rule‑based classifier that assigns a meal type (Breakfast, Lunch, Dinner, Snack) based on ranges of macros and calories.
-### 3. 
+2. Feature Engineering
+  - New useful variables were created to capture dietary patterns better:
+    - `Total_kcal_macros` - A calculated value representing total calories from macros: `Protein*4 + Carbs*4 + Fat*9`
+  - Macronutrient ratios
+    - Percentage of total calories coming from each macronutrient:
+      - `Protein_pct`
+      - `Carbs_pct`
+      - `Fat_pct`
+
+  - These help the model understand the “nutritional profile” of meals.
+
+  - `Rule_Meal_Type` - A rule‑based classifier that assigns a meal type (Breakfast, Lunch, Dinner, Snack) based on ranges of macros and calories.
+
+3. Data Filtering
+  - To improve the quality of the training data, rows labeled `Unknown` by the rule-based classifier were removed. These items did not match any meal-type nutritional pattern and would introduce noise. The final dataset used for training only includes items with clear, rule‑based meal classifications.
+
+
+4. Train-Test Split
+  - The processed dataset was divided into:
+    - `80% Training set`
+    - `20% Testing set`
+
+  - With stratification, meaning the distribution of meal types is preserved in both sets. This ensures fair and balanced evaluation of the model’s performance.
 
 
