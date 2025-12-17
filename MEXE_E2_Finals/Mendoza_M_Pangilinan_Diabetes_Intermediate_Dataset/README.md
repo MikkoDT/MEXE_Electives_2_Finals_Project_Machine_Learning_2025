@@ -18,7 +18,7 @@
 
 - **Description:**
     <p align="justify">
-<strong>Diabetes Intermediate Dataset</strong> is a well-organized collection of health-related factors that include patient categories, diagnostic measures, and treatment results intended to support research and analysis of diabetes and its progression. The dataset contains a large number of features that can be used to examine the relationships between various medical parameters and the occurrence or management of diabetes in individuals.
+    <strong>Diabetes Intermediate Dataset</strong> is a well-organized collection of health-related factors that include patient categories, diagnostic measures, and treatment results intended to support research and analysis of diabetes and its progression. The dataset contains a large number of features that can be used to examine the relationships between various medical parameters and the occurrence or management of diabetes in individuals.
 </p>
 
 - **Target Variable:**
