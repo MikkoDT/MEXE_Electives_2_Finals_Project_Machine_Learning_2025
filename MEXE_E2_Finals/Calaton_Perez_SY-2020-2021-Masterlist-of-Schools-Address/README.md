@@ -43,19 +43,24 @@ The following preprocessing steps were applied before training the model:
 ---
 
 ## 4. Model & Results
-- **Algorithm:** Linear Regression  
-
-### Reason for Selection
-- Simple and easy to interpret  
-- Useful for identifying relationships between variables  
-- Works well as a baseline model for continuous prediction tasks  
 
 ---
 
-## 5. Key Insights
-- The Linear Regression model shows a clear relationship between school-related features and the target variable.  
-- Predictions are generally reasonable, but some errors remain, indicating that additional factors may influence the outcome.  
-- Certain features contribute more strongly than others, highlighting the importance of proper feature selection.
+## 5. Insights
+- **Model Performance:**  
+  The model demonstrates acceptable performance in distinguishing between Urban and Rural schools, as reflected by consistent results and ROC curve behavior.
+
+- **Feature Behavior:**  
+  Location-related features such as legislative district and sector show stronger influence on predictions compared to more granular attributes like barangay.
+
+- **Interpretation of Results:**  
+  The results indicate that school location patterns can be reasonably inferred from structured geographic and administrative data, though overlaps between classes still exist.
+
+- **Limitations:**  
+  Some misclassifications occur due to similarities in attributes between Urban and Rural schools, suggesting that the current feature set may not fully capture all distinguishing factors.
+
+- **Improvement Suggestions:**  
+  Performance could be improved by incorporating additional features, applying feature engineering, or experimenting with more advanced models.
 
 ---
 
@@ -66,8 +71,4 @@ The following preprocessing steps were applied before training the model:
 - Python 3.x  
 - Jupyter Notebook Extension  
 
-### Installation
-```bash
-git clone <repository-url>
-cd <repository-folder>
-pip install -r requirements.txt
+
