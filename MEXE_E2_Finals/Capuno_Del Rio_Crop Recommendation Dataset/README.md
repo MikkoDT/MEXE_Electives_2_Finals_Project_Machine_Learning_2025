@@ -89,7 +89,7 @@
      </p>
 
 - **Insights:**
-    - **Correlation Heatmap Insight**: The heatmap reveals a notable strong positive correlation between temperature and humidity (0.686), indicating these two environmental factors often increase or decrease together.
+    - **Correlation Heatmap Insight**: The heatmap reveals a notable strong positive correlation between temperature and humidity, indicating these two environmental factors often increase or decrease together.
  
     - **PCA Scatter Plot Insight**: The plot confirms the dataset has strong discriminatory power, as the 20 crop classes are visually well-separated into distinct clusters in the reduced two-dimensional space.
  
