@@ -6,10 +6,8 @@ This project applies **Linear Regression** to school masterlist data to examine 
 ---
 
 ## 1. Pair Information
-- **Pair Name:** Error 404: School Not Found 
-- **Members:**
-  - Marco Calaton
-  - Megildo Perez  
+- **Pair Name:** Eskwelaaa  
+- **Members:** Marco Calaton & Megildo Perez  
 - **Topic:** School  
 - **Model Used:** Linear Regression  
 
@@ -46,31 +44,42 @@ The following preprocessing steps were applied before training the model:
 
 ## 4. Model & Results
 
+### Evaluation Metrics
+- **Accuracy** – Measures the overall percentage of correct predictions made by the model.  
+- **Precision** – Shows how many schools predicted as **Urban** were actually Urban, helping reduce false positives.  
+- **Recall** – Measures how many actual **Urban** schools were correctly identified by the model, helping reduce false negatives.  
+- **F1-score** – Combines precision and recall into a single metric, useful when class distribution is imbalanced.  
+- **ROC-AUC Score** – Evaluates how well the model distinguishes between Urban and Rural schools across different thresholds.
+
 ---
 
-## 5. Insights
+##  Insights
 - **Model Performance:**  
-  The model demonstrates acceptable performance in distinguishing between Urban and Rural schools, as reflected by consistent results and ROC curve behavior.
+  The model demonstrates acceptable performance in distinguishing between Urban and Rural schools, supported by consistent evaluation metrics and ROC curve behavior.
 
 - **Feature Behavior:**  
-  Location-related features such as legislative district and sector show stronger influence on predictions compared to more granular attributes like barangay.
+  Location-related features such as legislative district and sector have a stronger influence on predictions compared to more granular attributes like barangay.
 
 - **Interpretation of Results:**  
-  The results indicate that school location patterns can be reasonably inferred from structured geographic and administrative data, though overlaps between classes still exist.
+  The results suggest that school location patterns can be reasonably inferred from structured geographic and administrative data, although overlaps between classes still exist.
 
 - **Limitations:**  
-  Some misclassifications occur due to similarities in attributes between Urban and Rural schools, suggesting that the current feature set may not fully capture all distinguishing factors.
+  Some misclassifications occur due to similarities in attributes between Urban and Rural schools, indicating that the current feature set may not fully capture all distinguishing factors.
 
 - **Improvement Suggestions:**  
-  Performance could be improved by incorporating additional features, applying feature engineering, or experimenting with more advanced models.
+  Model performance could be improved by adding more features, applying feature engineering, or using more advanced machine learning models.
 
 ---
 
-## 6. How to Run the Project
+## 5. How to Run the Project
 
 ### Requirements
 - VS Code  
 - Python 3.x  
 - Jupyter Notebook Extension  
 
-
+### Installation
+```bash
+git clone <repository-url>
+cd <repository-folder>
+pip install -r requirements.txt
