@@ -58,6 +58,8 @@
   
 #### Class Distribution Before and After SMOTE
 
+<img width="905" height="685" alt="image" src="https://github.com/user-attachments/assets/157d4958-e6df-4aa6-9a07-453d5c4cadea" />
+
 <img width="580" height="465" alt="image" src="https://github.com/user-attachments/assets/92b055ed-8bdf-48cf-a598-de39fa0fc01a" />
 
 
