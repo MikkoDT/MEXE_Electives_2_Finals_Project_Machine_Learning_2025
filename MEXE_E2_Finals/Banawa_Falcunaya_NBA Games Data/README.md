@@ -64,10 +64,10 @@
 - **Model Used:**  
   Logistic Regression 
 - **Metrics:**  
-  -  **Accuracy** = `80%`
-  -  **Precision** = `82%`
-  -  **Recall** = `62%`
-  -  **F1-Score** = `70%`<br/>
+  -  **Accuracy** = `83%`
+  -  **Precision** = `86%`
+  -  **Recall** = `86%`
+  -  **Error** = `17%`<br/>
   <p align="center">
     <img width="776" height="294" alt="image" src="https://github.com/user-attachments/assets/62f8435e-4fe5-4b08-9515-44de1e5c90ac" /><br/>
       Figure 1: Classification report of the model with macro average and weighted average 
