@@ -38,10 +38,14 @@
   * This model were used to predict the machine failure based on the sensor data. Logistic Regression is a Machine Learning algorithm that is great for binary classification problems making this an appropiate for determining whether the machine will fail or not.
  
 - ***Metrics***
-  * aslnsa
+  * Accuracy : 90.48%
+  * Precision: 91.43%
+  * Recall   : 91.43%
+  * F1 Score : 91.43%
     
 - ***Visualization***
-  * lasdasdi
+  * Pairplot
+  * Bar Chart
     
 - ***Insights***
   1. klksadna
