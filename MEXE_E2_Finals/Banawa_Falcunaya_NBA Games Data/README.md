@@ -68,23 +68,19 @@
   -  **Precision** = `86%`
   -  **Recall** = `86%`
   -  **Error** = `17%`<br/>
-  <p align="center">
-    <img width="776" height="294" alt="image" src="https://github.com/user-attachments/assets/62f8435e-4fe5-4b08-9515-44de1e5c90ac" /><br/>
-      Figure 1: Classification report of the model with macro average and weighted average 
-  <p/>
-
 
   - **Confusion Matrix**
   <p align="center">
     <img width="653" height="542" alt="{1D49CD24-3450-4050-BE94-15D83EF1DFCA}" src="https://github.com/user-attachments/assets/4ba130a6-feff-47fe-bbaf-a023a0197c78" /><br/>
-     Figure 2: Confusion matrix with 109 True Positive, 28 False Positive, 10 False Negative and 45 True Negative
+     Figure 1: Confusion matrix with 109 True Positive, 28 False Positive, 10 False Negative and 45 True Negative
  <p/>
+
+
 
   - **ROC Curve**
 <p align="center">
- <img width="851" height="683" alt="output" src="https://github.com/user-attachments/assets/036cf605-5ea5-4987-a112-deb2a19a7713" /><br/>
+ <img width="658" height="547" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/7b90e6f8-c281-43de-8a5f-6b7ef7e54c35" /><br/>
     Figure 3: Receiver Operating Characteristic Curve with metric about 0.8 of True Positive Rate
-  
 <p/>
  
 
