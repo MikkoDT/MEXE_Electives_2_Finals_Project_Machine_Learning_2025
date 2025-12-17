@@ -128,7 +128,7 @@ The Correlation plot shows the features that affects the num__Math_Scores positi
 
 ### Key Insights:
 
-**1. The Predictive Model is Highly Accurate**
+**1. The Predictive Model's Good Accuracy**
 
 The Linear Regression model for predicting Math Score achieved an R-Squared Value of 0.86 and had an adjusted R-Squared of 0.85. This shows that the independent variables, which are the scores and socioeconomic factors explain the variability in the Math score, demonstrating the model's predictive power.
 
