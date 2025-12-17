@@ -6,7 +6,7 @@
 - Topic: Adidas Sales Dataset
 - Chosen Model: Linear Regression
 
-- ## 2. Dataset Overview
+## 2. Dataset Overview
 - Dataset Source: https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset
 - Description: This dataset provides a detailed breakdown of Adidas' sales performance across the United States from 2020 to 2021. The data, which you plan to analyze using a Linear Regression model, covers transactions, including retailers, geographical regions, product categories, units sold, total sales, and profit margins. It is an excellent resource for practicing data preprocessing, predictive modeling, and business forecasting.
   
@@ -36,7 +36,7 @@ Features Used:
 
 - Sales Method'
 
-- ## 3. Preprocessing Summary
+ ## 3. Preprocessing Summary
 - Encoding: The categorical features were converted into a numerical format using One-Hot Encoding. This technique is used to ensure compatibility with the Linear Regression model, allowing it to process non-numerical data without assigning misleading numerical relationships between categories.
 - Scaling: The numerical features were subjected to Standard Scaling. This step standardizes the values by ensuring all numerical data is on a similar scale. Scaling is vital to prevent features with large ranges (like Units Sold) from disproportionately influencing the model's convergence and training process.
 - Cleaning steps: he dataset was prepared by performing a check for missing values (NaN). The notebook confirmed that the data was complete, meaning no imputation or filling of missing entries was necessary before training the model.
@@ -84,3 +84,15 @@ This visualization displays the errors (residuals) of the model against the pred
 - High Data Quality: The extremely high accuracy confirms that the transactional sales data used is of high quality with minimal error or noise.
 
 - Business Usability: The simplicity of Linear Regression provides transparent and easy-to-understand results, which is valuable for establishing pricing strategies and inventory management.
+
+
+
+## 5. How to Run
+1. Install VS Code + Python + Jupyter Extension
+2. Install dependencies:
+
+   pip install -r requirements.txt
+
+4. Open the `.ipynb` notebook
+5. Run all cells
+
