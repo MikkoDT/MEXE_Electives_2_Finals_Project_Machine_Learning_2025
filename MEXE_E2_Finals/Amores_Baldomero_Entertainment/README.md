@@ -14,10 +14,34 @@
 - Features Used:
 
 ## 3. Preprocessing Summary
-- Encoding:
-- Scaling:
-- Cleaning steps:
-- Train–test split:
+### Encoding
+- Converted genre columns into one‑hot encoded binary features (1 = genre present, 0 = not present).
+- Encoded cast, writer, director, and company using ID-based score features, representing each contributor’s average IMDb performance instead of raw IDs.
+- Ensured all categorical inputs were transformed into numerical values suitable for model training.
+
+### Scaling
+- Applied StandardScaler to continuous numeric features, including:
+  - Budget
+  - Revenue
+  - Profit / Profit Normalized
+  - Popularity
+  - Contributor reputation scores
+- Scaling helps the model handle differences in magnitude and prevents large values (e.g., revenue) from dominating the learning process.
+
+### Cleaning Steps
+- Converted columns such as IMDb rating, vote average, popularity, budget, and revenue to numeric types with errors='coerce'.
+- Filled NA / missing values with zeros or safe defaults.
+- Computed additional engineered features:
+- Profit = revenue – budget
+- Created scores for categorical IDs. (e.g. cast, writer, director and company)
+- Removed unused or irrelevant columns that did not contribute to the model.
+
+### Train–Test Split
+- Split the full processed dataset into:
+  - 80% training data
+  - 20% testing data
+- Random state fixed to ensure reproducibility.
+- Ensured the target variable (“GoodBad”) was distributed similarly across both sets.
 
 ## 4. Model & Results
 - Model used:
@@ -47,18 +71,20 @@ The scatter plots indicate that IMDb ratings vary widely across all levels of bu
 The heatmap shows that rating-related features are strongly correlated with each other, confirming they measure the same aspect of movie quality. Budget, revenue, and vote related features are also strongly related, indicating that financial scale and audience engagement move together. However, these financial features show weak correlations with IMDb ratings, suggesting movie quality is not directly tied to financial performance.
 
 ### Insights based on Findings and Visualizations
-
+#### Model Insights
+- * 
+#### Visualization Insights
 - Boxplot Matrix (Good vs Bad)
 
- The boxplot matrix reveals that budget, revenue, and profit distributions largely overlap between good and bad movies, showing that financial performance alone does not clearly distinguish movie quality. Popularity shows only a slight difference between the two groups. The normalized rating provides the clearest separation, supporting its use as the primary feature for classification.
+ *The boxplot matrix reveals that budget, revenue, and profit distributions largely overlap between good and bad movies, showing that financial performance alone does not clearly distinguish movie quality. Popularity shows only a slight difference between the two groups. The normalized rating provides the clearest separation, supporting its use as the primary feature for classification.*
 
 - Scatter Matrix
 
- The scatter matrix shows that IMDb ratings have weak relationships with budget, revenue, and popularity, indicating that higher spending or earnings do not directly lead to better ratings. In contrast, budget and revenue are strongly related to each other, reflecting expected industry behavior. Overall, the plot suggests that movie quality is influenced more by non-financial factors than by production scale.
+ *The scatter matrix shows that IMDb ratings have weak relationships with budget, revenue, and popularity, indicating that higher spending or earnings do not directly lead to better ratings. In contrast, budget and revenue are strongly related to each other, reflecting expected industry behavior. Overall, the plot suggests that movie quality is influenced more by non-financial factors than by production scale.*
     
 - Correlation Heatmap
 
- The heatmap highlights strong correlations among financial and engagement variables such as budget, revenue, and vote counts. However, IMDb ratings show weak correlations with these features, indicating that audience ratings are largely independent of financial success or popularity.
+ *The heatmap highlights strong correlations among financial and engagement variables such as budget, revenue, and vote counts. However, IMDb ratings show weak correlations with these features, indicating that audience ratings are largely independent of financial success or popularity.*
 
 
 ## 5. How to Run
