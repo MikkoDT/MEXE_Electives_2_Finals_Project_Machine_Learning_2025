@@ -32,11 +32,20 @@
 - Cleaning steps: he dataset was prepared by performing a check for missing values (NaN). The notebook confirmed that the data was complete, meaning no imputation or filling of missing entries was necessary before training the model.
 - Train–test split: The data was partitioned into a training set and a testing set (80% training / 20% testing). This split is a crucial step used to evaluate the model's performance on unseen data. By testing on a separate dataset, we ensure the model is not overfit to the training data and can generalize effectively to new information.
 
-## 4. Model & Results
-- Model used: Linear Regression is chosen because the goal is to predict a continuous numeric value, Total Sales.
+## 4. Model And Result
+
+### Model Used: ***Linear Regression**
+
+Linear Regression is chosen because the goal is to predict a continuous numeric value, Total Sales.
 
 This model is a strong fit because Total Sales is mathematically derived from key features like Price per Unit and Units Sold, suggesting a highly linear relationship between the independent variables and the target variable. Furthermore, the simplicity, speed, and interpretability of Linear Regression are ideal for understanding how factors like retailer, region, product type, and sales method influence overall revenue.
 
+### Metrics:
 
-- Metric:
-The model demonstrated a near-perfect fit for the training data, likely due to the highly correlated nature of the features and the target variable (Total Sales is calculated directly from Price per Unit and Units Sold).
+Mean Absolute Error (MAE): **560.84**
+
+Mean Squared Error (MSE): **444,738.93**
+
+Coefficient of Determination (R²): **0.9999719**
+
+Adjusted R²: **0.9999713**
