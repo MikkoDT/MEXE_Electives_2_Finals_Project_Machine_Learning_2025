@@ -9,7 +9,7 @@
 
 ## 2. Dataset Overview
 - **Dataset Source:** https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset (World Population Dataset)
-- **Description:** A dataset containing population counts and annual growth rates for 193 countries. It represents a "snapshot" of global demographics.
+- **Description:** A dataset containing population counts and annual growth rates for 193 countries. The data represents a **2022 demographic snapshot**.
 - **Target Variable:** `Growth Rate` (Continuous percentage representing annual population change).
 - **Features Used:** `Population` (Transformed via Logarithm to normalize the distribution).
 
