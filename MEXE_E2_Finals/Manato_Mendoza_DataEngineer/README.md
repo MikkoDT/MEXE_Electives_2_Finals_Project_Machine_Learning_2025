@@ -8,7 +8,8 @@
 
 ## 2. Dataset Overview
 - Dataset Source: https://www.kaggle.com/datasets/andrewmvd/data-engineer-jobs
-- Description: This project analyzes real-world job postings for Data Engineer roles to understand current hiring trends in the industry. The dataset includes key details such as job titles, experience levels, company locations, employment types, remote work ratios, and salary estimates. Using this information, the study explores salary distributions, career progression patterns, and regional differences in demand. The analysis also provides insights into how company attributes, such as size and founding year, relate to compensation and hiring practices.
+  
+  Description: This project analyzes real-world job postings for Data Engineer roles to understand current hiring trends in the industry. The dataset includes key details such as job titles, experience levels, company locations, employment types, remote work ratios, and salary estimates. Using this information, the study explores salary distributions, career progression patterns, and regional differences in demand. The analysis also provides insights into how company attributes, such as size and founding year, relate to compensation and hiring practices.
   
 Target Varible: 
 
@@ -65,19 +66,28 @@ The Linear Regression coefficients indicate that company rating has a positive r
 
 ### Metrics:
 
-Mean Absolute Error (MAE): **17172.09**
+- Mean Absolute Error (MAE): **17172.09**
 
-Mean Squared Error (RMSE): **22487.28**
+- Mean Squared Error (RMSE): **22487.28**
 
-Coefficient of Determination (R²): **0.410**
+- Coefficient of Determination (R²): **0.410**
 
 
 ### Viasualization:
 
 **Actual vs. Predicted Plot:**
 
-This plot shows how the model's predicted sales figures relate to the true recorded sales . The tight clustering of all data points along the ideal diagonal line visually confirms the model’s exceptional fit and high predictive accuracy. This alignment indicates a minimal difference between the forecast and the actual sales outcomes.
+This is an Actual vs. Predicted Average Salary scatter plot.
 
+X-axis (Actual Avg Salary)
+→ The true salary from your dataset (Avg_Salary)
+
+Y-axis (Predicted Avg Salary)
+→ The salary predicted by your Linear Regression model
+
+Each dot = one job posting
+
+So each dot answers for this job, the real salary was X, and the model predicted Y.
 <p align="center">
 <img width="749" height="570" alt="image" src="https://github.com/user-attachments/assets/5e409ac4-be0d-4324-b447-a8dd6284f9ba" />
 
@@ -91,7 +101,7 @@ This plot shows how the model's predicted sales figures relate to the true recor
   
 - Proper preprocessing, including encoding and scaling, ensured stable and unbiased model training.
   
--Model performance may be improved further by incorporating text-based features from job descriptions or by applying advanced regression models. 
+- Model performance may be improved further by incorporating text-based features from job descriptions or by applying advanced regression models. 
 
 
 ## 5. How to Run
