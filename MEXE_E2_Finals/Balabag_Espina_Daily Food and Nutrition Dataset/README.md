@@ -80,7 +80,11 @@ All numeric features were standardized using StandardScaler, converting them to:
 - **Logistic Regression**
   - <p align="justify">  This model was selected because it is well‑suited for multi‑class classification using numerical features, provides interpretable results, and performs reliably even when class boundaries overlap.
 
-
+### 📊 Metrics
+- `Accuracy = 81.2603648424544%`
+- `Precision = 81.06743264352367%`
+- `Recall: 81.2603648424544%`
+- `F1-score: 81.12784415735238%`
 
 
 
