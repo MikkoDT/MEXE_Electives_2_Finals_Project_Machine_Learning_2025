@@ -71,7 +71,14 @@ The following preprocessing steps were applied before training the model:
  
 **Feature Importance**
 <img width="657" height="457" alt="image" src="https://github.com/user-attachments/assets/ba31f033-c4e4-4337-b4f0-20e5d08a554b" />
-
+- Sector
+  - Most influential feature in the model.
+  - Strongly affects class prediction.
+- Legislative District
+  - Moderate contribution to classification.
+- Barangay
+  - Minimal influence on the model’s decisions.
+    
 **ROC Curve**
 <img width="701" height="544" alt="image" src="https://github.com/user-attachments/assets/ab641845-c1c3-4c1b-a0e9-5aaecb65ba94" />
 
