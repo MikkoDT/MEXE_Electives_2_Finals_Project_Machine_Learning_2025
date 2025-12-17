@@ -54,11 +54,62 @@
   - 🔁 Recall =  `88.33%`
   - 📊 F1-Score = `81.87%`
     
-- **Visualizations:**  
-  - Class distribution (Before & After SMOTE)  
-  - Confusion Matrix  
-  - ROC Curve  
-  - Precision–Recall Curve  
+- **Visualizations:**
+  
+#### Class Distribution Before and After SMOTE
+
+<img width="580" height="465" alt="image" src="https://github.com/user-attachments/assets/92b055ed-8bdf-48cf-a598-de39fa0fc01a" />
+
+
+The bar graph shows the class distribution of the dataset before and after applying **SMOTE (Synthetic Minority Over-sampling Technique)**.
+
+Before SMOTE, the dataset exhibits severe class imbalance, where the **flighted (no)** class contains a much larger number of samples compared to the **flightless (yes)** class. This imbalance can bias the machine learning model toward predicting the majority class, resulting in misleadingly high accuracy but poor minority class performance.
+
+After applying SMOTE, the **flightless** class is synthetically increased so that both classes have approximately equal sample counts. This results in a balanced dataset that allows the model to learn patterns from both classes more effectively.
+
+Overall, the graph demonstrates that SMOTE successfully addresses class imbalance by generating synthetic minority samples rather than simply duplicating existing data, leading to improved minority class prediction and more reliable model performance.
+
+---
+
+#### Confusion Matrix 
+
+<img width="530" height="455" alt="image" src="https://github.com/user-attachments/assets/22c89a4e-24c4-4091-9a76-23a02bc5a39d" />
+
+The graph represents a **confusion matrix**, which summarizes how well the model classified bird flight categories as **flighted (no)** or **flightless (yes)**.
+
+Most predictions fall under **true negatives (2282)**, indicating that the model correctly identified a large number of flighted birds. There are **17 true positives**, showing that the model was also able to correctly classify several flightless birds.
+
+Some misclassifications are present, with **14 false positives** (flighted birds predicted as flightless) and **5 false negatives** (flightless birds predicted as flighted). 
+
+Overall, the confusion matrix indicates that the model performs very well for identifying flighted birds, while only making a small number of errors when detecting flightless birds.
+
+---
+
+#### ROC Curve 
+
+<img width="691" height="547" alt="image" src="https://github.com/user-attachments/assets/c6f98ed4-d601-462f-9b72-2badd6b6fc8c" />
+
+
+The graph shown is an **ROC (Receiver Operating Characteristic) curve**, which is used to evaluate how well the model distinguishes between **flightless (yes)** and **flighted (no)** bird categories.
+
+It plots the **True Positive Rate** against the **False Positive Rate**, illustrating the model’s performance across different classification thresholds. The curve lies well above the diagonal line that represents random guessing, indicating that the model performs significantly better than chance.
+
+An **AUC value of approximately 0.91** suggests that the model has a strong ability to correctly separate the two classes. Overall, this graph demonstrates that the model is reliable and effective in predicting bird flight capability.
+
+---
+
+#### Precision–Recall Curve 
+
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/6f030aea-c3b4-4d7a-9931-06ccbb093446" />
+
+
+The graph represents a **Precision–Recall curve**, which shows how accurately the model predicts **flightless (yes)** birds.
+
+It illustrates the trade-off between **precision**, which measures how many predicted flightless birds are actually correct, and **recall**, which measures how many of the actual flightless birds the model successfully identifies. As the model attempts to capture more flightless birds, the precision slightly decreases, indicating the presence of some false positives.
+
+An **Average Precision (AP) value of approximately 0.71** indicates that the model performs reasonably well in identifying flightless birds. Overall, the graph suggests that the model is effective but still makes some errors when attempting to detect all positive cases.
+
+  
   
 - **Key Insights:**  
   ## Key Insights and Design Decisions
