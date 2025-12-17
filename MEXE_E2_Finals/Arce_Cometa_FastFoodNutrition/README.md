@@ -1,4 +1,11 @@
-  # Final Assessment — Machine Learning Model
+# 🍔 Fast Food Nutrition Classification (Logistic Regression)
+
+> **Final Assessment — Machine Learning Model**
+
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## 1. Pair Information
 - Pair Name: Preservation
