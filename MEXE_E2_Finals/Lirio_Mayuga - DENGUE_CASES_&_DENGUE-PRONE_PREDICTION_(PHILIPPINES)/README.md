@@ -76,6 +76,7 @@ The model was evaluated on the test dataset using the following regression metri
 ### Visualizations
 
 * Scatter plot comparing **Actual vs. Predicted Dengue Cases** to assess model fit and prediction behavior.
+The scatter plot compares actual and predicted dengue cases, showing that the linear regression model performs reasonably well for low to moderate case counts, where most data points are clustered. However, as actual dengue cases increase, predictions become more dispersed, indicating reduced accuracy during high-outbreak periods. This suggests that the model captures general trends but has limitations in predicting extreme dengue spikes.
   <img width="704" height="547" alt="image" src="https://github.com/user-attachments/assets/3b529202-ef4a-4604-98de-312e90c2a60e" />
 
 
