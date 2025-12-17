@@ -94,9 +94,9 @@
   
 - **Key Insights:** 
 
-  ***1. Classification Effectiveness***
+  ***1. Strategic Feature Selection***
 
-  The logistic regression model demonstrated solid predictive performance based on accuracy and classification metrics. While the model is not flawless, it effectively distinguishes between diabetic and non-diabetic cases and is suitable for basic medical risk prediction.
+  By including features like FG_PCT_home, FT_PCT_home, and REB_home, the machine learning process aims to identify the underlying drivers of a win rather than just the outcome itself. This allows the model to generalize better to future games where only these stats might be estimated.
 
   ***2. Key Predictive Factors***
 
