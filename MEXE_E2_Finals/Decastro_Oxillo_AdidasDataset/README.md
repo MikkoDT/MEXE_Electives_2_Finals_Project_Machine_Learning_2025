@@ -63,20 +63,17 @@ Adjusted R²: **0.9999713**
 
 ### Viasualization:
 
-Actual vs. Predicted Sales Plot: This plot shows how the model's predicted sales figures relate to the true recorded sales . The close alignment of all data points to the ideal diagonal line visually confirms the model's exceptional fit and high predictive accuracy.
+**Actual vs. Predicted Sales Plot:**
 
+This plot shows how the model's predicted sales figures relate to the true recorded sales . The tight clustering of all data points along the ideal diagonal line visually confirms the model’s exceptional fit and high predictive accuracy. This alignment indicates a minimal difference between the forecast and the actual sales outcomes.
+
+<p align="center">
 <img width="749" height="570" alt="image" src="https://github.com/user-attachments/assets/b527805f-66e8-49a0-ac53-2d175ba48564" />
 
-Residual Plot: This plot displays the differences between actual and predicted sales (the errors, or residuals) . The random, uniform scattering of these errors around the zero line validates a key assumption of Linear Regression: that the model's mistakes are random and unbiased.
+**Residual Plot:**
 
+This visualization displays the errors (residuals) of the model against the predicted sales . The key finding is the random, uniform scattering of these errors around the central zero line. This pattern is crucial as it validates a core assumption of Linear Regression: that the model's errors are purely random and unbiased, confirming the suitability of the model for this dataset.
+<p align="center">
 <img width="719" height="639" alt="image" src="https://github.com/user-attachments/assets/cb4c5806-ed9b-4d05-80d5-dd51dcc0db1a" />
 
 
-
-Mean Absolute Error (MAE): **560.84**
-
-Mean Squared Error (MSE): **444,738.93**
-
-Coefficient of Determination (R²): **0.9999719**
-
-Adjusted R²: **0.9999713**
