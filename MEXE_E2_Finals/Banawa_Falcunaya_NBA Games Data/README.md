@@ -69,7 +69,7 @@
   - **Confusion Matrix**
   <p align="center">
     <img width="658" height="547" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/7b90e6f8-c281-43de-8a5f-6b7ef7e54c35" /><br/>
-     Figure 1: Confusion matrix with 109 True Positive, 28 False Positive, 10 False Negative and 45 True Negative
+     Figure 1: Confusion matrix with 1717 True Negative, 457 False Positive, 430 False Negative and 2707 True positive
  <p/>
 
  
