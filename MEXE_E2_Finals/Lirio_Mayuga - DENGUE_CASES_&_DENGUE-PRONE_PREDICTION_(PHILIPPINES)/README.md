@@ -14,7 +14,7 @@
 
 ## 📊 2. Dataset Overview
 
-* **Dataset Source:** Historical dengue surveillance data (Philippines)
+* **Dataset Source:** (https://www.kaggle.com/datasets/vincentgupo/dengue-cases-in-the-philippines)
 * **Description:**
   The dataset contains historical records of reported dengue cases in the Philippines, organized by **year**, **month**, and **region**. Each record represents the total number of dengue cases for a given region and month.
 * **Target Variable:**
