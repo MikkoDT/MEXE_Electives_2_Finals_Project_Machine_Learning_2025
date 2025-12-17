@@ -14,9 +14,14 @@ This project applies **Linear Regression** to school masterlist data to examine 
 ---
 
 ## 2. Dataset Overview
-- **Dataset Source:** *(insert dataset link here)*  
-- **Description:** The dataset is based on a school masterlist and includes school characteristics and location-related attributes that may affect classification or outcomes.  
-- **Target Variable:** **Urban/Rural** (encoded numerically)
+- **Dataset Source:**  
+  https://www.kaggle.com/datasets/bwandowando/deped-philippine-school-masterlist-2020-21  
+
+- **Description:**  
+  The dataset is based on the Department of Education (DepEd) Philippine School Masterlist for School Year 2020–2021. It contains structured information about schools, including location and classification details, which are useful for educational data analysis.
+
+- **Target Variable:**  
+  **Urban/Rural** (encoded numerically)
 
 ---
 
@@ -24,58 +29,4 @@ This project applies **Linear Regression** to school masterlist data to examine 
 The following preprocessing steps were applied before training the model:
 
 - **Encoding:** Converted categorical variables into numerical form  
-- **Scaling:** Standardized numerical features for improved stability  
-- **Data Cleaning:**
-  - Renamed columns for consistency  
-  - Handled missing values  
-  - Removed duplicate records  
-  - Verified and corrected data types  
-- **Train–Test Split:** Split the dataset into training and testing sets  
-
----
-
-## 4. Model & Results
-- **Algorithm:** Linear Regression 
-
-### Reason for Selection
-- Simple and easy to interpret  
-- Useful for identifying relationships between variables  
-- Works well as a baseline model for continuous prediction tasks  
-
----
-
-## 5. Evaluation Metrics
-- **R² Score**  
-- **Mean Absolute Error (MAE)**  
-- **Mean Squared Error (MSE)**  
-- **Root Mean Squared Error (RMSE)**  
-
----
-
-## 6. Visualizations
-- **Actual vs. Predicted Values Plot**  
-- **Residuals Plot**  
-
-> All visualizations are generated inside the Jupyter Notebook.
-
----
-
-## 7. Key Insights
-- The Linear Regression model shows a clear relationship between school-related features and the target variable.  
-- Predictions are generally reasonable, but errors still exist, suggesting other factors may influence the outcome.  
-- Some features contribute more strongly than others, emphasizing the importance of feature selection.  
-
----
-
-## 8. How to Run the Project
-
-### Requirements
-- VS Code  
-- Python 3.x  
-- Jupyter Notebook Extension  
-
-### Installation
-```bash
-git clone <repository-url>
-cd <repository-folder>
-pip install -r requirements.txt
+- **Scaling:** Standardized numerical features for improved sta
