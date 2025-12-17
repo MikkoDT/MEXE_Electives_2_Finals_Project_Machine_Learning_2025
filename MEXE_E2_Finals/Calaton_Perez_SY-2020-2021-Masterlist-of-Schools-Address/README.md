@@ -1,119 +1,127 @@
-# Final Assessment — Machine Learning Model
+📑 Final Assessment — Machine Learning Model
+Project Overview
 
-## Project Overview
+This project presents the application of Linear Regression in analyzing school-related data to examine how various educational factors relate to a target outcome. It is conducted as part of a final machine learning assessment and aims to demonstrate how data-driven methods can be used to understand patterns within educational datasets.
 
-This project demonstrates the use of **Linear Regression** to analyze school-related data and predict a continuous target variable. It is part of a final machine learning assessment and focuses on understanding how different educational factors influence student outcomes.
+Pair Information
 
----
+Pair Name: Eskwelaaa
 
-## Pair Information
+Members: Marco Calaton & Megildo Perez
 
-* **Pair Name:** Eskwelaaa
-* **Members:** Marco Calaton & Megildo Perez
-* **Topic:** School
-* **Model Used:** Linear Regression
+Topic: School Data Analysis
 
----
+Model Used: Linear Regression
 
-## Dataset Overview
+Dataset Overview
 
-* **Dataset Source:** *(add dataset link here)*
+Dataset Source:
+(Insert School Masterlist dataset link here)
 
-* **Description:**
-  The dataset contains information related to school and educational factors and their relationship to a target variable.
+Description:
+The dataset is based on a school masterlist and contains information related to school characteristics and location attributes that may influence classification or outcomes.
 
-* **Target Variable:**
-  *(e.g., Final Score, Performance Index, Academic Performance)*
+Target Variable:
+School location classification encoded numerically:
 
+Urban
 
----
+Rural
 
-## Data Preprocessing
+Data Preprocessing
 
-The following preprocessing steps were applied before training the model:
+Before model training, several preprocessing steps were performed to ensure data quality and compatibility:
 
-* **Encoding:** Converted categorical variables into numerical values
-* **Scaling:** Standardized numerical features for better model performance
-* **Data Cleaning:**
+Encoding:
+Categorical variables were transformed into numerical values to allow processing by the regression model.
 
-  * Renamed columns for consistency
-  * Handled missing values
-  * Removed duplicate records
-  * Ensured correct data types
-* **Train–Test Split:** Split the dataset into training and testing sets
+Scaling:
+Numerical features were standardized to improve model stability and performance.
 
----
+Data Cleaning:
 
-## Model & Evaluation
+Column names were standardized for consistency
 
-* **Algorithm:** Linear Regression
-* **Reason for Selection:**
+Missing values were handled appropriately
 
-  * Simple and interpretable
-  * Effective for predicting continuous values
+Duplicate records were removed
 
-### Evaluation Metrics
+Data types were verified and corrected where necessary
 
-* R² Score
-* Mean Absolute Error (MAE)
-* Mean Squared Error (MSE)
-* Root Mean Squared Error (RMSE)
+Train–Test Split:
+The dataset was split into training and testing sets to evaluate model performance on unseen data.
 
-### Visualizations
+Model & Results
 
-* Actual vs. Predicted Values Plot
-* Residuals Plot
+Algorithm Used: Linear Regression
 
-(All visualizations are generated inside the Jupyter Notebook.)
+Reason for Selection
 
----
+Easy to understand and interpret
 
-## Key Insights
+Suitable for identifying relationships between variables
 
-1. The Linear Regression model shows a clear relationship between school-related features and the target variable.
-2. The model produces reasonable predictions but still shows some errors, indicating that additional factors may affect the outcome.
-3. Certain features have a stronger impact on predictions, emphasizing the importance of feature selection.
+Serves as a strong baseline model for prediction tasks
 
----
+Evaluation Metrics
 
-## How to Run the Project
+The model was evaluated using the following metrics:
 
-### Requirements
+R² Score
 
-* VS Code
-* Python 3.x
-* Jupyter Notebook Extension
+Mean Absolute Error (MAE)
 
-### Installation
+Mean Squared Error (MSE)
 
-```bash
+Root Mean Squared Error (RMSE)
+
+Visualizations
+
+Actual vs. Predicted Values Plot
+
+Residuals Plot
+
+All visualizations are generated within the Jupyter Notebook.
+
+Key Insights
+
+The Linear Regression model reveals a noticeable relationship between school-related features and the target variable.
+
+Predictions are generally reasonable, though some errors remain, suggesting the influence of additional factors not captured in the dataset.
+
+Certain features contribute more strongly to the predictions, highlighting the importance of proper feature selection.
+
+How to Run the Project
+Requirements
+
+VS Code
+
+Python 3.x
+
+Jupyter Notebook Extension
+
+Installation
 git clone <repository-url>
 cd <repository-folder>
 pip install -r requirements.txt
-```
 
-### Running the Model
+Running the Model
 
-1. Open the project folder in VS Code
-2. Open the `.ipynb` notebook file
-3. Run all cells sequentially
-4. View the outputs, evaluation metrics, and visualizations
+Open the project folder in VS Code
 
----
+Open the .ipynb notebook file
 
-## Project Structure
+Run all cells sequentially
 
-```text
+Review the outputs, evaluation metrics, and visualizations
+
+Project Structure
 ├── dataset/
 │   └── data.csv
 ├── notebook.ipynb
 ├── requirements.txt
 └── README.md
-```
 
----
+Conclusion
 
-## Conclusion
-
-This project demonstrates how Linear Regression can be applied to educational data to identify trends and relationships between features and academic outcomes. The model serves as a solid baseline for further improvements and more advanced techniques.
-
+This project demonstrates how Linear Regression can be applied to school masterlist data to identify trends and relationships among educational features. The model provides a solid baseline for analysis and can be further improved by incorporating additional variables or more advanced machine learning techniques.
