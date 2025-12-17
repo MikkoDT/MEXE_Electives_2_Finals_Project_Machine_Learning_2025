@@ -47,12 +47,9 @@
   ▸ All features in the dataset are numerical; therefore, no categorical encoding was required. 
 - **Scaling**  
   ▸ Standardization was applied to transform input features to zero mean and unit variance, ensuring equal contribution of variables and improving the stability of the Logistic Regression model.
-- **Data Shuffling**  
-  ▸ A data shuffling was utilize for gradient descent optimization and prevents ordering bias when training and testing sets.
 - **Cleaning Steps**  
   ▸ The dataset was checked for missing values and shuffled to eliminate potential ordering bias.  
   ▸ The target variable was separated from the feature set to prepare the data for supervised learning.
-
 - **Train–Test Split**  
   ▸ The dataset was divided into training and testing sets, with 75% of the data used for training and 25% reserved for testing to evaluate performance on unseen data.
 
