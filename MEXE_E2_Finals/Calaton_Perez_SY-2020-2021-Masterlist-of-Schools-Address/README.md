@@ -5,7 +5,7 @@
 * **Pair Name:** Eskwelaaa
 * **Members:** Marco Calaton & Megildo Perez
 * **Topic:** School
-* **Chosen Model:** Logistic Regression
+* **Chosen Model:** Linear Regression
 
 ---
 
