@@ -77,7 +77,7 @@ The model was evaluated on the test dataset using the following regression metri
 
 * Scatter plot comparing **Actual vs. Predicted Dengue Cases** to assess model fit and prediction behavior.
 
-### Insights (Defense-Ready)
+### Insights 
 
 1. The model achieved a reasonable R² score, indicating that **temporal features such as year and month significantly influence dengue case trends**.
 2. Monthly patterns suggest seasonality, with higher dengue cases occurring during specific periods of the year, consistent with known rainy-season outbreaks.
