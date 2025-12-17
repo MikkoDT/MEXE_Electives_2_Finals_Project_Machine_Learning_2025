@@ -33,7 +33,7 @@ Features Used:
  ## 3. Preprocessing Summary
 - Encoding: The categorical features were converted into a numerical format using One-Hot Encoding. This technique is used to ensure compatibility with the Linear Regression model, allowing it to process non-numerical data without assigning misleading numerical relationships between categories.
 - Scaling: The numerical features were subjected to Standard Scaling. This step standardizes the values by ensuring all numerical data is on a similar scale. Scaling is vital to prevent features with large ranges (like Units Sold) from disproportionately influencing the model's convergence and training process.
-- Cleaning steps: he dataset was prepared by performing a check for missing values (NaN). The notebook confirmed that the data was complete, meaning no imputation or filling of missing entries was necessary before training the model.
+- Cleaning steps: The dataset was prepared by performing a check for missing values (NaN). The notebook confirmed that the data was complete, meaning no imputation or filling of missing entries was necessary before training the model.
 - Train–test split: The data was partitioned into a training set and a testing set (80% training / 20% testing). This split is a crucial step used to evaluate the model's performance on unseen data. By testing on a separate dataset, we ensure the model is not overfit to the training data and can generalize effectively to new information.
 
 ## 4. Model And Result
@@ -55,18 +55,18 @@ Coefficient of Determination (R²): **0.9999719**
 
 Adjusted R²: **0.9999713**
 
-### Viasualization:
+### Visualization:
 
 **Actual vs. Predicted Sales Plot:**
 
-This plot shows how the model's predicted sales figures relate to the true recorded sales . The tight clustering of all data points along the ideal diagonal line visually confirms the model’s exceptional fit and high predictive accuracy. This alignment indicates a minimal difference between the forecast and the actual sales outcomes.
+This plot shows how the model's predicted sales figures relate to the true recorded sales. The tight clustering of all data points along the ideal diagonal line visually confirms the model’s exceptional fit and high predictive accuracy. This alignment indicates a minimal difference between the forecast and the actual sales outcomes.
 
 <p align="center">
 <img width="749" height="570" alt="image" src="https://github.com/user-attachments/assets/b527805f-66e8-49a0-ac53-2d175ba48564" />
 
 **Residual Plot:**
 
-This visualization displays the errors (residuals) of the model against the predicted sales . The key finding is the random, uniform scattering of these errors around the central zero line. This pattern is crucial as it validates a core assumption of Linear Regression: that the model's errors are purely random and unbiased, confirming the suitability of the model for this dataset.
+This visualization displays the errors (residuals) of the model against the predicted sales. The key finding is the random, uniform scattering of these errors around the central zero line. This pattern is crucial as it validates a core assumption of Linear Regression: that the model's errors are purely random and unbiased, confirming the suitability of the model for this dataset.
 <p align="center">
 <img width="719" height="639" alt="image" src="https://github.com/user-attachments/assets/cb4c5806-ed9b-4d05-80d5-dd51dcc0db1a" />
 
