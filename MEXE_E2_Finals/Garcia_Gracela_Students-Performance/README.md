@@ -140,6 +140,14 @@ The high R-Squared is primarily driven by the exceptionally strong linear correl
 
 Although less correlated than the other scores, the analysis confirmed that key socioeconomic binary factors, such as receiving Standard Lunch and completing the Test Preparation Course, are significantly associated with a positive shift in the Math Score distribution. These variables are important, measurable contributors to the model's predictive accuracy, indicating external support and preparation have a tangible impact on performance.
 
+**4. Model Interpretability Supports Actionable Insights**
+
+Because Linear Regression produces directly interpretable coefficients, the model allows clear identification of which factors increase or decrease Math Scores. This makes the results useful not only for prediction, but also for decision-making, such as identifying students who may benefit most from academic support programs or targeted interventions.
+
+**5. Limitations Highlight Opportunities for Improvement**
+
+While the model performs strongly, it assumes linear relationships and does not capture complex interactions between features. Future work could explore non-linear models (e.g., Random Forest or Gradient Boosting) or interaction terms to further improve predictive performance and uncover deeper patterns in student achievement.
+
 ## 5. How to Run
 
 1. Install VS Code + Python + Jupyter Extension
