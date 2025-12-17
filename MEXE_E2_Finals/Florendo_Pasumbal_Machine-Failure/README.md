@@ -33,10 +33,23 @@
   The dataset was divided into training (80%) and testing (20%) subsets to evaluate the model’s performance on unseen data.
 
 ## 4. Model & Results
-- Model used:
-- Metrics:
-- Visualizations:
-- Insights (3–5):
+### Model used
+- ***Logistic Regression***
+  * This model were used to predict the machine failure based on the sensor data. Logistic Regression is a Machine Learning algorithm that is great for binary classification problems making this an appropiate for determining whether the machine will fail or not.
+ 
+- ***Metrics***
+  * aslnsa
+    
+- ***Visualization***
+  * lasdasdi
+    
+- ***Insights***
+  1. klksadna
+  2. sakdnla
+  3. aklsdasl
+  4. klsnalkda
+  5. lksand
+  
 
 ## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
