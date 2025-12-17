@@ -33,11 +33,11 @@
     <img width="863" height="547" alt="image" src="https://github.com/user-attachments/assets/a4e3b145-7ce8-4dc8-9361-7316ccae108b" />
     
 - **Insights:**
-  1. Model Performance (R² Shift)
+1. Model Performance (R² Shift)
 Our Linear Regression model achieved an **R² score of ~0.02826**. While this number appears low, it represents a significant success compared to initial attempts using raw data (which resulted in negative scores). A positive R² indicates that the model successfully identified a **statistically significant signal**: there is a real, albeit weak, correlation between a country's size and its growth rate.
-  2. Feature Behavior ( The "Log" Effect)
+2. Feature Behavior ( The "Log" Effect)
 The raw population data followed a **Power Law distribution** (a few massive outliers like China/India vs. many small nations), which distorted the linear model. By applying a **Logarithmic Transformation**, we successfully normalized this distribution. This allowed the model to process "orders of magnitude" rather than raw counts, revealing trends that were previously hidden by the massive size gaps.
-  3. Interpretation of Results
+3. Interpretation of Results
 The regression line reveals a **negative correlation**: as population size increases, the growth rate tends to stabilize or slightly decline.
 * **Small Nations:** Exhibit high volatility (extreme highs and lows).
 * **Large Nations:** Tend to converge toward the global average.
