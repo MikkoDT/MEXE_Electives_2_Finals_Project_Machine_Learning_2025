@@ -33,7 +33,7 @@
 ## 📃 3. Preprocessing Summary
 - **Encoding**: All categorical variables such as `Pathfinding Success` were were transformed into numerical values using one-hot encoding to make them compatible with the machine learning model.
 - **Scaling**: Numerical features were scaled to a common range to prevent any single feature from dominating the model.
-- **Cleaning steps**: Missing values and inconsistent data entries were checked and handled to ensure data quality.
+- **Cleaning steps**: Missing values and duplicated data entries were checked and handled to ensure data quality.
 - **Train–test split**: The dataset was divided into training and testing sets to evaluate model performance on unseen data.
 
 ## 📊 4. Model & Results
@@ -72,7 +72,7 @@
 
   **Description:** The plot shows which features are most influential in making predictions in the model.
   
-  **Insight:** Paperless billing users churn more often.
+  **Insight:** The feature importance plot shows that collision avoidance rate and energy efficiency are the most influential features in the model’s predictions. Other factors, such as start/destination positions, obstacle properties, and computation time, have much smaller contributions, indicating they play a minor role in determining pathfinding success..
 
 <div/>
 
