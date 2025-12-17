@@ -37,12 +37,12 @@
 
 * **Scaling:**
 
-  * Feature scaling was **not applied**, as Linear Regression does not strictly require scaled inputs and all features were already represented in comparable numeric ranges.
+  * Feature scaling was not applied because the features were already in comparable numeric ranges and the model served as a baseline regression approach.
 
 * **Cleaning Steps:**
 
   * Data types were checked and corrected where necessary.
-  * Missing values were inspected to ensure dataset completeness before training.
+  * Missing values were inspected prior to training. The dataset contained minimal to no missing values and therefore did not require extensive imputation.
 
 * **Train–Test Split:**
 
