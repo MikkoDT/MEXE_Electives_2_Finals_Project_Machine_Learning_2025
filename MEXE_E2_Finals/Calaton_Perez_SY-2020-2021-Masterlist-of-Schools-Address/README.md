@@ -96,20 +96,3 @@ pip install -r requirements.txt
 4. View the outputs, evaluation metrics, and visualizations
 
 ---
-
-## 6. Repository Structure
-
-```text
-├── data/
-│   └── dataset.csv
-├── notebook/
-│   └── linear_regression_model.ipynb
-├── README.md
-└── requirements.txt
-```
-
----
-
-## 7. Conclusion
-
-This project demonstrates the application of Linear Regression in predicting a school-related outcome using proper data preprocessing, evaluation, and visualization techniques.
