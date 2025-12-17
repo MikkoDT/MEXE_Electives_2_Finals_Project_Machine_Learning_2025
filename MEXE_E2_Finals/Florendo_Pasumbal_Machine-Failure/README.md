@@ -24,9 +24,13 @@
 
 ## 3. Preprocessing Summary
 - Encoding:
+  No encoding was required because all selected features were already numerical, and the target variable `fail` was already in binary form (0 and 1).
 - Scaling:
+  Standard Scaler was applied to normalize the numerical sensor readings. This helps improve model performance by ensuring all features contribute proportionally.
 - Cleaning steps:
+  Irrelevant columns were removed to simplify the dataset and focus the model on the most meaningful features.
 - Train–test split:
+  The dataset was divided into training (80%) and testing (20%) subsets to evaluate the model’s performance on unseen data.
 
 ## 4. Model & Results
 - Model used:
