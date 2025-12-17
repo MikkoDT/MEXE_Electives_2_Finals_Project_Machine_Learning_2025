@@ -11,7 +11,7 @@
 ## 2. Dataset Overview
 - **Dataset Source:** https://www.kaggle.com/datasets/syedumeerr/telco-customer-churn 
 - **Description:**
-  <p align="justify">The Telco Customer Churn dataset contains information on around 7,000 telecom customers, with each row representing a single customer and columns describing subscribed services, account details, and billing information, along with a target variable called <b>Churn</b> that indicates whether the customer left the company. The features include customer tenure, contract type, phone services, payment method, monthly charges, and total charges. This dataset is used for classification tasks, especially for building logistic regression to predict customer churn and derive business insights for customer retention strategies. </p>
+  <p align="justify">The Telco Customer Churn dataset contains information on around 7,000 telecom customers, with each row representing a single customer and columns describing subscribed services, account details, and billing information, along with a target variable called <b>Churn</b> that indicates whether the customer left the company. </p>
 - **Target Variable:** `Churn`
 
   Churn refers to the situation where customers stop using a company’s products or services within a given period.
