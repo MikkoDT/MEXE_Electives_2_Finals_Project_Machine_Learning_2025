@@ -1,4 +1,6 @@
 # Final Assessment — Machine Learning Model
+Classifying Good and Bad Movies
+---
 
 ## 1. Pair Information
 - Pair Name: Young Stunna
