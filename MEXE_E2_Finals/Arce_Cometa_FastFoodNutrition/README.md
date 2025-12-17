@@ -7,23 +7,31 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 1. Pair Information
-- Pair Name: Preservation
-- Members: Brian Arce & Steven Cometa
-- Topic: Fast Food Nutrition
-- Chosen Model: Logistic Regression
 
-## 2. Dataset Overview
-- Dataset Source: https://docs.google.com/spreadsheets/d/14nmCo1Dlg04W9tTWNxHQjAPslzLVzLh2QVAiwENjqhw/edit?usp=sharing
-- Description: The dataset focuses on fast food meals and their nutritional components with the goal of identifying healthy meal options. It includes key nutritional values which are commonly used to assess the nutritional quality of food.
-- **Target Variable:**  
-Binary label indicating meal healthiness:
-- `1` → Healthy meal  
-- `0` → Not healthy  
-Classification is based on predefined nutritional thresholds.
+## 👥 Pair Information
+- **Pair Name:** Preservation
+- **Members:** Brian Arce & Steven Cometa
+- **Topic:** Fast Food Nutrition
+- **Chosen Model:** Logistic Regression
+  
+## 📊 Dataset Overview
+- **Dataset Source:** https://docs.google.com/spreadsheets/d/14nmCo1Dlg04W9tTWNxHQjAPslzLVzLh2QVAiwENjqhw/edit?usp=sharing
+- **Description:**
+This dataset contains fast food meals and their nutritional components. The goal is to classify meals as **healthy** or **not healthy** based on nutritional thresholds.
 
-- Features Used: The features used in the model include: Calories, Fat, Carbs, Sugar, and Sodium.
 
+### 🎯 Target Variable
+- `1` → Healthy meal
+- `0` → Not healthy
+
+
+### 🧩 Features Used
+- Calories
+- Fat
+- Carbs
+- Sugar
+- Sodium
+  
 ## 3. Preprocessing Summary
 - Encoding: Categorical values were encoded into numerical form to ensure compatibility with the Logistic Regression model.
 - Scaling: Numerical features were standardized to ensure all values were on a similar scale and to improve model convergence.
