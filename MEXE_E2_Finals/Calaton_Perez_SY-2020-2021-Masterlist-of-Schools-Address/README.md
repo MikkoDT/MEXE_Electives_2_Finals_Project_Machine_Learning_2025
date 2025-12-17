@@ -25,11 +25,6 @@ This project demonstrates the use of **Linear Regression** to analyze school-rel
 * **Target Variable:**
   *(e.g., Final Score, Performance Index, Academic Performance)*
 
-* **Features Used:**
-
-  * Feature 1
-  * Feature 2
-  * Feature 3
 
 ---
 
