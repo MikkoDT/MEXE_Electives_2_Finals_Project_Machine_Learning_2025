@@ -64,9 +64,27 @@
 
 
 - **Visualizations**:
+
+
+  - ***Feature Importance***
+
 <img src="https://github.com/user-attachments/assets/c80e81ea-fc6a-4489-a86a-21ad3e1ecc15" width="600">
 
+  **Description:** The plot shows which features are most influential in making predictions in the model.
+  
+  **Insight:** Paperless billing users churn more often.
+
+<div/>
+
+  - ***Correlation Heatmap***
+
 <img src="https://github.com/user-attachments/assets/19654047-5ade-498c-a1db-28d270630d77" width="800">
+
+  **Description:** .
+  
+  **Insight:** .
+
+
 
 
 
