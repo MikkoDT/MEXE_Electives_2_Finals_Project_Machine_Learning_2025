@@ -48,9 +48,7 @@
 
 <img src="https://github.com/user-attachments/assets/0928d426-a872-4197-b25b-9f57454c6a2a" width="600">
 
-<p style="text-align: center;">
-  **Figure 1. Classification Performance Metrics of the Robot Navigation Model 
-</p>
+  **Figure 1. Classification Performance Metrics of the Robot Navigation Model**
 
   
 <div/>
