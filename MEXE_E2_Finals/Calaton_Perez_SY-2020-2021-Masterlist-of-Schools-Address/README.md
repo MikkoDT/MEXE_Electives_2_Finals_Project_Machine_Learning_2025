@@ -24,6 +24,7 @@ This project applies **Linear Regression** to school masterlist data to examine 
 
 - **Target Variable:**  
   Urban/Rural (encoded numerically)
+  
   **Features Used**
   - Sector
   - Barangay
