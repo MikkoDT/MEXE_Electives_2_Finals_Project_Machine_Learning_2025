@@ -47,9 +47,9 @@ This model is a strong fit because Total Sales is mathematically derived from ke
 
 ### Metrics:
 
-Mean Absolute Error (MAE): **560.84**
+Mean Absolute Error (MAE): **76556.46201207295**
 
-Mean Squared Error (MSE): **444,738.93**
+Mean Squared Error (MSE): **106200.20194934374**
 
 Coefficient of Determination (R²): **0.9999719**
 
