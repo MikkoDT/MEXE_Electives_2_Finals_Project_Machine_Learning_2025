@@ -67,7 +67,7 @@
   -  **F1-Score** = `70%`<br/>
   <p align="center">
     <img width="776" height="294" alt="image" src="https://github.com/user-attachments/assets/62f8435e-4fe5-4b08-9515-44de1e5c90ac" /><br/>
-      Figure 1: Classification report of the model with macro average and weighted average 
+      Figure 1: Classification report of the model with other metrics including macro-average and weighted average 
   <p/>
 
 
@@ -77,10 +77,10 @@
      Figure 2: Confusion matrix with 109 True Positive, 28 False Positive, 10 False Negative and 45 True Negative
  <p/>
 
-  - **ROC Curve**
+  - **Receiver Operating Characteristic Curve**
 <p align="center">
  <img width="851" height="683" alt="output" src="https://github.com/user-attachments/assets/036cf605-5ea5-4987-a112-deb2a19a7713" /><br/>
-    Figure 3: Receiver Operating Characteristic Curve with metric about 0.8 of True Positive Rate
+    Figure 3: ROC Curve with metric about 0.8 of True Positive Rate
   
 <p/>
  
