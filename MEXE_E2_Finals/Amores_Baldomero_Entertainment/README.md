@@ -72,7 +72,7 @@ The heatmap shows that rating-related features are strongly correlated with each
 
 ### Insights based on Findings and Visualizations
 #### Model Insights
-- * 
+- *The model achieved a performance accuracy of approximately 88%, with the confusion matrix indicating that it is more effective at identifying BAD movies than GOOD ones. The prediction probabilities show clear confidence separation, meaning the model reliably distinguishes strong GOOD indicators from weak ones. Additionally, this kind of percentage or accuracy is highly expected due to IMDb ratings complexity and more audience influenced as past data checking showed how movie trends and popularity are randomized and throughout the years have no predictable pattern- though genre, cast, directors, writers, budget, company and revenue have influence, the bigger impact lays on audience impact.*
 #### Visualization Insights
 - Boxplot Matrix (Good vs Bad)
 
