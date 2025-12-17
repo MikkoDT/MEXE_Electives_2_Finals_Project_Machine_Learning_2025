@@ -52,7 +52,7 @@
     - Precision (Micro/Macro-average): Reported as 0.9569.
     - Recall (Micro/Macro-average): Reported as 0.9539.
     - F1-score (Micro/Macro-average): Reported as 0.9543.
-    - Area Under the Curve (AUC): The Micro-average for the multiclass ROC Curve is reported as 0.99941.
+    - Area Under the Curve (AUC): The Micro-average for the multiclass ROC Curve is reported as 0.9994.
       <p align="center">
       <img width="613" height="547" alt="image" src="https://github.com/user-attachments/assets/2ec3963e-179e-48f0-aaee-20a54a9dbc39" />
       </p>
@@ -89,7 +89,7 @@
      </p>
 
 - **Insights:**
-    - **Correlation Heatmap Insight**: The heatmap reveals a notable strong positive correlation between temperature and humidity ($0.686$), indicating these two environmental factors often increase or decrease together.
+    - **Correlation Heatmap Insight**: The heatmap reveals a notable strong positive correlation between temperature and humidity (0.686), indicating these two environmental factors often increase or decrease together.
  
     - **PCA Scatter Plot Insight**: The plot confirms the dataset has strong discriminatory power, as the 20 crop classes are visually well-separated into distinct clusters in the reduced two-dimensional space.
  
