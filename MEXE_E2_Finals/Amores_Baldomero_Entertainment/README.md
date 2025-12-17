@@ -28,16 +28,29 @@
 <img width="900" alt="image" src="" />
 </p>
 
-- <p align="center"> Correlation Heatmap </p>
-<p align="center">
-<img width="900" alt="image" src="" />
-</p>
-
 - <p align="center"> Scatter Matrix </p>
 <p align="center">
 <img width="900" alt="image" src="" />
 </p>
+
+- <p align="center"> Correlation Heatmap </p>
+<p align="center">
+<img width="900" alt="image" src="" />
+</p>
 - Insights (3–5):
+
+- Boxplot Matrix (Good vs Bad)
+
+ The boxplot matrix reveals that budget, revenue, and profit distributions largely overlap between good and bad movies, showing that financial performance alone does not clearly distinguish movie quality. Popularity shows only a slight difference between the two groups. The normalized rating provides the clearest separation, supporting its use as the primary feature for classification.
+
+- Scatter Matrix
+
+ The scatter matrix shows that IMDb ratings have weak relationships with budget, revenue, and popularity, indicating that higher spending or earnings do not directly lead to better ratings. In contrast, budget and revenue are strongly related to each other, reflecting expected industry behavior. Overall, the plot suggests that movie quality is influenced more by non-financial factors than by production scale.
+    
+- Correlation Heatmap
+
+ The heatmap highlights strong correlations among financial and engagement variables such as budget, revenue, and vote counts. However, IMDb ratings show weak correlations with these features, indicating that audience ratings are largely independent of financial success or popularity.
+
 
 ## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
