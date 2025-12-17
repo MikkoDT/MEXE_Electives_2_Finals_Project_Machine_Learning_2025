@@ -99,7 +99,7 @@
 
 
 
-## ** Key Insights**:
+## Key Insights:
 
   - The model demonstrates strong overall performance, correctly predicting the majority of cases with an accuracy of approximately 87%, indicating reliable classification results. In addition, the AUC value of 0.94 is exceptionally high, showing that the model has an excellent ability to distinguish between successful and unsuccessful robot pathfinding outcomes across various decision thresholds.
 
