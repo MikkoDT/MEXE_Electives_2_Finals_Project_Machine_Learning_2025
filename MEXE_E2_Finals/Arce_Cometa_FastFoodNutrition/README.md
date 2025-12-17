@@ -8,7 +8,7 @@
 
 ## 2. Dataset Overview
 - Dataset Source: https://docs.google.com/spreadsheets/d/14nmCo1Dlg04W9tTWNxHQjAPslzLVzLh2QVAiwENjqhw/edit?usp=sharing
-- Description: The dataset focuses on fast food meals and their nutritional components with the goal of identifying healthy meal options. It includes key nutritional values such as calories, total fat, carbohydrates, sugars, protein, and sodium, which are commonly used to assess the nutritional quality of food.
+- Description: The dataset focuses on fast food meals and their nutritional components with the goal of identifying healthy meal options. It includes key nutritional values which are commonly used to assess the nutritional quality of food.
 - **Target Variable:**  
 Binary label indicating meal healthiness:
 - `1` → Healthy meal  
