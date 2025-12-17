@@ -53,7 +53,7 @@ Mean Squared Error (MSE): **106200.20194934374**
 
 Coefficient of Determination (R²): **0.4425561689284665**
 
-Adjusted R²: **0.9999713**
+Adjusted R²: **0.44052593645317994**
 
 ### Visualization:
 
@@ -71,13 +71,14 @@ This visualization displays the errors (residuals) of the model against the pred
 <img width="719" height="639" alt="image" src="https://github.com/user-attachments/assets/cb4c5806-ed9b-4d05-80d5-dd51dcc0db1a" />
 
 **Insights**
-- Near-Perfect Predictive Reliability: The model achieved a near-perfect fit, demonstrating that it is highly reliable and effective at predicting Total Sales.
+- Model Performance:
+  The linear regression model achieved an R² score of 0.44, indicating that approximately 44% of the variation in total sales is explained by the selected independent variables. This level of performance is considered reasonable for real-world sales data, where outcomes are influenced by many external and unpredictable factors not captured in the dataset. The close alignment between R² and adjusted R² further confirms that the model maintains stable explanatory power.
 
-- Dominant Sales Drivers: Total Sales are almost entirely explained by core transaction details such as Units Sold and Price per Unit.
+- Feature Behavior:
+  The independent variables including price per unit, operating margin, product type, region, retailer, sales method, and month contribute meaningfully to the prediction of total sales. The minimal difference between R² and adjusted R² suggests that the included features provide relevant information rather than introducing redundancy. Categorical variables such as product, region, and sales method help capture market and distribution differences that affect sales performance.
 
-- High Data Quality: The extremely high accuracy confirms that the transactional sales data used is of high quality with minimal error or noise.
-
-- Business Usability: The simplicity of Linear Regression provides transparent and easy-to-understand results, which is valuable for establishing pricing strategies and inventory management.
+- Interpretation and Improvement Opportunities:
+  While the model explains a significant portion of sales variability, more than half of the variation remains unexplained. This indicates that total sales are also affected by external factors such as promotions, seasonal demand, marketing activities, and consumer behavior, which are not present in the dataset. Model performance could be improved by incorporating additional features such as promotional indicators, holiday effects, or by applying non-linear models to capture more complex relationships.
 
 
 
