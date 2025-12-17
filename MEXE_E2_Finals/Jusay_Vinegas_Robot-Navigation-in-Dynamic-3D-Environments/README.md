@@ -83,7 +83,7 @@
 
   **Description:** The plot shows which features are most influential in making predictions in the model.
   
-  **Insight:** The feature importance plot shows that collision avoidance rate and energy efficiency are the most influential features in the model’s predictions. Other factors, such as start/destination positions, obstacle properties, and computation time, have much smaller contributions, indicating they play a minor role in determining pathfinding success..
+  **Insight:** The feature importance plot shows that collision avoidance rate and energy efficiency are the most influential features in the model’s predictions. Other factors, such as start/destination positions, obstacle properties, and computation time, have much smaller contributions, indicating they play a minor role in determining pathfinding success.
 
 <div/>
 
