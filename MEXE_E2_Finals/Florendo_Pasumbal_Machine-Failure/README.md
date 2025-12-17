@@ -63,26 +63,24 @@
   * Correlation Heatmap
     <p align="center"> 
       <img src="https://github.com/user-attachments/assets/1d0ba27c-c54b-4a85-be7e-20684033a239" width="800">
-  Correlation Heatmap shows that VOC has a strong correlation with machine failure, means higher VOC levels indicate failure occurence.  USS exhibits moderate negative correlation with negative value, lower ultrasonic sensor readings are more observed during failure cases. Other variables show weak positive correlation values indicating minimal direct influence on machine failure. 
+  The correlation heatmap shows that VOC has a strong correlation with machine failure, which means higher VOC levels indicate failure occurrence.  USS exhibits a moderate negative correlation with negative value, lower ultrasonic sensor readings are more observed during failure cases. Other variables show weak positive correlation values, indicating minimal direct influence on machine failure. 
   * Violin Plot
     <p align="center"> 
       <img src="https://github.com/user-attachments/assets/ef0a18b0-4b9e-49c7-8e9e-8af6f46a0c12" width="800">
-  Violin Plot demonstrates VOC and USS are the most influential features in predicting machine failure. It supports the analysis that VOC is the most significant indicator of machine malfunction
+  The violin plot demonstrates that VOC and USS are the most influential features in predicting machine failure. It supports the analysis that VOC is the most significant indicator of machine malfunction
 
     
 - ***Insights***
-  1. Demonstrates high accuracy, precision, recall, F-1 score between machine failure and non-failure cases/variables.
-  2. Strong performance with 90% accuracy and AUC of 0.778 that reliably distinguish failing from non-fialing machines. 
-  3. Volatile Organic Compounds (VOC) stands as reliable indicator of potential malfunction, contrasting footfall and USS.
-  4. Early failure detection with continuous monitoring of the variables.
-  5. Can be improve by integrating more sensor data.
+  1. The model demonstrates high accuracy, precision, recall, and F-1 score between machine failure and non-failure cases/variables.
+  2. The model exhibits strong performance with 90% accuracy and an AUC of 0.778 that reliably distinguishes failing from non-failing machines. 
+  3. The Volatile Organic Compounds (VOC) feature stands as a reliable indicator of potential malfunction, contrasting footfall and USS.
+  4. The model can be useful in early failure detection with continuous monitoring of the variables.
+  5. The model can be improved by integrating more sensor data.
   
 
 ## 5. How to Run
 1. Install VS Code + Python + Jupyter Extension
 2. Install dependencies:
-
-pip install -r requirements.txt
-
-3. Open the `.ipynb` notebook
-4. Run all cells
+   pip install -r requirements.txt
+4. Open the `.ipynb` notebook
+5. Run all cells
