@@ -30,6 +30,7 @@
 - **Visualizations:**
   - **Regression Plot:** A scatter plot showing Actual vs. Predicted values with a regression line, illustrating the negative correlation between size and growth.
     <img width="863" height="547" alt="image" src="https://github.com/user-attachments/assets/a4e3b145-7ce8-4dc8-9361-7316ccae108b" />
+    
 - **Insights:**
   1. **Model Success:** By applying Log Transformation, we turned a failing model (negative R²) into a successful one (positive R²), proving that data distribution matters more than model complexity.
   2. **Feature Behavior:** Small nations show high volatility (extreme growth or decline), while massive nations tend to stabilize near the global average growth rate.
