@@ -83,15 +83,17 @@ The scatter plot compares actual and predicted dengue cases, showing that the li
 
 ### Insights 
 
-1. Seasonal patterns are evident, with higher dengue cases occurring during certain months of the year.
+🔍 Insight 1: The model captures seasonal and regional trends but struggles with extreme outbreaks
 
-2. Regional information helps capture geographic variation but remains insufficient to explain outbreak behavior.
+The linear regression model is able to learn the general relationship between month, year, and region and dengue case counts, as shown by reasonable predictions for low to moderate dengue levels. However, the “Actual vs Predicted Dengue Cases” plot shows increased dispersion at higher case values, indicating that the model has difficulty accurately predicting extreme outbreak periods. This suggests that dengue incidence is influenced by nonlinear factors (e.g., sudden weather changes or localized outbreaks) that are not fully captured by a simple linear model.
 
-3. Dengue case data is highly non-linear and outbreak-driven, making it poorly suited for Linear Regression and resulting in higher prediction errors and a low R² value.
+🔍 Insight 2: Month and region are key predictors of dengue incidence in the Philippines
 
-4. Errors increase during peak outbreaks, indicating that the model underfits sudden surges in dengue cases.
+The seasonality and heatmap visualizations demonstrate that dengue cases are not evenly distributed across the year or across regions. Certain months consistently show higher average dengue cases, and some regions exhibit stronger susceptibility during these periods. This supports the inclusion of month and region as important independent variables, confirming that dengue transmission in the Philippines is highly seasonal and geographically dependent.
 
-5. More advanced or non-linear models may better capture the complexity of dengue transmission.
+🔍 Insight 3: Linear regression is suitable for trend estimation but limited for outbreak prediction
+
+The evaluation metrics (such as R², MAE, and RMSE) indicate that linear regression is effective for estimating overall dengue trends and average case behavior. However, its reduced accuracy during peak dengue months highlights its limitation for precise outbreak prediction. This implies that while the model is useful for baseline forecasting and dengue-prone identification, more advanced models (e.g., polynomial regression or time-series models) could improve prediction performance for sudden spikes.
 
 ---
 
