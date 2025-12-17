@@ -15,6 +15,25 @@
         - 1 = Good Movie (IMDb ≥ 7.0)
         - 0 = Bad Movie (IMDb < 7.0)
 - Features Used:
+      - **Numerical Features**
+          - budget
+          - revenue
+          - profit (revenue − budget)
+          - popularity
+          - imdb_rating
+          - vote_average (TMDb rating)
+          - numVotes
+          - profit_norm (normalized profit)
+          - score_norm (normalized contributor score mean)
+          - quality_score (my created weighted score)
+      - **Categorical ID Features**
+          - cast1_id
+          - cast2_id
+          - cast3_id
+          - writer1_id
+          - writer2_id
+          - director_id
+          - company_id
 
 ## 3. Preprocessing Summary
 ### Encoding
