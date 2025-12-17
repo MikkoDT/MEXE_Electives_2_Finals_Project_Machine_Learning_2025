@@ -63,9 +63,11 @@
   * Correlation Heatmap
     <p align="center"> 
       <img src="https://github.com/user-attachments/assets/1d0ba27c-c54b-4a85-be7e-20684033a239" width="800">
+  Correlation Heatmap shows that VOC has a strong correlation with machine failure, means higher VOC levels indicate failure occurence.  USS exhibits moderate negative correlation with negative value, lower ultrasonic sensor readings are more observed during failure cases. Other variables show weak positive correlation values indicating minimal direct influence on machine failure. 
   * Violin Plot
     <p align="center"> 
       <img src="https://github.com/user-attachments/assets/ef0a18b0-4b9e-49c7-8e9e-8af6f46a0c12" width="800">
+  Violin Plot demonstrates VOC and USS are the most influential features in predicting machine failure. It supports the analysis that VOC is the most significant indicator of machine malfunction
 
     
 - ***Insights***
