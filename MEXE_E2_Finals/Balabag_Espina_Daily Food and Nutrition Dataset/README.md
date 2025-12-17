@@ -1,4 +1,4 @@
-# 🍛 Final Assessment - Machine Learning Model
+# 🍛 Final Assessment - Machine Learning Model 🍛
 ## :one: 👥 Pair Information
 - **Pair Name:** NutriGPT
 - **Members:**
