@@ -48,9 +48,9 @@
 - **Scaling**  
   - Standardization was applied to ensures that features with large ranges (like total points) do not overshadow features with small ranges (like shooting percentages) during model training.
 - **Cleaning Steps**  
-  - Handling Missing Values: The notebook uses dataset.dropna(inplace=True) to remove any rows containing null values, ensuring the model only trains on complete game records. 
-  - Feature Selection (Dropping Irrelevant Data): Non-predictive columns such as GAME_DATE_EST, GAME_ID, and GAME_STATUS_TEXT are removed because they do not contribute to the mathematical prediction of a win.
-  - Target Variable Verification: A check is performed to ensure the HOME_TEAM_WINS column exists; if not, it is programmatically created by comparing PTS_home and PTS_away.
+  - Handling Missing Values: Removes rows with null data so the model trains only on complete and reliable game records, preventing errors and inaccurate learning caused by incomplete statistics. 
+  - Feature Selection: Eliminates irrelevant columns such as IDs, dates, and text fields to reduce noise and ensure the model focuses only on meaningful numerical features that influence game outcomes.
+  - Target Variable Verification: Defines or verifies the outcome being predicted by ensuring the HOME_TEAM_WINS column exists, creating it from home and away team scores if necessary so the model has a correct label for supervised learning.
 - **Train–Test Split**  
   - The dataset was divided into training and testing sets, with 80% of the data used for training and 20% reserved for testing to evaluate performance on unseen data.
 
