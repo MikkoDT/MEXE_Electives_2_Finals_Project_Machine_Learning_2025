@@ -60,7 +60,15 @@ The following preprocessing steps were applied before training the model:
 
 **Accuracy, Precision, Recall, F-1 Score**
 <img width="566" height="431" alt="image" src="https://github.com/user-attachments/assets/be8676ac-a791-4bca-a1c7-b63179a87350" />
-
+- Accuracy (~79%)
+  - Overall, the model correctly predicts nearly 4 out of 5 samples.
+- Precision (~72%)
+  - Some predicted classes are incorrect, indicating false positives exist.
+- Recall (~79%)
+  - The model successfully identifies most actual instances.
+- F1 Score (~73%)
+  - Indicates a balanced trade-off between precision and recall.
+ 
 **Feature Importance**
 <img width="657" height="457" alt="image" src="https://github.com/user-attachments/assets/ba31f033-c4e4-4337-b4f0-20e5d08a554b" />
 
