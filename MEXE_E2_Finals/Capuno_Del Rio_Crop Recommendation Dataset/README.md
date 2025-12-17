@@ -67,7 +67,9 @@
 
       This visualization shows that the PCA Scatter Plot projects the high-dimensional feature data (N, P, K, etc.) onto a two-dimensional plane using the Principal Components (PC1 and PC2). The plot color-codes the points by their crop labels, and it helps to visualize the separability and clustering of the different crop classes in a reduced feature space.
 
-      <center><img width="737" height="554" alt="image" src="https://github.com/user-attachments/assets/74ed3852-d87d-435a-8bd2-e11911054119" /></center>
+      <p align="center"> 
+      <img width="788" height="590" alt="image" src="https://github.com/user-attachments/assets/a1c7ac2d-908d-4175-96b7-10997f048b94" />
+      </p>
 
     - **Box Plot of Numerical Features**
  
