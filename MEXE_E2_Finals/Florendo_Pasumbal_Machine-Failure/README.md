@@ -48,11 +48,11 @@
   * Bar Chart
     
 - ***Insights***
-  1. klksadna
-  2. sakdnla
-  3. aklsdasl
-  4. klsnalkda
-  5. lksand
+  1. Demonstrates high accuracy between machine failure and non-failure cases.
+  2. Selected variables indicatd strong relationships with machine failure and strong indicators of malfuntion.
+  3. Suitable for safety applications due to high recall that effectively detects failure cases.
+  4. Early failure detection with continuous monitoring of the variables.
+  5. Can be improve by integrating more sensor data
   
 
 ## 5. How to Run
