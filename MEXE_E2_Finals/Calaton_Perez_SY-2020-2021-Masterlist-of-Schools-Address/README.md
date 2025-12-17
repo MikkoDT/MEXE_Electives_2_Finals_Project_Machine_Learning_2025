@@ -80,6 +80,5 @@ The following preprocessing steps were applied before training the model:
 
 ### Installation
 ```bash
-git clone <repository-url>
-cd <repository-folder>
 pip install -r requirements.txt
+
