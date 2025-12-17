@@ -79,11 +79,15 @@ The model was evaluated on the test dataset using the following regression metri
 
 ### Insights 
 
-1. The model achieved a reasonable R² score, indicating that **temporal features such as year and month significantly influence dengue case trends**.
-2. Monthly patterns suggest seasonality, with higher dengue cases occurring during specific periods of the year, consistent with known rainy-season outbreaks.
-3. Incorporating regional data through one-hot encoding improved prediction accuracy by capturing **geographic variability** in dengue incidence.
-4. Prediction errors tend to increase during outbreak peaks, suggesting that Linear Regression may underfit extreme values and sudden surges in cases.
-5. Future improvements could include **Polynomial Regression or tree-based models** to better capture non-linear patterns in dengue transmission.
+1. Seasonal patterns are evident, with higher dengue cases occurring during certain months of the year.
+
+2. Regional information helps capture geographic variation but remains insufficient to explain outbreak behavior.
+
+3. Dengue case data is highly non-linear and outbreak-driven, making it poorly suited for Linear Regression and resulting in higher prediction errors and a low R² value.
+
+4. Errors increase during peak outbreaks, indicating that the model underfits sudden surges in dengue cases.
+
+5. More advanced or non-linear models may better capture the complexity of dengue transmission.
 
 ---
 
