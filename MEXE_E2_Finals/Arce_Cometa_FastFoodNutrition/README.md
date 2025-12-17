@@ -41,7 +41,7 @@ This dataset contains fast food meals and their nutritional components. The goal
 ## 4. Model & Results
 - Model used: Logistic Regression was implemented as the classification model due to its simplicity, efficiency, and effectiveness in binary classification tasks.
 - Metrics:
-- - **Accuracy** – Overall percentage of correct predictions
+- **Accuracy** – Overall percentage of correct predictions
 - **Precision** – How many predicted healthy meals are actually healthy
 - **Recall** – How many actual healthy meals were correctly identified
 - **F1-score** – Balance between precision and recall
