@@ -21,7 +21,11 @@
 
 ## 4. Model & Results
 - Model used:
+  
+  The model used is a binary classification model that predicts whether a movie can be considered good or bad based on selected numerical features such as ratings, popularity, and financial data. Movies were labeled according to a set rating threshold, allowing the model to learn patterns from past examples. Through this process, the model identifies relationships between the input variables and movie quality, helping evaluate how these factors influence audience perception.
 - Metrics:
+  
+  The boxplot matrix is used to compare how the values of selected features are distributed between good and bad movies, making it easier to see differences in spread and typical values as well as areas where the two groups overlap. The scatter matrix shows how numerical variables relate to one another by plotting them in pairs, which helps in observing general trends and patterns between movie ratings and other factors. Lastly, the correlation heatmap provides a summary of how strongly the numerical features are related, indicating which variables move together and which have little to no linear relationship.
 - Visualizations:
 <p align="center"> Boxplot Matrix (Good vs Bad) </p>
 <p align="center">
@@ -37,7 +41,7 @@
 <p align="center">
 <img width="890" height="784" alt="d0fac5ec-a9ac-46fc-b212-11eb5535634f" src="https://github.com/user-attachments/assets/04374592-21bf-4ec9-985a-fa54202a0f67" />
 </p>
-- Insights (3–5):
+- Insights:
 
 - Boxplot Matrix (Good vs Bad)
 
