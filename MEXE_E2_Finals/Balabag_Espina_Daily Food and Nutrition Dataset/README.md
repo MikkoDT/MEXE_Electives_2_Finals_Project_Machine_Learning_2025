@@ -77,6 +77,10 @@ All numeric features were standardized using StandardScaler, converting them to:
 
 ## 4️⃣ 🤖 Model and Test Results
 ### 🦾 Model Used
+- **Logistic Regression**
+  - <p align="justify">  This model was selected because it is well‑suited for multi‑class classification using numerical features, provides interpretable results, and performs reliably even when class boundaries overlap.
+
+
 
 
 
