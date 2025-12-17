@@ -134,3 +134,9 @@ All numeric features were standardized using StandardScaler, converting them to:
 
 🛠️ **Improvement Suggestions**
 <p align="justify"> To improve the model, a good step would be adding more meaningful features, like meal time, food category, or portion size, to help the model distinguish meals better. Using standardized or normalized versions of each nutrient may also help reduce noise from extreme values. Finally, testing more advanced models (Random Forest, XGBoost, or a simple neural network) could capture more subtle nonlinear relationships that the current model might miss.
+
+## 5️⃣ ⚙️ How to Run
+1. Install VS Code + Python + Jupyter Extension
+2. Install dependencies: pip install -r requirements.txt
+3. Open the `.ipynb` notebook
+4. Run all cells
