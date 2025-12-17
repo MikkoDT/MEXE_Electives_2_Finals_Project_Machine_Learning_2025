@@ -146,7 +146,7 @@ Because Linear Regression produces directly interpretable coefficients, the mode
 
 **5. Limitations Highlight Opportunities for Improvement**
 
-While the model performs strongly, it assumes linear relationships and does not capture complex interactions between features. Future work could explore non-linear models (e.g., Random Forest or Gradient Boosting) or interaction terms to further improve predictive performance and uncover deeper patterns in student achievement.
+While the model performs strongly, it assumes linear relationships and does not capture complex interactions between features. Future work could explore non-linear models (Random Forest or Gradient Boosting) or interaction terms to further improve predictive performance and uncover deeper patterns in student achievement.
 
 ## 5. How to Run
 
