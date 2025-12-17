@@ -87,6 +87,7 @@ All numeric features were standardized using StandardScaler, converting them to:
 - `F1-score: 81.12784415735238%`
 
 <p align="center"> <img width="702" height="547" alt="image" src="https://github.com/user-attachments/assets/9eaaa9e3-f9b1-4179-977c-44e10153530d" />
+<p align="center"> The ROC curves show excellent model performance across all meal types (AUC ≈ 0.95–0.97), confirming strong class separability despite nutritional overlap.
 
 ### 👀 Visualizations
 1. **Confusion Matrix**
