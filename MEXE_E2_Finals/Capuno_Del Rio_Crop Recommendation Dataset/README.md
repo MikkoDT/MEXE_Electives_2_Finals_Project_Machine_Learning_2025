@@ -53,8 +53,14 @@
     - Recall (Micro/Macro-average): Reported as 0.9539.
     - F1-score (Micro/Macro-average): Reported as 0.9543.
     - Area Under the Curve (AUC): The Micro-average for the multiclass ROC Curve is reported as 0.99941.
+      <p align="center">
+      <img width="613" height="547" alt="image" src="https://github.com/user-attachments/assets/2ec3963e-179e-48f0-aaee-20a54a9dbc39" />
+      </p>
     - Confusion Matrix: A confusion matrix was generated and used for visualization and assessment of class-specific errors.
-  
+      <p align="center">
+        
+      </p>
+      
 - **Visualization:**
     - **Correlation Heatmap**
 
