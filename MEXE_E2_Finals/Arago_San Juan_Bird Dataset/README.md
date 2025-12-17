@@ -61,13 +61,13 @@
 <img width="580" height="465" alt="image" src="https://github.com/user-attachments/assets/92b055ed-8bdf-48cf-a598-de39fa0fc01a" />
 
 
-The bar graph shows the class distribution of the dataset before and after applying **SMOTE (Synthetic Minority Over-sampling Technique)**.
+- The bar graph shows the class distribution of the dataset before and after applying **SMOTE (Synthetic Minority Over-sampling Technique)**.
 
-Before SMOTE, the dataset exhibits severe class imbalance, where the **flighted (no)** class contains a much larger number of samples compared to the **flightless (yes)** class. This imbalance can bias the machine learning model toward predicting the majority class, resulting in misleadingly high accuracy but poor minority class performance.
+- Before SMOTE, the dataset exhibits severe class imbalance, where the **flighted (no)** class contains a much larger number of samples compared to the **flightless (yes)** class. This imbalance can bias the machine learning model toward predicting the majority class, resulting in misleadingly high accuracy but poor minority class performance.
 
-After applying SMOTE, the **flightless** class is synthetically increased so that both classes have approximately equal sample counts. This results in a balanced dataset that allows the model to learn patterns from both classes more effectively.
+- After applying SMOTE, the **flightless** class is synthetically increased so that both classes have approximately equal sample counts. This results in a balanced dataset that allows the model to learn patterns from both classes more effectively.
 
-Overall, the graph demonstrates that SMOTE successfully addresses class imbalance by generating synthetic minority samples rather than simply duplicating existing data, leading to improved minority class prediction and more reliable model performance.
+- Overall, the graph demonstrates that SMOTE successfully addresses class imbalance by generating synthetic minority samples rather than simply duplicating existing data, leading to improved minority class prediction and more reliable model performance.
 
 ---
 
