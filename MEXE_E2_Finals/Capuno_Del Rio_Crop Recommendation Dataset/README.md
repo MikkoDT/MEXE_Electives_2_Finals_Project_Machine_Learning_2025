@@ -58,7 +58,7 @@
       </p>
     - Confusion Matrix: A confusion matrix was generated and used for visualization and assessment of class-specific errors.
       <p align="center">
-        <img width="709" height="752" alt="image" src="https://github.com/user-attachments/assets/31f0fafc-f788-49f2-8ba6-8f10009b3f64" />
+       <img width="605" height="547" alt="image" src="https://github.com/user-attachments/assets/b69cdfc9-9bb4-4dae-bf82-c68d150f13fe" />
       </p>
       
 - **Visualization:**
