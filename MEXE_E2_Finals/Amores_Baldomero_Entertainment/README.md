@@ -11,7 +11,7 @@ Classifying Good and Bad Movies
 
 ## 2. Dataset Overview
 - Dataset Source: https://www.kaggle.com/datasets/ggtejas/tmdb-imdb-merged-movies-dataset
-- Description: This dataset merges movie information from The Movie Database (TMDb) and IMDb, providing a detailed collection of movie-related data. The dataset includes a variety of movie attributes such as titles, release dates, ratings, genres, production companies, and more, making it a valuable resource for movie-related analysis, recommendation systems, and other data science tasks.
+- Description: This dataset merges movie information from The Movie Database (TMDb) and IMDb, providing a detailed collection of movie-related data. The dataset includes a variety of movie attributes such as titles, release dates, ratings, genres, production companies, and more, making it a valuable resource for movie-related analysis, recommendation systems, and other data science tasks.  Making it feasible to classify whether a movie would be good or bad based on IMDB ratings using independent variables.
 - Target Variable:
     - **GoodBad — a binary classification created using IMDb rating:**
         - 1 = Good Movie (IMDb ≥ 7.0)
