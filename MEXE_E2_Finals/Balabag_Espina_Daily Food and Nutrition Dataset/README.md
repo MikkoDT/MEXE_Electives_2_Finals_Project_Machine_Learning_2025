@@ -86,5 +86,4 @@ All numeric features were standardized using StandardScaler, converting them to:
 - `Recall: 81.2603648424544%`
 - `F1-score: 81.12784415735238%`
 
-
-
+<p align="center"> <img width="702" height="547" alt="image" src="https://github.com/user-attachments/assets/9eaaa9e3-f9b1-4179-977c-44e10153530d" />
