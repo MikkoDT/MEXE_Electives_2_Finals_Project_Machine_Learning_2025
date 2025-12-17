@@ -4,7 +4,7 @@
 - Pair Name: 
 - Members:De Castro Rod & Oxillo Ivan Russ
 - Topic: Adidas Sales Dataset
-- Chosen Model: Logistic Regression
+- Chosen Model: Linear Regression
 
 - ## 2. Dataset Overview
 - Dataset Source: https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset
@@ -76,4 +76,11 @@ This visualization displays the errors (residuals) of the model against the pred
 <p align="center">
 <img width="719" height="639" alt="image" src="https://github.com/user-attachments/assets/cb4c5806-ed9b-4d05-80d5-dd51dcc0db1a" />
 
+**Insights**
+- Near-Perfect Predictive Reliability: The model achieved a near-perfect fit, demonstrating that it is highly reliable and effective at predicting Total Sales.
 
+- Dominant Sales Drivers: Total Sales are almost entirely explained by core transaction details such as Units Sold and Price per Unit.
+
+- High Data Quality: The extremely high accuracy confirms that the transactional sales data used is of high quality with minimal error or noise.
+
+- Business Usability: The simplicity of Linear Regression provides transparent and easy-to-understand results, which is valuable for establishing pricing strategies and inventory management.
