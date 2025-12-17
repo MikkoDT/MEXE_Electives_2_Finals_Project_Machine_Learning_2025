@@ -38,24 +38,24 @@
   * This model were used to predict the machine failure based on the sensor data. Logistic Regression is a Machine Learning algorithm that is great for binary classification problems making this an appropiate for determining whether the machine will fail or not.
  
 - ***Metrics***
-  * Accuracy : 90.48%
+  * Accuracy : `90.48%`
     <p align="center"> 
       <img src="https://github.com/user-attachments/assets/4c2fcd87-ff46-429d-942b-5b86f78368cc" width="800">
 
-  * True Negative : 96 cases
-  * False Negative: 9 cases
-  * False Positive: 9 cases
-  * True Positive : 75 cases
+  * True Negative : `96 cases`
+  * False Negative: `9 cases`
+  * False Positive: `9 cases`
+  * True Positive : `75 cases`
     <p align="center"> 
       <img src="https://github.com/user-attachments/assets/d02d2033-b451-4bbe-bf0f-8f8dce152933" width="800">
       
-  * Precision: 91.43%
-  * Recall   : 91.43%
-  * F1 Score : 91.43%
+  * Precision: `91.43%` for `0` and `89.29%` for `1`
+  * Recall   : `91.43%` for `0` and `89.29%` for `1`
+  * F1 Score : `91.43%` for `0` and `89.29%` for `1`
     <p align="center"> 
       <img src="https://github.com/user-attachments/assets/bd17fa42-9a36-40a1-b0c2-b00b84aa2c80" width="800">
 
-  * AUC      : 0.778
+  * AUC      : `0.778`
     <p align="center"> 
       <img src="https://github.com/user-attachments/assets/09ad6293-2b0e-4c8e-8403-e51deca67fdd" width="800">
 
