@@ -23,8 +23,13 @@ Dependent/Target Variable:
 
 Features Used:
 
+**Numerical Features**
+
 - num__Reading_Score
 - num__Writing_Score
+
+**Categorical Features**
+
 - nom__Ethnicity_group B
 - nom__Ethnicity_group C
 - nom__Ethnicity_group D
@@ -117,3 +122,13 @@ The high R-Squared is primarily driven by the exceptionally strong linear correl
 **3. Socioeconomic Factors Provide Measurable Incremental Gain**
 
 Although less correlated than the other scores, the analysis confirmed that key socioeconomic binary factors, such as receiving Standard Lunch and completing the Test Preparation Course, are significantly associated with a positive shift in the Math Score distribution. These variables are important, measurable contributors to the model's predictive accuracy, indicating external support and preparation have a tangible impact on performance.
+
+## 5. How to Run
+
+1. Install VS Code + Python + Jupyter Extension
+2. Install Dependencies:
+
+pip install -r requirements.txt
+
+3. Open the ipynb. notebook
+4. Run all cells
