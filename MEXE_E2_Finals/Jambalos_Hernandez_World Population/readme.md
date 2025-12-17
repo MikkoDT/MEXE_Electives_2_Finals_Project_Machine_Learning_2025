@@ -1,6 +1,7 @@
 # Final Assessment — Machine Learning Model
 
 ## 1. Pair Information
+- Pair Name: World pop
 - **Members:**
   - Queian Kim Jambalos
   - Lelanie Lorraine Hernandez
@@ -32,9 +33,20 @@
     <img width="863" height="547" alt="image" src="https://github.com/user-attachments/assets/a4e3b145-7ce8-4dc8-9361-7316ccae108b" />
     
 - **Insights:**
-  1. **Model Success:** By applying Log Transformation, we turned a failing model (negative R²) into a successful one (positive R²), proving that data distribution matters more than model complexity.
-  2. **Feature Behavior:** Small nations show high volatility (extreme growth or decline), while massive nations tend to stabilize near the global average growth rate.
-  3. **Interpretation:** There is a weak but real negative correlation: as countries get larger, their growth rate tends to slow down due to demographic transitions.
+  1. Model Performance (R² Shift)
+Our Linear Regression model achieved an **R² score of ~0.02826**. While this number appears low, it represents a significant success compared to initial attempts using raw data (which resulted in negative scores). A positive R² indicates that the model successfully identified a **statistically significant signal**: there is a real, albeit weak, correlation between a country's size and its growth rate.
+  2. Feature Behavior ( The "Log" Effect)
+The raw population data followed a **Power Law distribution** (a few massive outliers like China/India vs. many small nations), which distorted the linear model. By applying a **Logarithmic Transformation**, we successfully normalized this distribution. This allowed the model to process "orders of magnitude" rather than raw counts, revealing trends that were previously hidden by the massive size gaps.
+  3. Interpretation of Results
+The regression line reveals a **negative correlation**: as population size increases, the growth rate tends to stabilize or slightly decline.
+* **Small Nations:** Exhibit high volatility (extreme highs and lows).
+* **Large Nations:** Tend to converge toward the global average.
+This suggests that as countries become massive, their demographic transition usually leads to slower, more stable growth.
+4. Improvement Suggestions
+To increase the model's predictive power (aiming for R² > 0.8), future iterations should move beyond population size (which is just a proxy) and incorporate **causal biological factors**, specifically:
+* **Fertility Rate:** The primary driver of natural increase.
+* **Median Age:** To account for aging populations.
+* **GDP per Capita:** To correlate economic development with demographic trends.
 
 ## 5. How to Run
 1. Install **VS Code** + **Python** + **Jupyter Extension**.
