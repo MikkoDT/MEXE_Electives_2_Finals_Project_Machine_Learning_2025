@@ -49,7 +49,9 @@ Features Used:
 Linear Regression is chosen because the goal is to predict a continuous numeric value, Total Sales.
 
 This model is a strong fit because Total Sales is mathematically derived from key features like Price per Unit and Units Sold, suggesting a highly linear relationship between the independent variables and the target variable. Furthermore, the simplicity, speed, and interpretability of Linear Regression are ideal for understanding how factors like retailer, region, product type, and sales method influence overall revenue.
-Viasualization:
+
+- Viasualization:
+
 <img width="749" height="570" alt="image" src="https://github.com/user-attachments/assets/41129a72-c115-4e40-b534-d8c80feebd43" />
 
 ### Metrics:
