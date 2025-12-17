@@ -44,12 +44,13 @@
 <div style="text-align: justify">
 
 - **Encoding**  
-  ▸ All features in the dataset are numerical; therefore, no categorical encoding was required. 
+  ▸ Since every feature chosen for the final model is numerical, the feature set did not need to be categorically encoded.
 - **Scaling**  
-  ▸ Standardization was applied to transform input features to zero mean and unit variance, ensuring equal contribution of variables and improving the stability of the Logistic Regression model.
+  ▸ Standardization was applied to ensures that features with large ranges (like total points) do not overshadow features with small ranges (like shooting percentages) during model training.
 - **Cleaning Steps**  
-  ▸ The dataset was checked for missing values and shuffled to eliminate potential ordering bias.  
-  ▸ The target variable was separated from the feature set to prepare the data for supervised learning.
+  ▸ Handling Missing Values: The notebook uses dataset.dropna(inplace=True) to remove any rows containing null values, ensuring the model only trains on complete game records. 
+  ▸ Feature Selection (Dropping Irrelevant Data): Non-predictive columns such as GAME_DATE_EST, GAME_ID, and GAME_STATUS_TEXT are removed because they do not contribute to the mathematical prediction of a win.
+  ▸ Target Variable Verification: A check is performed to ensure the HOME_TEAM_WINS column exists; if not, it is programmatically created by comparing PTS_home and PTS_away.
 - **Train–Test Split**  
   ▸ The dataset was divided into training and testing sets, with 75% of the data used for training and 25% reserved for testing to evaluate performance on unseen data.
 
