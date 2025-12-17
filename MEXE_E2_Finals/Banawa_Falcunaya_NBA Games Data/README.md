@@ -23,10 +23,10 @@
 </p>
 
 - **Target Variable:**
-  -  **HOME TEAM WINS** (*`Win`* / *`Lose`*)
+  -  **HOME_TEAM_WINS** (*`Win`* / *`Lose`*)
 
 - **Features Used:**
-  -  *`FG PCT home`*
+  -  *`FG_PCT_home`*
   -  *`FT_PCT_home	`*
   -  *`FG3_PCT_home`*
   -  *`AST_home`*
