@@ -83,7 +83,7 @@
 **Correlation Heatmap**
   <p align="center">
     <img width="1589" height="989" alt="Box plot" src="https://github.com/user-attachments/assets/3677a86f-91be-47a8-99db-0d64d9793239" /><br/>
-     Figure 3: This heatmap provides valuable insights into how different performance metrics for home and away teams influence each other.
+     Figure 3: These box plots provide a quick visual summary of the distribution for each selected feature.
  <p/>
 
 
