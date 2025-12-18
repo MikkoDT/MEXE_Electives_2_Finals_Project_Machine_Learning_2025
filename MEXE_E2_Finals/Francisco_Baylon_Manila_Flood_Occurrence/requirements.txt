@@ -25,6 +25,5 @@ This guide explains how to run the project using **Visual Studio Code** and **Ju
 
 Run the following command in the VS Code terminal (PowerShell or CMD):
 
-```bash
 python -m pip install pandas numpy matplotlib scikit-learn ipykernel
 
