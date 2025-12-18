@@ -99,9 +99,11 @@ The model is evaluated using metrics suitable for imbalanced classification:
 - **Confusion Matrix** — shows correct vs incorrect predictions  
 
 ### Outputs Included in Notebook
-- Printed **classification report**
-- Printed **F1-score and Recall**
+- **classification report and F1-score and Recall**
+- <img width="553" height="371" alt="image" src="https://github.com/user-attachments/assets/e4e60dae-5bd0-4ec7-9ae7-e6b4abdda4dd" />
 - Displayed **confusion matrix plot**
+- <img width="583" height="455" alt="image" src="https://github.com/user-attachments/assets/bcaaffc4-8c8e-446f-b423-61673615f09c" />
+ 
 
 > **Reminder for interpretation:**  
 Why recal?
