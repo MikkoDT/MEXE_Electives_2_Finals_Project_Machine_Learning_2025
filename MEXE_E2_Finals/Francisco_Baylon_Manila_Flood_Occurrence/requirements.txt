@@ -1,29 +1,20 @@
-# ▶️ How to Run the Project (VS Code + Jupyter)
+# Project Requirements
 
-This guide explains how to run the project using **Visual Studio Code** and **Jupyter Notebook**.
+## Software
+- Python 3.13
+- Visual Studio Code (VS Code)
 
----
+## VS Code Extensions
+- Python Extension (Microsoft)
+- Jupyter Extension (for `.ipynb` support)
 
-##  Software Requirements
-- **Python 3.13**
-- **Visual Studio Code (VS Code)**
-- **Python Extension for VS Code** (by Microsoft)
-- **Jupyter Extension for VS Code**
+## Python Libraries
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- ipykernel
 
----
-
-## Open the Project
-
-1. Open **Visual Studio Code**
-2. Click **File → Open Folder**
-3. Select the project folder
-4. Open the terminal using **Ctrl + `**
-
----
-
-## Install Required Python Libraries
-
-Run the following command in the VS Code terminal (PowerShell or CMD):
-
-python -m pip install pandas numpy matplotlib scikit-learn ipykernel
-
+## Environment Notes
+- The Python interpreter and Jupyter kernel must use the same Python version
+- Compatible with Windows, Visual Studio Code, and Google Colab
