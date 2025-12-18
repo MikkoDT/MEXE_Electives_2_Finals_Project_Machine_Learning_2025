@@ -76,9 +76,16 @@
 
 **Correlation Heatmap**
   <p align="center">
-    <img width="869" height="775" alt="Correlation Heatmap" src="https://github.com/user-attachments/assets/48874e8b-6bdb-44a7-9763-29193dee8c8d" />br/>
+    <img width="869" height="775" alt="Correlation Heatmap" src="https://github.com/user-attachments/assets/48874e8b-6bdb-44a7-9763-29193dee8c8d" /><br/>
      Figure 2: This heatmap provides valuable insights into how different performance metrics for home and away teams influence each other.
  <p/>
+
+**Correlation Heatmap**
+  <p align="center">
+    <img width="1589" height="989" alt="Box plot" src="https://github.com/user-attachments/assets/3677a86f-91be-47a8-99db-0d64d9793239" /><br/>
+     Figure 3: This heatmap provides valuable insights into how different performance metrics for home and away teams influence each other.
+ <p/>
+
 
 
  
