@@ -1,55 +1,76 @@
 # Final Assessment — Machine Learning Model
 
 ## 1. Pair Information
-- Pair Name: World pop
-- **Members:**
-  - Queian Kim Jambalos
-  - Lelanie Lorraine Hernandez
-- **Topic:** World Population Growth Rate Prediction
-- **Chosen Model:** Linear Regression
+
+* **Pair Name:** World pop
+* **Members:**
+1. Queian Kim Jambalos
+2. Lelanie Lorraine Hernandez
+
+
+* **Topic:** World Population Classification
+* **Chosen Model:** Logistic Regression
+
+**Why this model?**
+We chose **Logistic Regression** as our baseline model because our objective was to determine if there is a linear relationship between demographic statistics (like population size and density) and geographical location. By using a standard classification algorithm, we aimed to test the hypothesis that population trends are distinct per continent.
 
 ## 2. Dataset Overview
-- **Dataset Source:** https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset (World Population Dataset)
-- **Description:** A dataset containing population counts and annual growth rates for 193 countries. The data represents a **2022 demographic snapshot**.
-- **Target Variable:** `Growth Rate` (Continuous percentage representing annual population change).
-- **Features Used:** `Population` (Transformed via Logarithm to normalize the distribution).
+
+* **Dataset Source:** `world_population.csv`
+* **Description:** The dataset contains population statistics for 234 countries/territories. The goal is to predict the continent of a country based solely on its demographic figures.
+* **Target Variable:** `Continent` (Categorical: Asia, Europe, Africa, Oceania, North America, South America)
+* **Features Used:**
+* `Area (km²)`
+* `Density (per km²)`
+* `Growth Rate`
+* `World Population Percentage`
+* `2022 Population`
+* `2020 Population`
+
+
 
 ## 3. Preprocessing Summary
-- **Encoding:** **None.** We explicitly dropped the `Country` column because it is a unique identifier (193 categories). Encoding it would have caused the "Curse of Dimensionality" and model overfitting.
-- **Scaling:** `StandardScaler` (Applied to the Log-Transformed population data to center values around 0).
-- **Cleaning steps:**
-  1. Checked for and handled missing values (none found).
-  2. Applied **Log Transformation** (`np.log`) to the `Population` column to fix the extreme "Power Law" skewness caused by outliers like China and India.
-- **Train–test split:** 80% Training / 20% Testing (`random_state=123`).
+
+* **Cleaning steps:** Checked for missing values and filled any potential nulls with `0` to prevent runtime errors.
+* **Encoding:** No categorical encoding was required for the features as the input variables selected were all numerical.
+* **Scaling:** Applied `StandardScaler`. This converted values into Z-scores to ensure that large numbers (like Population in the millions) did not overpower small decimals (like Growth Rate).
+* **Train–test split:** 80% Training / 20% Testing. We used `stratify=y` to ensure that the Test set included a representative sample of countries from every continent.
 
 ## 4. Model & Results
-- **Model used:** Linear Regression (`sklearn.linear_model.LinearRegression`)
-- **Metrics:**
-  - **MAE (Mean Absolute Error):** ~0.00604
-  - **RMSE (Root Mean Squared Error):** ~0.00784
-  - **R² Score:** ~0.02826 (Positive score indicating a statistically significant trend).
-- **Visualizations:**
-  - **Regression Plot:** A scatter plot showing Actual vs. Predicted values with a regression line, illustrating the negative correlation between size and growth.
-    <img width="863" height="547" alt="image" src="https://github.com/user-attachments/assets/a4e3b145-7ce8-4dc8-9361-7316ccae108b" />
-    
-- **Insights:**
-1. Model Performance (R² Shift)
-Our Linear Regression model achieved an **R² score of ~0.02826**. While this number appears low, it represents a significant success compared to initial attempts using raw data (which resulted in negative scores). A positive R² indicates that the model successfully identified a **statistically significant signal**: there is a real, albeit weak, correlation between a country's size and its growth rate.
-2. Feature Behavior ( The "Log" Effect)
-The raw population data followed a **Power Law distribution** (a few massive outliers like China/India vs. many small nations), which distorted the linear model. By applying a **Logarithmic Transformation**, we successfully normalized this distribution. This allowed the model to process "orders of magnitude" rather than raw counts, revealing trends that were previously hidden by the massive size gaps.
-3. Interpretation of Results
-The regression line reveals a **negative correlation**: as population size increases, the growth rate tends to stabilize or slightly decline.
-* **Small Nations:** Exhibit high volatility (extreme highs and lows).
-* **Large Nations:** Tend to converge toward the global average.
-This suggests that as countries become massive, their demographic transition usually leads to slower, more stable growth.
-4. Improvement Suggestions
-To increase the model's predictive power (aiming for R² > 0.8), future iterations should move beyond population size (which is just a proxy) and incorporate **causal biological factors**, specifically:
-* **Fertility Rate:** The primary driver of natural increase.
-* **Median Age:** To account for aging populations.
-* **GDP per Capita:** To correlate economic development with demographic trends.
+
+* **Model used:** Logistic Regression (`multi_class='multinomial'`, `max_iter=5000`)
+* **Metrics:**
+* **Accuracy:** ~40%
+* **Confusion Matrix:** Shows high confusion between developing nations in different continents.
+
+
+* **Visualizations:**
+* Class Distribution Bar Chart
+* Confusion Matrix Heatmap
+* ROC Curve
+
+
+* **Insights:**
+1. **Demographics ≠ Geography:** The modest accuracy proves that population statistics are **global traits**, not continental ones. A small, developing country in Asia looks mathematically identical to one in Africa.
+2. **Growth Rate is the Strongest Predictor:** The model successfully learned to distinguish **Africa** (consistently high growth > 2%) from **Europe** (low or negative growth).
+3. **Density as a Separator:** High population density helped separate Asian countries from North American ones, though significant overlap remains.
+4. **Limitation:** To achieve near-perfect accuracy, **Geospatial Data (Latitude/Longitude)** would be required, as demographics alone are insufficient for precise location prediction.
+
+
 
 ## 5. How to Run
-1. Install **VS Code** + **Python** + **Jupyter Extension**.
-2. Install dependencies by opening a terminal in the folder and running:
-   ```bash
-   pip install -r requirements.txt
+
+1. **Install VS Code + Python + Jupyter Extension**
+2. **Install dependencies:**
+Run the following command in your terminal:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+```
+
+
+3. **Open the Notebook:**
+Open `World-Population_FinalModel_Jambalos_Hernandez.ipynb` in VS Code.
+4. **Run all cells:**
+Click "Run All" to load the data, train the model, and see the evaluation results.
+*Note: You can use the Live Prediction Tool (Section 3.4) to manually test specific countries.*
