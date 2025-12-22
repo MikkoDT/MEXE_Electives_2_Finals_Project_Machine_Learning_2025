@@ -16,7 +16,7 @@ We chose **Logistic Regression** as our baseline model because our objective was
 
 ## 2. Dataset Overview
 
-* **Dataset Source:** `world_population.csv`
+* **Dataset Source:** `world_population.csv` https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset
 * **Description:** The dataset contains population statistics for 234 countries/territories. The goal is to predict the continent of a country based solely on its demographic figures.
 * **Target Variable:** `Continent` (Categorical: Asia, Europe, Africa, Oceania, North America, South America)
 * **Features Used:**
@@ -26,7 +26,12 @@ We chose **Logistic Regression** as our baseline model because our objective was
 * `World Population Percentage`
 * `2022 Population`
 * `2020 Population`
-
+* `2015 Population`
+* `2010 Population`
+* `2000 Population`
+* `1990 Population`
+* `1980 Population`
+* `1970 Population`
 
 
 ## 3. Preprocessing Summary
@@ -46,8 +51,14 @@ We chose **Logistic Regression** as our baseline model because our objective was
 
 * **Visualizations:**
 * Class Distribution Bar Chart
+  <img width="841" height="538" alt="image" src="https://github.com/user-attachments/assets/11b9dc20-a3e4-4b56-b96a-5cb59ae13431" />
+
 * Confusion Matrix Heatmap
+  <img width="851" height="547" alt="image" src="https://github.com/user-attachments/assets/673409c2-6a09-4d98-a43a-3b0abb550dd8" />
+
 * ROC Curve
+  <img width="1012" height="701" alt="image" src="https://github.com/user-attachments/assets/5bf912ab-7145-4bb8-8594-60718870c02a" />
+
 
 
 * **Insights:**
