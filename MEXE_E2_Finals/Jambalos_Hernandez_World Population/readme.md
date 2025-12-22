@@ -8,7 +8,7 @@
 2. Lelanie Lorraine Hernandez
 
 
-* **Topic:** World Population Classification
+* **Topic:** World Population Classification of Continents
 * **Chosen Model:** Logistic Regression
 
 **Why this model?**
